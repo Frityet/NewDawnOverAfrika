@@ -1,0 +1,30 @@
+﻿l_english:
+#New Prussia
+ NMB_fascism:0 "New Prussian Reich"
+ NMB_fascism_DEF:0 "the New Prussian Reich"
+ NMB_democratic:0 "New Prussian Republic"
+ NMB_democratic_DEF:0 "the New Prussian Republic"
+ NMB_neutrality:0 "New Prussia"
+ NMB_neutrality_DEF:0 "the New Prussian Kingdom"
+ NMB_communism:0 "Namibiland"
+ NMB_communism_DEF:0 "the Namibiland"
+ NMB_fascism_ADJ:0 "Prussian"
+ NMB_democratic_ADJ:0 "Prussian"
+ NMB_neutrality_ADJ:0 "Prussian"
+ NMB_communism_ADJ:0 "Namibian"
+ 
+
+ #Transvaal
+ TRV_fascism:0 "Transvaal Rijk"
+ TRV_fascism_DEF:0 "the Transvaal Rijk"
+ TRV_democratic:0 "Transvaal Republic"
+ TRV_democratic_DEF:0 "the Transvaal Republic"
+ TRV_neutrality:0 "Kingdom of Transvaal"
+ TRV_neutrality_DEF:0 "the Kingdom of Transvaal"
+ TRV_communism:0 "Free Africa"
+ TRV_communism_DEF:0 "the Democratic Republic of Free Africa"
+ TRV_fascism_ADJ:0 "Afrikaner"
+ TRV_democratic_ADJ:0 "Afrikaner"
+ TRV_neutrality_ADJ:0 "Afrikaner"
+ TRV_communism_ADJ:0 "Native"
+ d
