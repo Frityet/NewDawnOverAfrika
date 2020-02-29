@@ -1,1 +1,1 @@
-TRV = "countries/TRV - Transvaal.txt"
+TRV = "countries/Transvaal.txt"
