@@ -1,0 +1,4 @@
+TRV = {
+	color = rgb { 213  169  121 }
+	color_ui = rgb { 213  169  121 }
+}
