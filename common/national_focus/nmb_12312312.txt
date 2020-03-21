@@ -8,7 +8,45 @@ focus_tree = {
 		}
 	}
 
-	continuous_focus_position = { x = 1 y = 1 }
+	continuous_focus_position = { x = 1 y = 50 }
+
+	#TEST FOCUS AND TEMPLATE
+
+	focus = {
+		id = NMB_test_focus
+		icon = GFX_focus_generic_major_war
+		x = 0
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				
+		}
+	}
+	available = {
+
+
+	}
+
+	bypass{
+
+	}
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward{
+		create_wargoal = {
+			target = ALL
+			type = annex_everything
+		}
+	} 
+
+	}
 
 	#Focus for Claim their Lands
 	focus = {
