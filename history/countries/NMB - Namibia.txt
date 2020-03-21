@@ -14,7 +14,13 @@ create_country_leader = {
 	imperial_connections
 	}
 }
+# Ministers and laws
 
+add_ideas{
+	partial_economic_mobilisation
+	limited_conscription
+	
+}
 # Starting tech
 set_technology = {
 		infantry_weapons = 1
