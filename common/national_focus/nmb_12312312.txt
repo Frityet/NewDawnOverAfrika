@@ -263,6 +263,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = fascist_influence
+				days = 720
+			}
 	}
 
 	#Focus for Concessions to the Natives
@@ -278,6 +283,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = democratic_influence
+				days = 720
+			}
 	}
 
 	#Focus for The State of New Prussia
