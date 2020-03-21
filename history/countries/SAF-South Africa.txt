@@ -145,9 +145,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "J. B. M. Hertzog"
+	name = "John Cecil Rhodes"
 	desc = "POLITICS_J_B_M_HERTZOG_DESC"
-	picture = "GFX_SAF_james_hertzog"
+	picture = "gfx/leaders/SAF/portrait_saf_cecil_rhodes.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
