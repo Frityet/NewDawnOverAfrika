@@ -23,27 +23,7 @@ ideas = {
 			}
 		}
 
-		NMB_communist_guy = {
-			
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = NMB
-			}
-			
-			traits = { communist_revolutionary }
-
-			do_effect = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
+		
 		NMB_fascist_guy = {
 			
 			picture = generic_political_advisor_europe_2
@@ -78,7 +58,7 @@ ideas = {
 
 		NMB_pf = {
 
-			picture = generic_political_advisor_europe_2
+			picture = gac
 				
 			allowed = {
 				original_tag = NMB
