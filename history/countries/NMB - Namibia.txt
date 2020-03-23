@@ -3,6 +3,7 @@ OOB = "NMB_1936"
 set_research_slots = 4
 set_stability = 0.25
 set_war_support = 0.5
+#political leaders
 create_country_leader = {
 	name = "Königin Victoria the Third of New Prussia"
 	picture = "gfx/leaders/NMB/portrait_ger_victoria_louise.dds"
@@ -14,6 +15,29 @@ create_country_leader = {
 	imperial_connections
 	}
 }
+# Generals and Field Marshals
+create_field_marshal = {
+	name = "August von Mackensen"
+	picture = "gfx/leaders/NMB/portrait_nmb_mackensen.dds"
+	traits = { defensive_doctrine urban_assault_specialist old_guard }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 8
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Hans Oster"
+	picture = "gfx/leaders/NMB/portrait_nmb_oster.dds"
+	traits = { trait_cautious armor_officer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 3
+}
+
 # Ministers and laws
 
 add_ideas{
