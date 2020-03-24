@@ -40,7 +40,7 @@ create_corps_commander = {
 
 # Ministers and laws
 
-add_ideas{
+add_ideas = {
 	partial_economic_mobilisation
 	limited_conscription
 	
