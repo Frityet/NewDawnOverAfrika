@@ -135,7 +135,7 @@
  FE_DIFFICULTY_HARD:1 "Veteran"
  FE_DIFFICULTY_HARD_TOOLTIP:1 "§L"Thirty years from now when you're sitting by your fireside with your grandson on your knee and he asks, 'What did you do in the great World War Two?' you won't have to cough and say, 'Well, your granddaddy shoveled shit in Louisiana.'"§!"
  FE_DIFFICULTY_VERY_HARD:0 "Elite"
- FE_DIFFICULTY_VERY_HARD_TOOLTIP:1 "§L"I have nothing to offer but blood, toil, tears, and sweat."§!"
+ FE_DIFFICULTY_VERY_HARD_TOOLTIP:1 "§L"Why are you even playing Elite"§?"
  FE_DIFFICULTY_UNKNOWN:0 "Secret Difficulty"
  FE_DIFFICULTY_MODIFIER_PLAYER_TOOLTIP:0 "\n\nPlayer:\n$PLAYERMOD$"
  FE_DIFFICULTY_MODIFIER_AI_TOOLTIP:0 "\n\nAI:\n$AIMOD$"

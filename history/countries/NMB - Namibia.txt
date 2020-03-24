@@ -3,51 +3,17 @@ OOB = "NMB_1936"
 set_research_slots = 4
 set_stability = 0.25
 set_war_support = 0.5
-#political leaders
-create_country_leader = {
-	name = "Königin Victoria the Third of New Prussia"
-	picture = "gfx/leaders/NMB/portrait_ger_victoria_louise.dds"
-	expire = "1965.1.1"
-	ideology = Despotism
-	traits = {
-	kaiserin_of_the_people
-	victoria_iii
-	imperial_connections
-	}
-}
-# Generals and Field Marshals
-create_field_marshal = {
-	name = "August von Mackensen"
-	picture = "gfx/leaders/NMB/portrait_nmb_mackensen.dds"
-	traits = { defensive_doctrine urban_assault_specialist old_guard }
-	skill = 6
-	attack_skill = 6
-	defense_skill = 3
-	planning_skill = 8
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Hans Oster"
-	picture = "gfx/leaders/NMB/portrait_nmb_oster.dds"
-	traits = { trait_cautious armor_officer }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 6
-	planning_skill = 4
-	logistics_skill = 3
-}
 
 # Ministers and laws
-
 add_ideas = {
 	partial_economic_mobilisation
 	limited_conscription
 	
 }
+
 # Starting tech
 set_technology = {
-		infantry_weapons = 1
+	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
 	tech_support = 1		
@@ -75,28 +41,6 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 }
-division_template = {
-	name = "Askari"
-	division_names_group = GER_Inf_01
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-   		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-  		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-		artillery = { x = 0 y = 1 }
-	}
-}
-
-
 
 set_convoys = 100
 
@@ -156,4 +100,39 @@ set_popularities = {
 	fascism = 5
 	communism = 25
 	neutrality = 65
+}
+
+create_country_leader = {
+	name = "Königin Victoria the Third of New Prussia"
+	picture = "portrait_ger_victoria_louise.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		kaiserin_of_the_people
+		victoria_iii
+		imperial_connections
+	}
+}
+
+# Generals and Field Marshals
+create_field_marshal = {
+	name = "August von Mackensen"
+	picture = "portrait_nmb_mackensen.dds"
+	traits = { defensive_doctrine urban_assault_specialist old_guard }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 8
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Hans Oster"
+	picture = "portrait_nmb_oster.dds"
+	traits = { trait_cautious armor_officer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 3
 }

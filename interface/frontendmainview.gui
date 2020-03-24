@@ -323,23 +323,9 @@ guiTypes = {
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://www.facebook.com/Heartsofiron"
+			web_link = "https://discord.gg/zZQ6KmK"
 		}
-		ButtonType = {
-			name = "twitter_button"
-			position = { x=150 y=0 }
-			quadTextureSprite ="twitter"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/hoi_game"
-		}
-		ButtonType = {
-			name = "privacy_policy_button"
-			position = { x=200 y=0 }
-			quadTextureSprite ="privacy"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_PRIVACY_POLICY"
-		}
+		
 	}
 
 	## This position needs updated
