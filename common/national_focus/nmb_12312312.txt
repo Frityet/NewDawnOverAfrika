@@ -419,7 +419,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = { id = newprussia.1 days = 1 }
+			country_event = { 
+						days = 0 
+						id = newprussia.1 
+						}
 		}
 	}
 
