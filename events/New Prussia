@@ -11,6 +11,7 @@ country_event = {
 	title = newprussia.1.title
 	desc = newprussia.1.desc
 	picture = GFX_event_test
+	is_triggered_only = yes
 	option = {
 		name = newprussia.1.a
 		ai_chance = { factor = 1}
