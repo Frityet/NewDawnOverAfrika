@@ -1,9 +1,7 @@
+
 state={
 	id=797
-	name="STATE_797" #Windhoek
-	manpower = 500000
-
-	state_category = town
+	name="STATE_797"
 
 	history={
 		owner = NMB
@@ -12,14 +10,19 @@ state={
 			industrial_complex = 10
 			arms_factory = 5
 			air_base = 10
+
 		}
 		victory_points = {
 			4879 250 
 		}
 		add_core_of = NMB
+
 	}
 
 	provinces={
-		 4879
+		2207 4879 
 	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=city
 }

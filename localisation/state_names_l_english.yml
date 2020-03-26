@@ -795,7 +795,10 @@
  STATE_794:0 "Eastern Aragón"
  STATE_795:0 "Santarém"
  STATE_796:0 "North Angola"
- 
  STATE_797:0 "New Berlin"
  STATE_798:0 "New Königsberg"
  STATE_799:0 "New Münich"
+ STATE_800:0 "South Namibia"
+ STATE_801:0 "South Transvaal"
+ STATE_802:0 "East Transvaal"
+ STATE_803:0 "Skeleton Coast"

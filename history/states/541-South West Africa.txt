@@ -1,29 +1,28 @@
 
 state={
-	provinces={
-		2207 5203 5154 5189 7605 7770 8136 10957 10963 10978 12519 12921
-	}
-resources={
-		steel= 10
-		chromium=12 
-		
-	}
 	id=541
 	name="STATE_541"
-	manpower = 600000
-	
-	state_category = wasteland
+	resources={
+		steel=10.000
+		chromium=12.000
+	}
 
 	history={
 		owner = NMB
 		buildings = {
-			infrastructure = 4
-			
-			
+			infrastructure = 2
+
 		}
 		victory_points = {
-			
+
 		}
-		
+
 	}
 
+	provinces={
+		2207 5154 5189 5203 7605 7770 8136 10957 10963 12519 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
