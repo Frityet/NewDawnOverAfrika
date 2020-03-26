@@ -1,0 +1,66 @@
+####################
+#New Prussia Events#
+####################
+
+
+ add_namespace = newprussia
+
+#Event: The Native Question
+country_event = {
+	id = newprussia.1
+	title = newprussia.1.title
+	desc = newprussia.1.desc
+	picture = GFX_event_test
+	option = {
+		name = newprussia.1.a
+		ai_chance = { factor = 1}
+	}
+	option = {
+		name = newprussia.1.b
+		ai_chance = { factor = 1}
+	}
+	option = {
+		name = newprussia.1.c
+		ai_chance = { factor = 1}
+	}
+}
+#Event: The Boer Question
+country_event = {
+	id = newprussia.2
+	title = newprussia.2.title
+	desc = newprussia.2.desc
+	picture = GFX_event_test
+	trigger = {
+		NMB = {has_completed_focus= NMB_theboerquestion}
+	}
+	option = {
+		name = newprussia.2.a
+		ai_chance = { factor = 1}
+	}
+	option = {
+		name = newprussia.2.b
+		ai_chance = { factor = 1}
+	}
+}
+#Event: The South African Question
+country_event = {
+	id = newprussia.3
+	title = newprussia.3.title
+	desc = newprussia.3.desc
+	picture = GFX_event_test
+	trigger = {
+		NMB = {has_completed_focus= NMB_thesouthafricanquestion}
+	}
+	option = {
+		name = newprussia.3.a
+		ai_chance = { factor = 1}
+	}
+	option = {
+		name = newprussia.3.b
+		ai_chance = { factor = 1}
+	}
+}
+
+
+
+

@@ -87,10 +87,8 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = NMB_pushforpolicychange 
-		}
-		prerequisite = { 
 			focus = NMB_rightsforthenativesintransvaal 
+			focus = NMB_pushforpolicychange 
 		}
 		ai_will_do = {
 			factor = 1
@@ -420,6 +418,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = { id = newprussia.1 days = 1 }
+		}
 	}
 
 	#Focus for Oppress the Natives
@@ -666,7 +667,7 @@ days = 720
 	focus = {
 		id = NMB_bloodwillspill
 		icon = GFX_goal_generic_attack_allies
-		x = 14
+		x = 15
 		y = 11
 		cost = 10
 		available_if_capitulated = yes

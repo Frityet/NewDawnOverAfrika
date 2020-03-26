@@ -1,7 +1,7 @@
 
 state={
 	provinces={
-		2207 2229 5203 5154 5189 7605 7770 8136 10957 10963 10978 12519 12921 13217
+		2207 5203 5154 5189 7605 7770 8136 10957 10963 10978 12519 12921
 	}
 resources={
 		steel= 10
@@ -10,7 +10,7 @@ resources={
 	}
 	id=541
 	name="STATE_541"
-	manpower = 462000
+	manpower = 600000
 	
 	state_category = wasteland
 
@@ -22,8 +22,8 @@ resources={
 			
 		}
 		victory_points = {
-			2229 100
+			
 		}
-		add_core_of = NMB
+		
 	}
 
