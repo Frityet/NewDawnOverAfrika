@@ -10,23 +10,23 @@ state={
 	history={
 		owner = TRV
 		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 5
-			air_base = 3
+			infrastructure = 3
+
+			industrial_complex = 2
+
 
 		}
 		victory_points = {
-			10400 10 
+
 		}
 		add_core_of = TRV
 
 	}
 
 	provinces={
-		1509 2213 5203 5217 5231 10400 10668 12064 12648 
+		1509 2213 5203 5217 5231 10668 12064 12648 
 	}
-	manpower=3680363
+	manpower=194321
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=wasteland
 }

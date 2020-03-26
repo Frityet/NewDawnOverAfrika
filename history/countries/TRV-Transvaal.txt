@@ -1,4 +1,4 @@
-capital = 275
+capital = 804
 
 OOB = "TRV_1936"
 

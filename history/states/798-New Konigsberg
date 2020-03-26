@@ -9,7 +9,9 @@ state={
 			infrastructure = 8
 			industrial_complex = 10
 			dockyard = 5
-			naval_base = 2
+            2229{
+			naval_base = 3
+            }
 
 		}
 		victory_points = {
