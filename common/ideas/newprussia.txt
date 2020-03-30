@@ -1,5 +1,36 @@
 ideas = {
+	
+		country = {
+		pm_paul_von_lettow_vorbeck = {
+			
+			
+			allowed = {
+				original_tag = "NMB"
+			}
 
+			available = {
+				NOT = {
+					has_government = communism #remove if the fucking commies killed him
+				}
+				NOT = {
+					has_government = democracy #remove if PM in power
+				}
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.15				
+			}
+		}
+
+	
 	political_advisor = {
 	
 		NMB_democratic_guy = {
@@ -159,7 +190,7 @@ ideas = {
 
 	air_chief = {
 		
-		NMBACR = {
+		NMB_ACR = {
 			picture = generic_air_europe_1
 			
 			allowed = {
