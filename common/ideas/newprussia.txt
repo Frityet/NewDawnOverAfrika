@@ -3,7 +3,6 @@ ideas = {
 		country = {
 		pm_paul_von_lettow_vorbeck = {
 			
-			
 			allowed = {
 				original_tag = "NMB"
 			}
