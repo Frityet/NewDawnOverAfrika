@@ -3,11 +3,13 @@ OOB = "NMB_1936"
 set_research_slots = 4
 set_stability = 0.25
 set_war_support = 0.5
+personal_union = TRV
 # Ministers and laws
 add_ideas = {
 	partial_economic_mobilisation
 	limited_conscription
 	pm_paul_von_lettow_vorbeck
+	legacy_of_the_herero_genocide
 }
 
 # Starting tech

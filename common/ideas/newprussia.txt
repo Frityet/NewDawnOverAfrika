@@ -29,6 +29,32 @@ ideas = {
 			}
 		}
 
+		legacy_of_the_herero_genocide = {
+			
+			allowed = {
+				original_tag = "NMB"
+			}
+
+			available = {
+				NOT = {
+					has_government = communism #remove if the hereros are in charge
+				}
+
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.25
+			}
+		}
+
 	
 	political_advisor = {
 	
@@ -372,4 +398,5 @@ ideas = {
 		}
 
 	}
+}
 }
