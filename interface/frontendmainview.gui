@@ -25,7 +25,7 @@ guiTypes = {
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=0 y =0 }
+		position = { x=0 y =-200 }
 		show_position = { x=0 y =-1 }
 		animation_type = decelerated
 		animation_time = 1000
@@ -35,7 +35,7 @@ guiTypes = {
 		{
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= 0 y = 0 }
+			position = { x= 20 y = 20 }
 		}
 		
 	}
@@ -173,7 +173,7 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =0}
+		position = { x=0 y =500}
 		size = { width = 320 height = 395}
 		Orientation = CENTER
 		Origo = center		
@@ -230,12 +230,29 @@ guiTypes = {
 
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 16 y = 138 }
+			position = {  x = -1600 y = -13800 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CREDITS"
 			buttonFont = "hoi_24header"
 			clicksound = click_default
+			pdx_tooltip = "MENU_FACEBOOK"
+			web_link = "https://discord.gg/zZQ6KmK"
 			oversound = ui_menu_over
+
+
+		}
+		ButtonType = {
+			name = "discord_button"
+			position = {  x = 16 y = 138 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "Discord"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			pdx_tooltip = "The New Dawn Over Afrika Discord!"
+			web_link = "https://discord.gg/zZQ6KmK"
+			oversound = ui_menu_over
+
+
 		}
 		
 		ButtonType = {
