@@ -1,4 +1,4 @@
-personal_union = {
+autonomy_state = {
 	id = autonomy_personal_union
 	
 	min_freedom_level = 0.9
