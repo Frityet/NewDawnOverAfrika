@@ -9,7 +9,16 @@
 # trade = yes/no
 
 opinion_modifiers = {
-
+	false_government = {
+		value = -200
+		min_trust = -150
+		trade = yes
+	}
+	traitors_to_germany = {
+		value = -200
+		min_trust = -150
+		trade = yes
+	}
 	cheat_opinion_modifier_good = {
 		value = 200
 	}
