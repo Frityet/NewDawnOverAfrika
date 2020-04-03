@@ -118,13 +118,22 @@ create_field_marshal = {
 	name = "August von Mackensen"
 	picture = "portrait_nmb_mackensen.dds"
 	traits = { defensive_doctrine urban_assault_specialist old_guard }
-	skill = 6
+	skill = 8
 	attack_skill = 6
 	defense_skill = 3
 	planning_skill = 8
 	logistics_skill = 5
 }
-
+create_corps_commander = {
+	name = "Paul Von Lettow Vorbeck"
+	picture = "portrait_nmb_lettow_vorbeck.dds"
+	traits = { trait_cautious commando }
+	skill = 6
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 6
+	logistics_skill = 6
+}
 create_corps_commander = {
 	name = "Hans Oster"
 	picture = "portrait_nmb_oster.dds"
