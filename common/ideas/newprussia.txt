@@ -1,5 +1,67 @@
 ideas = {
-	
+	country = {
+		we_love_the_sudwest3 = {
+			allowed = {
+				original_tag = "NMB"
+			}
+			available = {
+				NOT = {
+					has_government = communism
+				}
+
+			}
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05	
+				stability_weekly = -0.01
+				political_power_gain = 0.15		
+			}
+		}
+		we_love_the_sudwest2 = {
+			allowed = {
+				original_tag = "NMB"
+			}
+			available = {
+				NOT = {
+					has_government = communism
+				}
+
+			}
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05			
+			}
+		}
+	}
+		country = {
+			we_love_the_sudwest = {
+				allowed = {
+					original_tag = "NMB"
+				}
+				available = {
+					NOT = {
+						has_government = communism
+					}
+
+				}
+				allowed_civil_war = {
+					NOT = {
+						has_government = communism
+					}
+				}
+				removal_cost = -1
+			}
+		}
 		country = {
 		pm_paul_von_lettow_vorbeck = {
 			

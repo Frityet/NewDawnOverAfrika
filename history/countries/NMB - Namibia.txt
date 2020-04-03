@@ -13,6 +13,7 @@ add_ideas = {
 	limited_conscription
 	pm_paul_von_lettow_vorbeck
 	legacy_of_the_herero_genocide
+	we_love_the_sudwest
 }
 
 # Starting tech
