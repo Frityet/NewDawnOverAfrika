@@ -1,0 +1,30 @@
+
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		4696 
+	}
+	history={
+		
+		owner = SAF
+	buildings = {
+		infrastructure = 8
+		arms_factory = 1
+		industrial_complex = 3
+		air_base = 5
+		4696 = {
+			naval_base = 2
+
+		}
+	}
+	
+	victory_points = {
+		4696 50
+	}
+	add_core_of = SAF
+}
+manpower = 673213
+buildings_max_level_factor=1.000
+state_category=city
+}
