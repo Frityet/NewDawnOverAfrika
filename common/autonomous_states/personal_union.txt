@@ -1,4 +1,17 @@
 autonomy_state = {
+	can_lose_level = {
+	
+	}
+	can_take_level = {
+		
+	}
+	allowed = {
+		has_dlc = "Together for Victory"
+
+		if = {
+			limit = { has_dlc = "Death or Dishonor" }
+			NOT = { has_government = fascism }
+	}
 	id = autonomy_personal_union
 	
 	min_freedom_level = 0.9
