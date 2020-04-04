@@ -1,0 +1,120 @@
+ideas = {
+
+	country = {
+	
+		#Apartheid
+		#Legacy of the revolution
+		#Prime minister J. B. M. Hertzog
+		#@Trocadero56 Just these. make the Apartheid give -20 stability, but +20 political power gain
+		#Revolution to be +5 stability and +10 war support also +15 defence on core terrortory
+		#Hertzog gives +5 stability and -5 consoomer goods
+	
+		trv_apartheid = {
+			
+			#allowed = {
+				always = no
+			#}
+
+			#allowed_civil_war = {
+				has_government = democratic
+			#}
+
+			#removal_cost = -1
+
+			picture = generic_spy_intel
+			
+			modifier = {
+				stability_factor = -0.20
+				political_power_gain = 0.20
+			}
+		}
+		
+		trv_legacy_of_the_revolution = {
+			
+			#allowed = {
+				always = no
+			#}
+
+			#allowed_civil_war = {
+				has_government = democratic
+			#}
+
+			#removal_cost = -1
+
+			picture = generic_spy_intel
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.10
+				army_core_defence_factor = 0.15
+			}
+			
+		}
+		
+		trv_pm_hertzog = {
+			
+			#allowed = {
+				always = no
+			#}
+
+			#allowed_civil_war = {
+				has_government = democratic
+			#}
+
+			#removal_cost = -1
+
+			picture = generic_spy_intel
+			
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+			
+		}
+	
+	}
+
+	political_advisor = {
+
+	}
+
+	theorist = {
+
+	}
+	
+	# MILITARY
+	army_chief = {
+
+	}
+
+	air_chief = {
+
+	}
+
+	navy_chief = {
+
+	}
+
+	high_command = {
+
+	}
+
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+	}
+	
+	naval_manufacturer = { 
+			
+		designer = yes
+		
+	}
+
+
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+	}
+}
