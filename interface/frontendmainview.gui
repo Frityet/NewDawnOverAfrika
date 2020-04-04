@@ -13,7 +13,7 @@ guiTypes = {
 		Orientation = center
 		Origo = center
 		clipping = no 
-		
+
 		background = {
 			name = "Background"		
 			quadTextureSprite ="GFX_frontend_bg"
@@ -21,30 +21,25 @@ guiTypes = {
 		}
 		
 	}
-
-	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
 		position = { x=0 y =-200 }
 		show_position = { x=0 y =-1 }
 		animation_type = decelerated
 		animation_time = 1000
-		size = { width = 0 height = 0}
+		size = { width = 256 height = 768}
 		
-		iconType =
-		{
-			name ="frontend_game_logo"
-			spriteType = "GFX_frontend_game_logo"
-			position = { x= 20 y = 0 }
-		}
 		
 	}
+
+
+
 	
 	### MAIN MENU PANEL (upperright)
 	containerWindowType = {
 		name ="mainmenu_panel_upperright"
-		position = { x=0 y =-1 }
-		show_position = { x=-256 y =-1 }
+		position = { x=0 y =0 }
+		show_position = { x=-256 y =0 }
 		animation_type = decelerated
 		animation_time = 1000					
 		size = { width = 256 height = 768}
@@ -173,8 +168,8 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =500}
-		size = { width = 320 height = 395}
+		position = { x=0 y =440}
+		size = { width = 320 height = 475}
 		Orientation = CENTER
 		Origo = center		
 				
@@ -206,7 +201,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = 35 y = 356 }
+			position = { x = 16 y = 356 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -242,6 +237,7 @@ guiTypes = {
 		ButtonType = {
 			name = "discord_button"
 			position = {  x = 16 y = 178 }
+
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Discord"
 			buttonFont = "hoi_24header"
@@ -252,21 +248,22 @@ guiTypes = {
 
 
 		}
-		iconType = {
-			name = "discord_logo"
-			quadTextureSprite ="achievements"
-			position = { x= -100 y = -13 }
-			Orientation = "CENTER"
-			alwaystransparent = yes
+		ButtonType = {
+			name = "subreddit_button"
+			position = { x = 16 y = 218 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "Subreddit"
+			buttonFont = "hoi_24header"
+			web_link = "https://www.reddit.com/r/NDoAmod"
 		}
-		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 218 }
+			position = { x = 16 y = 300}
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
 		}
+		
 		
 
 		ButtonType = {

@@ -18,4 +18,16 @@ spriteTypes = {
 		name = "GFX_socialview_icon"
 		texturefile = "gfx/interface/icons/pi_icon.dds"
 	}
+	spriteType = {
+		name = "discordlogo"
+		texturefile = "gfx/interface/icons/icon_discord.dds"
+	}
+	spriteType = {
+		name = "New_dawn_over_afrika_logo"
+		texturefile = "gfx/interface/logo_mod.dds"
+	}	spriteType = {
+		name = "GFX_frontend_game_logo"
+		texturefile = "gfx/interface/logo_game.dds"
+	}
+
 }
