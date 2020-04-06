@@ -933,6 +933,7 @@ days = 720
 
 	#Focus for The State of New Prussia
 	focus = {
+		
 		id = NMB_thestateofnewprussia
 		icon = GFX_goal_generic_demand_territory
 		x = 10

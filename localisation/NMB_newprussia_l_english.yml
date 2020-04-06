@@ -1,8 +1,8 @@
-l_english: 
+﻿l_english: 
 NMB_open_trade_with_transvaal:0 "Open Trade with Transvaal"
 NMB_open_trade_with_transvaal_desc:0 ""
 NMB_light_investment:0 "Light Investment"
-NMB_light_investment_desc:0 "Supposed to give TRV 1 civ factory"
+NMB_light_investment_desc:0 ""
 NMB_aid_transvaal:0 "Aid Transvaal"
 NMB_aid_transvaal_desc:0 ""
 NMB_the_boers:0 "The Boers"
