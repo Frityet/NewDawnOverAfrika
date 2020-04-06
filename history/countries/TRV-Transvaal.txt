@@ -1,7 +1,11 @@
 capital = 804
 
 OOB = "TRV_1936"
-
+add_ideas = {
+		trv_apartheid
+		trv_legacy_of_the_revolution
+		trv_pm_hertzog
+}
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1

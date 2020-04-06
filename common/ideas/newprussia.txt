@@ -1,5 +1,6 @@
 ideas = {
 	country = {
+		picture = wir_lieben_sudwest.dds
 		we_love_the_sudwest3 = {
 			allowed = {
 				original_tag = "NMB"
@@ -23,6 +24,7 @@ ideas = {
 			}
 		}
 		we_love_the_sudwest2 = {
+			picture = wir_lieben_sudwest.dds
 			allowed = {
 				original_tag = "NMB"
 			}
@@ -45,6 +47,7 @@ ideas = {
 	}
 		country = {
 			we_love_the_sudwest = {
+				picture = gfx/interface/ideas/wir_lieben_sudwest.dds
 				allowed = {
 					original_tag = "NMB"
 				}
@@ -80,13 +83,13 @@ ideas = {
 					has_government = democracy #remove if PM in power
 				}
 			}
-
+			
 			allowed_civil_war = {
 				NOT = {
 					has_government = communism
 				}
 			}
-			
+			picture = gfx/interface/ideas/Lettow_von_Vorbeck.dds
 			removal_cost = -1
 			
 			modifier = {
@@ -95,7 +98,7 @@ ideas = {
 		}
 
 		legacy_of_the_herero_genocide = {
-			
+			picture = gfx/interface/ideas/Legacy_of_the_Herero_Genocide.dds
 			allowed = {
 				original_tag = "NMB"
 			}

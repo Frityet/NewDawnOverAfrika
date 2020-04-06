@@ -1,4 +1,3 @@
-
 state={
 	id=797
 	name="STATE_797"
@@ -26,3 +25,4 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=city
 }
+ 
