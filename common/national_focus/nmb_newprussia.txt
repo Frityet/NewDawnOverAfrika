@@ -1562,6 +1562,725 @@ days = 720
 			factor = 1
 		}
 	}
+	#Focus for Recover from the Great Depression
+	focus = {
+		id = NMB_recover_from_the_great_depression
+		icon = GFX_goal_generic_construction2
+		x = 31
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 1 
+category = industry
+}
+		}
+	}
 
+	#Focus for Establish the Civilian Employment Agency
+	focus = {
+		id = NMB_establish_the_civilian_employment_agency
+		icon = GFX_goal_generic_consumer_goods
+		x = 31
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_recover_from_the_great_depression }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.05
+		}
+	}
+
+	#Focus for Encourage Foreign Investment
+	focus = {
+		id = NMB_encourage_foreign_investment
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 35
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_opinion_modifier= { 
+target = USA 
+modifier = medium_increase
+}
+add_opinion_modifier= { 
+target = FRA 
+modifier = medium_increase
+}
+add_opinion_modifier= { 
+target = ENG 
+modifier = medium_increase
+}
+		}
+	}
+
+	#Focus for Revive the Mining Industry
+	focus = {
+		id = NMB_revive_the_mining_industry
+		icon = GFX_goal_generic_construct_civilian
+		x = 33
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NMB_establish_the_civilian_employment_agency 
+		}
+		prerequisite = { 
+			focus = NMB_encourage_foreign_investment 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+	#Focus for Naval Dockyards
+	focus = {
+		id = NMB_naval_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 21
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_hire_marines }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			navy_experience = 25
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					NOT = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_state = {
+					limit = {
+						controller = { tag = ROOT }
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+	#Focus for Relieve Sharecroppers
+	focus = {
+		id = NMB_relieve_sharecroppers
+		icon = GFX_focus_generic_treaty
+		x = 23
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_establish_the_civilian_employment_agency }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Gem Exports
+	focus = {
+		id = NMB_gem_exports
+		icon = GFX_focus_generic_africa_factory
+		x = 31
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_revive_the_mining_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = industrial_complex
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+	#Focus for Oil Fields in the Namib Desert
+	focus = {
+		id = NMB_oil_fields_in_the_namib_desert
+		icon = GFX_goal_generic_construction2
+		x = 33
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_revive_the_mining_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_resource= { 
+type = oil 
+amount = 8 
+state = 803 
+}
+		}
+	}
+
+	#Focus for Conscription Efforts
+	focus = {
+		id = NMB_conscription_efforts
+		icon = GFX_focus_generic_little_entente
+		x = 29
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_military_funding }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_manpower= 16000
+		}
+	}
+
+	#Focus for Military Funding
+	focus = {
+		id = NMB_military_funding
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 28
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_establish_the_civilian_employment_agency }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+	#Focus for War Propaganda
+	focus = {
+		id = NMB_war_propaganda
+		icon = GFX_goal_generic_propaganda
+		x = 27
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_military_funding }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_war_support= 10
+		}
+	}
+
+	#Focus for Steel Mining
+	focus = {
+		id = NMB_steel_mining
+		icon = GFX_focus_generic_steel
+		x = 35
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_revive_the_mining_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_resource= { 
+type = steel 
+amount = 8 
+state = 797 
+}
+		}
+	}
+
+	#Focus for Revive Banks
+	focus = {
+		id = NMB_revive_banks
+		icon = GFX_focus_mex_privatisation
+		x = 25
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_public_works_construction }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Solve the Unemployment Crisis
+	focus = {
+		id = NMB_solve_the_unemployment_crisis
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 26
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NMB_free_trade_act 
+		}
+		prerequisite = { 
+			focus = NMB_defense_construction 
+		}
+		prerequisite = { 
+			focus = NMB_nationalize_german_companies 
+		}
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability= 0.10
+		}
+	}
+
+	#Focus for Additional Military Spending
+	focus = {
+		id = NMB_additional_military_spending
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 31
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NMB_free_trade_act 
+		}
+		prerequisite = { 
+			focus = NMB_defense_construction 
+		}
+		prerequisite = { 
+			focus = NMB_nationalize_german_companies 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type = arms_factory
+ level = 1
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+
+	#Focus for Research Investment
+	focus = {
+		id = NMB_research_investment
+		icon = GFX_focus_research2
+		x = 30
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_establish_the_civilian_employment_agency }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_research_slot= 1
+		}
+	}
+
+	#Focus for Public Works Construction
+	focus = {
+		id = NMB_public_works_construction
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 25
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_establish_the_civilian_employment_agency }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state= {
+add_building_construction = {type = infrastructurelevel = 5
+instant_build = yes}
+
+}
+		}
+	}
+
+	#Focus for Free Trade Act
+	focus = {
+		id = NMB_free_trade_act
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 24
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NMB_revive_banks 
+		}
+		prerequisite = { 
+			focus = NMB_promote_local_companies 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Open Border Act
+	focus = {
+		id = NMB_open_border_act
+		icon = GFX_goal_tripartite_pact
+		x = 37
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_open_trade_with_transvaal }
+		search_filters = { FOCUS_FILTER_MANPOWER } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_manpower= 8000
+		}
+	}
+	#Focus for Defense Construction
+	focus = {
+		id = NMB_defense_construction
+		icon = GFX_goal_generic_construct_military
+		x = 28
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NMB_war_propaganda 
+			focus = NMB_conscription_efforts 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Nationalize German Companies
+	focus = {
+		id = NMB_nationalize_german_companies
+		icon = GFX_focus_generic_africa_production
+		x = 33
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = NMB_gem_exports 
+			focus = NMB_oil_fields_in_the_namib_desert 
+			focus = NMB_steel_mining 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_opinion_modifier= { 
+target = GER 
+modifier = large_decrease
+}
+		}
+	}
+
+	#Focus for Promote Local Companies
+	focus = {
+		id = NMB_promote_local_companies
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 23
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_relieve_sharecroppers }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 50
+		}
+	}
+
+	#Focus for Hire Marines
+	focus = {
+		id = NMB_hire_marines
+		icon = GFX_goal_generic_amphibious_assault
+		x = 21
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_establish_the_civilian_employment_agency }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_manpower= 8000
+		}
+	}
+	#Focus for Open Trade with Transvaal
+	focus = {
+		id = NMB_open_trade_with_transvaal
+		icon = GFX_goal_generic_trade
+		x = 37
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_light_investment }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_opinion_modifier= { 
+target = TRV 
+modifier = medium_increase 
+}
+		}
+	}
+
+	#Focus for Light Investment
+	focus = {
+		id = NMB_light_investment
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 37
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_aid_transvaal }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Aid Transvaal
+	focus = {
+		id = NMB_aid_transvaal
+		icon = GFX_goal_generic_improve_relations
+		x = 37
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = NMB_encourage_foreign_investment }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			country_exists= TRV
+		}
+		completion_reward = {
+			add_stability= 0.05
+		}
+	}
 #End of focuses 
  }
