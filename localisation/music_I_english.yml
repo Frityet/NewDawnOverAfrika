@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  # SHOULD NOT BE TRANSLATED FROM ENGLISH
 
  # HOI4 Soundtrack
@@ -66,10 +66,10 @@ l_english:
 
  # NEW MUSIC NAMES HERE BELOW
 # New Prussia
-newprussia_maintheme:0 "Südwesterlied"
+newprussia_maintheme:0 "SÃ¼dwesterlied"
 newprussia_general_peace_1:0 "Heil Dir im Siegerkranz!"
 newprussia_general_peace_2:0 "Fridericus Rex Grenadiermarsch"
 newprussia_general_peace_3:0 "Augen Geradeaus!"
-newprussia_general_peace_4:0 "Im Wald im Grünen Walde"
-newprussia_general_war_1:0 "Wo alle straßen enden"
+newprussia_general_peace_4:0 "Im Wald im GrÃ¼nen Walde"
+newprussia_general_war_1:0 "Wo alle straÃŸen enden"
 newprussia_general_war_2:0 "Lied eines Tambours"

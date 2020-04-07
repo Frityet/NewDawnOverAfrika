@@ -4509,19 +4509,23 @@ spriteTypes = {
 	}
 	#New Prussia Ideas
 	spriteType = {
-		name = "wir_lieben_sudwest"
+		name = "GFX_idea_wir_lieben_sudwest"
 		texturefile = "gfx/interface/ideas/wir_lieben_sudwest.dds"
 	}
 	spriteType = {
-		name = "pm_paul_von_lettow_vorbeck"
+		name = "GFX_idea_pm_paul_von_lettow_vorbeck"
 		texturefile = "gfx/interface/ideas/pm_paul_von_lettow_vorbeck.dds"
 	}
 
 	spriteType = {
-		name = "legacy_of_the_herero_genocide"
+		name = "GFX_idea_legacy_of_the_herero_genocide"
 		texturefile = "gfx/interface/ideas/legacy_of_the_herero_genocide.dds"
 	}
-
+	#Astronom
+	spriteType = {
+		name = "GFX_idea_astronom"
+		texturefile = "gfx/interface/ideas/gfx_astronom_icon.dds"
+	}
 
 
 

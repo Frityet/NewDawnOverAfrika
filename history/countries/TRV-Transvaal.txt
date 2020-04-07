@@ -5,6 +5,7 @@ add_ideas = {
 		trv_apartheid
 		trv_legacy_of_the_revolution
 		trv_pm_hertzog
+		trv_astronom
 }
 set_technology = {
 	infantry_weapons = 1
