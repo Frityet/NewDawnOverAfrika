@@ -5,7 +5,7 @@ set_stability = 0.25
 set_war_support = 0.5
 set_autonomy = {
 		target = TRV
-		autonomous_state = autonomy_personal_union
+		autonomy_state = autonomy_personal_union
 	}
 	add_opinion_modifier = {
 		target = GER
@@ -130,9 +130,19 @@ create_field_marshal = {
 	picture = "portrait_nmb_mackensen.dds"
 	traits = { defensive_doctrine urban_assault_specialist old_guard }
 	skill = 8
-	attack_skill = 6
-	defense_skill = 3
+	attack_skill = 4
+	defense_skill = 6
 	planning_skill = 8
+	logistics_skill = 5
+}
+create_field_marshal = {
+	name = "Paul von Hindenburg"
+	picture = "portrait_nmb_paul_von_hindenburg.dds"
+	traits = { offensive_doctrine infantry_expert old_guard }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 3
+	planning_skill = 7
 	logistics_skill = 5
 }
 create_corps_commander = {
@@ -142,12 +152,22 @@ create_corps_commander = {
 	skill = 6
 	attack_skill = 2
 	defense_skill = 2
-	planning_skill = 6
+	planning_skill = 9
 	logistics_skill = 6
 }
 create_corps_commander = {
 	name = "Hans Oster"
 	picture = "portrait_nmb_oster.dds"
+	traits = { trait_cautious armor_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Walther Wenck"
+	picture = "portrait_nmb_walther_wenck.dds"
 	traits = { trait_cautious armor_officer }
 	skill = 4
 	attack_skill = 3

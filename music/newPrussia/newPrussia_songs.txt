@@ -1,8 +1,8 @@
 
-music_station = "base_music"
+music_station = "newPrussia"
 
 music = {
-	song = "maintheme"
+	song = "newprussia_maintheme"
 	chance = {
 		modifier = {
 			factor = 0.5
@@ -12,7 +12,7 @@ music = {
 
 # PEACE SONGS ##################
 music = {
-	song = "general_peace_1"
+	song = "newprussia_general_peace_1"
 	
 	chance = {
 		modifier = {
@@ -24,7 +24,7 @@ music = {
 }
 
 music = {
-	song = "general_peace_2"
+	song = "newprussia_general_peace_2"
 	
 	chance = {
 		modifier = {
@@ -36,7 +36,7 @@ music = {
 }
 
 music = {
-	song = "general_peace_3"
+	song = "newprussia_general_peace_3"
 	
 	chance = {
 		modifier = {
@@ -48,7 +48,7 @@ music = {
 }
 
 music = {
-	song = "general_peace_4"
+	song = "newprussia_general_peace_4"
 	
 	chance = {
 		modifier = {
@@ -62,7 +62,7 @@ music = {
 # WAR SONGS ####################
 
 music = {
-	song = "general_war_1"
+	song = "newprussia_general_war_1"
 	
 	chance = {
 		modifier = {
@@ -74,7 +74,7 @@ music = {
 }
 
 music = {
-	song = "general_war_2"
+	song = "newprussia_general_war_2"
 	
 	chance = {
 		modifier = {
