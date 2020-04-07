@@ -71,8 +71,8 @@ guiTypes = {
 	### SINGLE PLAYER MENU
 	containerWindowType = {
 		name = "mainmenu_single_player"
-		position = { x=0 y =450}
-		size = { width = 320 height = 190}
+		position = { x=0 y =300}
+		size = { width = 320 height = 300}
 		Orientation = CENTER
 		Origo = center	
 				
@@ -160,8 +160,8 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =440}
-		size = { width = 320 height = 475}
+		position = { x=0 y = 300}
+		size = { width = 320 height = 500}
 		Orientation = CENTER
 		Origo = center		
 				
@@ -193,7 +193,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = 16 y = 356 }
+			position = { x = 30 y = 450 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
