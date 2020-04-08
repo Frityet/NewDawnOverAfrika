@@ -1,6 +1,56 @@
 ideas = {
 
 	country = {
+
+		#FOR ASTRONOM VVVVVVVVVVVVVV
+		trv_astronom = {
+			
+			picture = GFX_idea_astronom
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.20
+
+			}
+		}
+
+		#FOR ASTRONOM /\/\/\/\/\/\/\/\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 		#Apartheid
 		#Legacy of the revolution
@@ -8,7 +58,8 @@ ideas = {
 		#@Trocadero56 Just these. make the Apartheid give -20 stability, but +20 political power gain
 		#Revolution to be +5 stability and +10 war support also +15 defence on core terrortory
 		#Hertzog gives +5 stability and -5 consoomer goods
-	
+		#FOR ASTRONOM VVVVVVVVVVVVV
+
 		trv_apartheid = {
 			
 			#allowed = {

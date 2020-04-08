@@ -52,7 +52,7 @@ set_technology = {
 	fuel_refining = 1
 }
 
-set_convoys = 100
+set_convoys = 42
 
 1939.1.1 = {
 	
