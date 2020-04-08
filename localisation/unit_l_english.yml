@@ -305,8 +305,7 @@
  bicycle_battalion_desc:0 "Meat for the meat grinder, but with extra bits of metal."
  paratrooper:0 "Paratroopers"
  paratrooper_desc:0 "By incorporating airborne forces into our army, we can make forced entries and position key troops in previously inaccessible areas, allowing for new tactical opportunities."
- sturmtruppen:0 "Sturmtruppen"
- sturmtruppen_desc:0 "Stormtroopers were specialist soldiers of the German Army in World War I. In the last years of the war, Stoßtruppen ("shock troops" or "shove troops") were trained to use infiltration tactics – part of the Germans' improved method of attack on enemy trenches. Men trained in these methods were known in Germany as Sturmmann ("storm man", usually translated as "stormtrooper"), formed into companies of Sturmtruppen ("assault troops", or more often and less accurately "storm troops")."
+ 
  marine:0 "Marines"
  marine_desc:0 "Troops specializing in amphibious warfare are growing ever more indispensable. Improvised methods and equipment become things of the past as our naval infantry is supported by specialized landing craft and training."
  mountaineers:0 "Mountaineers"
@@ -522,3 +521,24 @@
  damaged_secondaries:0 "Secondaries Knocked Out"
  CONFIRM_DISBAND_FLEET_TITLE:0 "Disband fleet"
  CONFIRM_DISBAND_FLEET_DESC:0 "Are you sure you want to §YDISBAND§! the fleet $NAME|H$?\n\nAll the task forces will be moved to reserve."
+#New Prussia
+ sturmtruppen:0 "Sturmtruppen"
+ sturmtruppen_desc:0 "Stormtroopers were specialist soldiers of the German Army in World War I. In the last years of the war, Stoßtruppen ("shock troops" or "shove troops") were trained to use infiltration tactics – part of the Germans' improved method of attack on enemy trenches. Men trained in these methods were known in Germany as Sturmmann ("storm man", usually translated as "stormtrooper"), formed into companies of Sturmtruppen ("assault troops", or more often and less accurately "storm troops")."
+
+ askari:0 "Askari"
+ askari_desc:0 "The German Colonial Army (Schutztruppe) of the German Empire employed native troops with European officers and NCOs in its colonies. The main concentration of such locally recruited troops was in German East Africa (now Tanzania), formed in 1881 after the transfer of the Wissmanntruppe (raised in 1889 to suppress the Abushiri Revolt) to German imperial control.
+
+The first askaris formed in German East Africa were raised by DOAG (Deutsche Ost-Afrika Gesellschaft—the German East Africa Company) in about 1888. Originally drawn from Sudanese mercenaries, the German askaris were subsequently recruited from the Wahehe and Angoni tribal groups. They were harshly disciplined but well paid (on a scale twice that of their British counterparts in the King's African Rifles), and highly trained by German cadres who were themselves subject to a rigorous selection process. Prior to 1914 the basic Schutztruppe unit in Southeast Africa was the Feldkompanie comprising seven or eight German officers and NCOs with between 150 and 200 askaris (usually 160)—including two machine gun teams.
+
+Such small independent commands were often supplemented by tribal irregulars or Ruga-Ruga.[4]
+
+They were successfully used in German East Africa where 11,000 askaris, porters and their European officers, commanded by Paul Emil von Lettow-Vorbeck, managed to resist numerically superior British, Portuguese and Belgian colonial forces until the end of World War I in 1918."
+
+askari_cavalry:0 "Askari Cavlary"
+askari_cavalry_desc:0 "The German Colonial Army (Schutztruppe) of the German Empire employed native troops with European officers and NCOs in its colonies. The main concentration of such locally recruited troops was in German East Africa (now Tanzania), formed in 1881 after the transfer of the Wissmanntruppe (raised in 1889 to suppress the Abushiri Revolt) to German imperial control.
+
+The first askaris formed in German East Africa were raised by DOAG (Deutsche Ost-Afrika Gesellschaft—the German East Africa Company) in about 1888. Originally drawn from Sudanese mercenaries, the German askaris were subsequently recruited from the Wahehe and Angoni tribal groups. They were harshly disciplined but well paid (on a scale twice that of their British counterparts in the King's African Rifles), and highly trained by German cadres who were themselves subject to a rigorous selection process. Prior to 1914 the basic Schutztruppe unit in Southeast Africa was the Feldkompanie comprising seven or eight German officers and NCOs with between 150 and 200 askaris (usually 160)—including two machine gun teams.
+
+Such small independent commands were often supplemented by tribal irregulars or Ruga-Ruga.[4]
+
+They were successfully used in German East Africa where 11,000 askaris, porters and their European officers, commanded by Paul Emil von Lettow-Vorbeck, managed to resist numerically superior British, Portuguese and Belgian colonial forces until the end of World War I in 1918."

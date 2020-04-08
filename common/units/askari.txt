@@ -4,8 +4,8 @@
 
 sub_units = {
 
-	askari_cavalry = {
-		sprite = cavalry
+	askari = {
+		sprite = infantry
 		map_icon_category = other
 		priority = 599
 		ai_priority = 200
@@ -14,7 +14,7 @@ sub_units = {
 
 		type = { infantry }
 		
-		group = mobile
+		group = infantry
 		
 		categories = {
 			category_front_line
@@ -25,15 +25,15 @@ sub_units = {
 		combat_width = 1
 		
 		#Size Definitions
-		max_organisation = 30
-		max_strength = 15 
+		max_organisation = 40
+		max_strength = 25 
 		default_morale = 0.3
-		manpower = 600
+		manpower = 750
 
 		#Misc Abilities
-		maximum_speed = 0.75
-		training_time = 75	
-		weight = 0.3
+		maximum_speed = 0.85
+		training_time = 65	
+		weight = 0.5
 		
 		supply_consumption = 0.06
 
@@ -45,28 +45,28 @@ sub_units = {
 		}
 
 		forest = {
-			attack = -0.05
+			attack = -0.07
 		}
 
 		hills = {
-			attack = -0.05
+			attack = -0.07
 		}
 
 		mountain = {
-			attack = -0.1
-			movement = -0.05
+			attack = -0.2
+			movement = -0.07
 		}
 
 		jungle = {
-			attack = 0.25
+			attack = 0.35
 		}
 
 		urban = {
-			attack = -0.05
+			attack = -0.10
 		}
 
 		amphibious = {
-			attack = -0.4
+			attack = -0.75
 		}
 	}
 }

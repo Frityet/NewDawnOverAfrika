@@ -42,10 +42,23 @@ division_template = {
 	division_names_group = GER_Cav_01
 
 	regiments = {
-	infantry = { x = 0 y = 0 }
-    infantry = { x = 0 y = 1 }
-    infantry = { x = 1 y = 0 }
-	infantry = { x = 1 y = 1 }
+	askari = { x = 0 y = 0 }
+    askari = { x = 0 y = 1 }
+    askari = { x = 1 y = 0 }
+	askari = { x = 1 y = 1 }
+	}
+
+}
+division_template = {
+	name = "Asakari Cavalry"
+
+	division_names_group = GER_Cav_01
+
+	regiments = {
+	askari_cavalry = { x = 0 y = 0 }
+    askari_cavalry = { x = 0 y = 1 }
+    askari_cavalry = { x = 1 y = 0 }
+	askari_cavalry = { x = 1 y = 1 }
 	}
 
 }
@@ -67,9 +80,9 @@ units = {
 
 	}
 	division = {			
-		name = "Asakari"
+		name = "Asakari-Calvary"
 		location = 8136
-		division_template = "Asakari"
+		division_template = "Asakari Cavalry"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.25
 
