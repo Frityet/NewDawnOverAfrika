@@ -7,150 +7,420 @@ focus_tree = {
 			tag = TRV
 		}
 	}
+
+	continuous_focus_position = { x = 50 y = 5000 } 
+	
 	default = no
 	focus = {
-		id = trv_expand_gold_production
+		id = TRV_expand_gold_production
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		cost = 10.00
-		x = 3
+		x = 14
 		y = 0
 
 	}
 	focus = {
-		id = trav_griqualand_infrastructure
-		icon = GFX_goal_generic_construct_infrastructure
+		id = TRV_revolutionary_congress
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		mutually_exclusive = {
+			focus = TRV_raadsaal_meeting
+			focus = TRV_new_status_quo
+		}
+		x = 10
+		y = 0
+
+	}
+	focus = {
+		id = TRV_raadsaal_meeting
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 10.00
+		mutually_exclusive = {
+			focus = TRV_revolutionary_congress
+			focus = TRV_new_status_quo
+		}
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = TRV_new_status_quo
+		icon = GFX_goal_generic_major_alliance
+		cost = 10.00
+		mutually_exclusive = {
+			focus = TRV_raadsaal_meeting
+			focus = TRV_revolutionary_congress
+		}
+		x = 1
+		y = 0
+
+	}
+	focus = {
+		id = TRV_strengthen_ideological_ties
+		icon = GFX_focus_generic_home_defense
 		cost = 10.00
 		prerequisite = {
-			focus = trv_expand_gold_production
+			focus = TRV_new_status_quo
 		}
-		x = 2
+		x = 1
 		y = 1
 
 	}
 	focus = {
-		id = trv_oranje_hydroelectric
-		icon = GFX_goal_generic_construction
+		id = TRV_verkrampt
+		icon = GFX_focus_cze_german_puppet
 		cost = 10.00
 		prerequisite = {
-			focus = trav_griqualand_infrastructure
+			focus = TRV_strengthen_ideological_ties
+		}
+		mutually_exclusive = {
+			focus = TRV_verligt
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = TRV_verligt
+		icon = GFX_focus_generic_concessions
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_strengthen_ideological_ties
+		}
+		mutually_exclusive = {
+			focus = TRV_verkrampt
 		}
 		x = 2
 		y = 2
 
 	}
 	focus = {
-		id = trv_oppenheimer_diamanten
-		icon = GFX_focus_mex_privatisation
+		id = TRV_bilingualism
+		icon = GFX_focus_generic_monarchy_2
 		cost = 10.00
 		prerequisite = {
-			focus = trv_expand_gold_production
+			focus = TRV_verligt
+			focus = TRV_verkrampt
 		}
-		x = 4
-		y = 1
-
-	}
-	focus = {
-		id = trv_metal_stahl_transvaal
-		icon = GFX_focus_generic_steel
-		cost = 10.00
-		prerequisite = {
-			focus = trv_oppenheimer_diamanten
-		}
-		x = 4
-		y = 2
-
-	}
-	focus = {
-		id = trv_reichsbank
-		icon = GFX_goal_tfv_strengthen_commonwealth_ties
-		cost = 10.00
-		prerequisite = {
-			focus = trv_oranje_hydroelectric
-			focus = trv_metal_stahl_transvaal
-		}
-		mutually_exclusive = {
-			focus = trv_independent_bank
-		}
-		x = 2
+		x = 1
 		y = 3
 
 	}
 	focus = {
-		id = trv_independent_bank
-		icon = GFX_focus_fra_devalue_the_franc
+		id = TRV_one_crown_one_people
+		icon = GFX_focus_rom_royal_dictatorship
 		cost = 10.00
 		prerequisite = {
-			focus = trv_oranje_hydroelectric
-			focus = trv_metal_stahl_transvaal
-		}
-		mutually_exclusive = {
-			focus = trv_reichsbank
-		}
-		x = 4
-		y = 3
-
-	}
-	focus = {
-		id = trv_luederitzpendler
-		icon = GFX_goal_generic_construction2
-		cost = 10.00
-		prerequisite = {
-			focus = trv_reichsbank
-			focus = trv_independent_bank
+			focus = TRV_bilingualism
 		}
 		x = 1
 		y = 4
 
 	}
 	focus = {
-		id = trv_farming_subsidies 
-		icon = GFX_goal_generic_consumer_goods
+		id = TRV_operatie_windswael
+		icon = GFX_goal_support_fascism
 		cost = 10.00
 		prerequisite = {
-			focus = trv_independent_bank
-			focus = trv_reichsbank
+			focus = TRV_raadsaal_meeting
 		}
-		x = 3
+		mutually_exclusive = {
+			focus = TRV_national_democratic_revolution
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = TRV_volkskapitalisme
+		icon = GFX_focus_por_concordat
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_operatie_windswael
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = TRV_national_democratic_revolution
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_raadsaal_meeting
+		}
+		mutually_exclusive = {
+			focus = TRV_operatie_windswael
+			focus = TRV_return_of_the_bond
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = TRV_universal_suffrage
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_national_democratic_revolution
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = TRV_return_of_the_bond
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_raadsaal_meeting
+		}
+		mutually_exclusive = {
+			focus = TRV_operatie_windswael
+			focus = TRV_national_democratic_revolution
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = TRV_qualified_franchise
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_return_of_the_bond
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = TRV_dark_unions
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_revolutionary_congress
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = TRV_russian_support
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_dark_unions
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = TRV_proclaim_republic
+		icon = GFX_focus_focus_fra_revolution_upmost
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_qualified_franchise
+			focus = TRV_universal_suffrage
+			focus = TRV_volkskapitalisme
+			focus = TRV_russian_support
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = TRV_volksstaat
+		icon = GFX_focus_SAF_support_ossewabrandwag
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_volkskapitalisme
+		}
+		prerequisite = {
+			focus = TRV_proclaim_republic
+		}
+		x = 4
 		y = 4
 
 	}
 	focus = {
-		id = trv_economic_unification
+		id = TRV_nation_building
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_proclaim_republic
+		}
+		prerequisite = {
+			focus = TRV_universal_suffrage
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = TRV_afrikaner_nationalism
+		icon = GFX_focus_hol_oranje_boven
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_proclaim_republic
+		}
+		prerequisite = {
+			focus = TRV_qualified_franchise
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = TRV_revolutionary_course
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_russian_support
+		}
+		prerequisite = {
+			focus = TRV_proclaim_republic
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = TRV_griqualand_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_expand_gold_production
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = TRV_oranje_hydroelectric
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = trav_griqualand_infrastructure
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = TRV_oppenheimer_diamanten
+		icon = GFX_focus_mex_privatisation
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_expand_gold_production
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = TRV_metal_stahl_transvaal
+		icon = GFX_focus_generic_steel
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_oppenheimer_diamanten
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = TRV_reichsbank
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_oranje_hydroelectric
+			focus = TRV_metal_stahl_transvaal
+		}
+		mutually_exclusive = {
+			focus = TRV_independent_bank
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = TRV_independent_bank
+		icon = GFX_focus_fra_devalue_the_franc
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_oranje_hydroelectric
+			focus = TRV_metal_stahl_transvaal
+		}
+		mutually_exclusive = {
+			focus = TRV_reichsbank
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = TRV_luederitzpendler
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_reichsbank
+			focus = TRV_independent_bank
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = TRV_farming_subsidies 
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = TRV_independent_bank
+			focus = TRV_reichsbank
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = TRV_economic_unification
 		icon = GFX_goal_generic_positive_trade_relations
 		cost = 10.00
 		prerequisite = {
-			focus = trv_luederitzpendler
+			focus = TRV_luederitzpendler
 		}
 		prerequisite = {
-			focus = trv_reichsbank
+			focus = TRV_reichsbank
 		}
-		x = 2
+		x = 13
 		y = 5
 
 	}
 	focus = {
-		id = trv_baaskap
-		icon = GFX_focus_cze_german_puppet
+		id = TRV_baaskap
+		icon = GFX_focus_spr_masters_of_our_own_fate
 		cost = 10.00
 		prerequisite = {
-			focus = trv_independent_bank
-			focus = trv_reichsbank
+			focus = TRV_independent_bank
+			focus = TRV_reichsbank
 		}
-		x = 5
+		x = 16
 		y = 4
 
 	}
 	focus = {
-		id = trv_flexible_economy
+		id = TRV_flexible_economy
 		icon = GFX_goal_generic_production
 		cost = 10.00
 		prerequisite = {
-			focus = trv_independent_bank
+			focus = TRV_independent_bank
 		}
 		prerequisite = {
-			focus = trv_baaskap
+			focus = TRV_baaskap
 		}
-		x = 4
+		x = 15
 		y = 5
 
 	}
