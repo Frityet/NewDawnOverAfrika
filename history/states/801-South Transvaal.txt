@@ -19,6 +19,6 @@ state={
 		}
 
 	}
-	state_category=wasteland
+	state_category=town
 	manpower=100000
 }

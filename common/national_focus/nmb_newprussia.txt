@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			#tag = NMB  (I need to test something)
+			tag = NUL  #(I need to test something)
 		}
 	}
 	#Focus for The Boers
