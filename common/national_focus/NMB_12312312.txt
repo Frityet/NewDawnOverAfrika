@@ -583,8 +583,8 @@ modifier = large_decrease
 		}
 		completion_reward = {
 			country_event= {
-days = 3 
-id = asdfdsa.1 
+	days = 3 
+	id = newprussia.1
 }
 		}
 	}
@@ -648,6 +648,10 @@ days = 720
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_political_power = 150
+		}
+
 	}
 
 	#Focus for Culture Acceptance
