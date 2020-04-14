@@ -218,6 +218,9 @@ modifier = medium_increase
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+			has_country_flag = newprussia_communist_flag
+		}
 		prerequisite = { focus = NMB_the_native_question }
 		mutually_exclusive = { 
 			focus = NMB_oppress_the_natives 
@@ -597,6 +600,9 @@ modifier = large_decrease
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+			has_country_flag = newprussia_fascist_flag
+		}
 		prerequisite = { focus = NMB_the_native_question }
 		mutually_exclusive = { 
 			focus = NMB_concessions_to_the_natives 
@@ -617,6 +623,9 @@ modifier = large_decrease
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+			has_country_flag = newprussia_democratic_flag
+		}
 		prerequisite = { focus = NMB_the_native_question }
 		mutually_exclusive = { 
 			focus = NMB_oppress_the_natives 
