@@ -44,3 +44,6 @@
  SAF_DEF:0 "New Prussia"
  NMB_ADJ:0 "Prussian"
 
+GEP_neutrality:0 "German Pacific"
+GEP_neutrality_DEF:0 "The Federation of German Pacific Colonies"
+GEP_neutrality_ADJ:0 "Pacific"
