@@ -218,15 +218,15 @@ modifier = medium_increase
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+			has_country_flag = newprussia_communist_flag
+		}
 		prerequisite = { focus = NMB_the_native_question }
 		mutually_exclusive = { 
 			focus = NMB_oppress_the_natives 
 		}
 		mutually_exclusive = { 
 			focus = NMB_concessions_to_the_natives 
-		}
-		mutually_exclusive = { 
-			focus = NMB_ 
 		}
 		ai_will_do = {
 			factor = 1
@@ -583,9 +583,10 @@ modifier = large_decrease
 		}
 		completion_reward = {
 			country_event= {
-days = 3 
-id = asdfdsa.1 
+	days = 3 
+	id = newprussia.1
 }
+set_country_flag = has_completed_native_question
 		}
 	}
 
@@ -597,6 +598,9 @@ id = asdfdsa.1
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+			has_country_flag = newprussia_fascist_flag
+		}
 		prerequisite = { focus = NMB_the_native_question }
 		mutually_exclusive = { 
 			focus = NMB_concessions_to_the_natives 
@@ -617,6 +621,9 @@ id = asdfdsa.1
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+			has_country_flag = newprussia_democratic_flag
+		}
 		prerequisite = { focus = NMB_the_native_question }
 		mutually_exclusive = { 
 			focus = NMB_oppress_the_natives 
@@ -648,6 +655,10 @@ days = 720
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_political_power = 150
+		}
+
 	}
 
 	#Focus for Culture Acceptance

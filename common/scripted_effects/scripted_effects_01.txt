@@ -1,0 +1,18 @@
+effect = {
+    NMB = {
+        set_variable = {
+            var = native_discontent
+            value = 10
+        }
+
+    }
+    NMB = {
+        set_variable = {
+            var = white_discontent
+            value = 0
+        }
+
+    }
+
+
+}

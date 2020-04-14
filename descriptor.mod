@@ -4,5 +4,6 @@ tags={
 	"National Focuses"
 	"Fixes"
 }
-name="New Prussia"
+name="New Dawn over Afrika"
 supported_version="1.9.1"
+remote_file_id="2054776152"

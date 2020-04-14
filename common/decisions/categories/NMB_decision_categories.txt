@@ -1,0 +1,10 @@
+#####
+#NMB#
+#####
+
+NMB_discontent = {
+	allowed = {
+		original_tag = NMB
+	}
+
+}
