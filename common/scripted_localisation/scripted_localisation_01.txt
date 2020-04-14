@@ -1,0 +1,118 @@
+defined_text = {
+    name = NativeDiscontent
+    text = {
+        trigger = {
+            check_variable = {
+                var = native_discontent
+                value = 20
+                compare = equals
+            }
+        }
+
+        localization_key = native_discontent_1
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = native_discontent
+                value = 40
+                compare = equals
+            }
+        }
+
+        localization_key = native_discontent_2
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = native_discontent
+                value = 60
+                compare = equals
+            }
+        }
+
+        localization_key = native_discontent_3
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = native_discontent
+                value = 80
+                compare = equals
+            }
+        }
+
+        localization_key = native_discontent_4
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = native_discontent
+                value = 100
+                compare = equals
+            }
+        }
+
+        localization_key = native_discontent_5
+    }
+
+    name = WhiteDiscontent
+    text = {
+        trigger = {
+            check_variable = {
+                var = white_discontent
+                value = 20
+                compare = equals
+            }
+        }
+
+        localization_key = white_discontent_1
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = white_discontent
+                value = 40
+                compare = equals
+            }
+        }
+
+        localization_key = white_discontent_2
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = white_discontent
+                value = 60
+                compare = equals
+            }
+        }
+
+        localization_key = white_discontent_3
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = white_discontent
+                value = 80
+                compare = equals
+            }
+        }
+
+        localization_key = white_discontent_4
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = white_discontent
+                value = 100
+                compare = equals
+            }
+        }
+
+        localization_key = white_discontent_5
+    }
+
+
+
+}

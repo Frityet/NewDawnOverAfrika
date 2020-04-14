@@ -1,8 +1,14 @@
 ﻿capital = 797
 OOB = "NMB_1936"
+### Native and White discontent ###
+
+native_discontent = yes
+white_discontent = yes
+
+###################################
 set_research_slots = 4
-set_stability = 0.25
-set_war_support = 0.5
+set_stability = 0.25   
+set_war_support = 0.5  
 set_autonomy = {
 		target = TRV
 		autonomy_state = autonomy_personal_union

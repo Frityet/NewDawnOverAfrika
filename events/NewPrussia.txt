@@ -23,7 +23,7 @@ country_event = {
 		name = newprussia.1.b
 		ai_chance = { factor = 1}
 		set_country_flag = newprussia_fascist_flag
-		add_popularity = { ideology = fascist popularity = 0.1 }
+		add_popularity = { ideology = fascism popularity = 0.1 }
 		consumer_goods_factor = -0.10
 
 	}
@@ -31,10 +31,10 @@ country_event = {
 		name = newprussia.1.c
 		ai_chance = { factor = 1}
 		set_country_flag = newprussia_communist_flag
-		add_popularity = { ideology = communist popularity = 0.1 }
+		add_popularity = { ideology = communism popularity = 0.1 }
 		consumer_goods_factor = 0.05
 		add_stability = -0.20
-		
+
 	}
 }
 #Event: The Boer Question

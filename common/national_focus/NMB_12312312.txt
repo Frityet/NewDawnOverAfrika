@@ -228,9 +228,6 @@ modifier = medium_increase
 		mutually_exclusive = { 
 			focus = NMB_concessions_to_the_natives 
 		}
-		mutually_exclusive = { 
-			focus = NMB_ 
-		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -589,6 +586,7 @@ modifier = large_decrease
 	days = 3 
 	id = newprussia.1
 }
+set_country_flag = has_completed_native_question
 		}
 	}
 
