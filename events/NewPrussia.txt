@@ -8,19 +8,19 @@
 #Event: The Native Question
 country_event = {
 	id = newprussia.1
-	title = newprussia.1.title
-	desc = newprussia.1.desc
+	title = newprussia.nativequestion.title
+	desc = newprussia.nativequestion.desc
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = newprussia.1.a
+		name = newprussia.nativequestion.a
 		ai_chance = { factor = 1}
 		set_country_flag = newprussia_democratic_flag
 		add_popularity = { ideology = democratic popularity = 0.1 }
 		consumer_goods_factor = 0.1
 	}
 	option = {
-		name = newprussia.1.b
+		name = newprussia.nativequestion.b
 		ai_chance = { factor = 1}
 		set_country_flag = newprussia_fascist_flag
 		add_popularity = { ideology = fascism popularity = 0.1 }
@@ -28,7 +28,7 @@ country_event = {
 
 	}
 	option = {
-		name = newprussia.1.c
+		name = newprussia.nativequestion.c
 		ai_chance = { factor = 1}
 		set_country_flag = newprussia_communist_flag
 		add_popularity = { ideology = communism popularity = 0.1 }
