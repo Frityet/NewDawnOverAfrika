@@ -81,7 +81,7 @@ ideas = {
 					has_government = communism #remove if the fucking commies killed him
 				}
 				NOT = {
-					has_government = democracy #remove if PM in power
+					has_government = democratic #remove if PM in power
 				}
 			}
 			
