@@ -586,7 +586,7 @@ modifier = large_decrease
 	days = 1
 	id = newprussia.1
 }
-
+set_country_flag = has_completed_native_question
 		}
 	}
 
@@ -636,10 +636,10 @@ modifier = large_decrease
 			factor = 1
 		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = we_love_the_sudwest
-				add_idea = we_love_the_sudwest_democratic
-		   }
+			add_timed_idea= { 
+idea = democratic_influence 
+days = 720
+}
 		}
 	}
 

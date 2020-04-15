@@ -1,33 +1,6 @@
 ideas = {
 	country = {
-		we_love_the_sudwest_democratic = {
-			picture = GFX_idea_wir_lieben_sudwest
-			allowed = {
-				original_tag = "NMB"
-			}
-			available = {
-				NOT = {
-					has_government = communism
-				}
-
-			}
-			allowed_civil_war = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			removal_cost = -1
-			modifier = {
-				consumer_goods_factor = -0.05	
-				stability_weekly = 0.01
-				political_power_gain = 0.1
-				add_popularity = {
-			
-						ideology = democracy
-						popularity = 0.05
-			
-			}
-		}
+		
 		we_love_the_sudwest3 = {
 			picture = GFX_idea_wir_lieben_sudwest
 			allowed = {
@@ -75,7 +48,7 @@ ideas = {
 	}
 		country = {
 			we_love_the_sudwest = {
-				picture = GFX_idea_wir_lieben_sudwest
+				picture = gfx_idea_wir_lieben_sudwest
 				allowed = {
 					original_tag = "NMB"
 				}
@@ -98,7 +71,7 @@ ideas = {
 		}
 		country = {
 		pm_paul_von_lettow_vorbeck = {
-			picture = GFX_idea_wir_lieben_sudwest
+			
 			allowed = {
 				original_tag = "NMB"
 			}
@@ -126,7 +99,7 @@ ideas = {
 		}
 
 		legacy_of_the_herero_genocide = {
-			picture = GFX_idea_wir_lieben_sudwest
+			picture = GFX_idea_legacy_of_the_herero_genocide
 			allowed = {
 				original_tag = "NMB"
 			}

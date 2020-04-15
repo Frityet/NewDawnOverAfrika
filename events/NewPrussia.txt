@@ -17,7 +17,7 @@ country_event = {
 		ai_chance = { factor = 1}
 		set_country_flag = newprussia_democratic_flag
 		add_popularity = { ideology = democratic popularity = 0.1 }
-
+		consumer_goods_factor = 0.1
 	}
 	option = {
 		name = newprussia.nativequestion.b
