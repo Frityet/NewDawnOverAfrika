@@ -14,5 +14,4 @@ white_discontent_3:0 "§YMedium§!"
 white_discontent_4:0 "§OMedium-High§!"
 white_discontent_5:0 "§RHigh§!"
 
-discontent_gui_levels:0 "Native Discontent level [This.NativeDiscontent]  
-White Discontent level [This.WhiteDiscontent]"
+discontent_gui_levels:0 "Native Discontent level [This.NativeDiscontent] White Discontent level [This.WhiteDiscontent]"
