@@ -1,0 +1,13 @@
+scripted_gui = {
+
+	population_discontent_gui = {
+		context_type = player_context
+		window_name = "Discontent"
+		parent_window_token = top_bar
+		effects = {
+			
+		}
+	}
+	
+}
+

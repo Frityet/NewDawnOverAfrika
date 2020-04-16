@@ -1,0 +1,49 @@
+guiTypes = {
+	containerWindowType = {
+		#Discontent GUI
+		name = "Discontent"
+		position = { x = 600 y = 80}	
+		
+		size = { width = 440 height = 250 }
+		
+		moveable = yes
+        
+        
+		background = {
+			name = "Background"		
+			quadTextureSprite = "GFX_tiled_plain_bg"
+		}
+        
+		instantTextBoxType = {
+			name ="discontent_title"
+			position = { x = 120 y = 5 }
+			font = "hoi_36header"
+			text = "Discontent"
+			format = center
+			maxWidth = 200
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="discontent_text"
+			position = { x = 120 y = 50 }
+			font = "hoi_16mbs"
+			text = "discontent_gui_desc"
+			format = center
+			maxWidth = 200
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="discontent_gui_levels_text"
+			position = { x = 120 y = 200 }
+			font = "hoi_16mbs"
+			text = "discontent_gui_levels"
+			format = center
+			maxWidth = 200
+			maxHeight = 50
+		}
+		
+		
+		
+		
+    }
+}

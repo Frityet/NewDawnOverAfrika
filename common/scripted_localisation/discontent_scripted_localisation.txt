@@ -55,7 +55,8 @@ defined_text = {
 
         localization_key = native_discontent_5
     }
-
+}
+defined_text = {
     name = WhiteDiscontent
     text = {
         trigger = {
@@ -112,7 +113,29 @@ defined_text = {
 
         localization_key = white_discontent_5
     }
-
-
-
 }
+defined_text = {
+        name = discontent_gui
+        text = {
+            trigger = {
+                
+            }
+            localization_key = discontent_gui_desc
+        }
+}
+defined_text = {
+        name = discontent_gui_discontent_levels
+        text = {
+            trigger = {
+                
+            }
+
+        localization_key = discontent_gui_levels
+
+
+        }
+}
+
+
+
+
