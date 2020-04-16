@@ -6,7 +6,7 @@ native_discontent_1:0 "§LLow§!"
 native_discontent_2:0 "§GLow-Medium§!"
 native_discontent_3:0 "§YMedium§!"
 native_discontent_4:0 "§OMedium-High§!"
-native_discontent_5:0 "§RHigh§!"
+native_discontent_5:0 "§RHigh§!"`
 
 white_discontent_1:0 "§LLow§!"
 white_discontent_2:0 "§GLow-Medium§!"
@@ -14,4 +14,5 @@ white_discontent_3:0 "§YMedium§!"
 white_discontent_4:0 "§OMedium-High§!"
 white_discontent_5:0 "§RHigh§!"
 
-discontent_gui_levels:0 "Native Discontent level = [This.NativeDiscontent]                                                   White Discontent level = [This.WhiteDiscontent]"
+discontent_gui_levels:0 "Native Discontent level [This.NativeDiscontent]  
+White Discontent level [This.WhiteDiscontent]"
