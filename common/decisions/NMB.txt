@@ -9,7 +9,7 @@ NMB_discontent = {
 		complete_effect = {
 			add_to_variable = {
 				var = native_discontent
-				value = 10
+				value = 20
 			}
 		}
 		cost = 0
@@ -22,9 +22,34 @@ NMB_discontent = {
 		complete_effect = {
 			add_to_variable = {
 				var = white_discontent
-				value = 10
+				value = 20
 			}
 		}
 		cost = 0
+}
+nmb_debug_decrease_native_discontent = {
+	available = {
+		original_tag = NMB
+	}
+	complete_effect = {
+		add_to_variable = {
+			var = native_discontent
+			value = -20
+		}
+	}
+	cost = 0
+
+}
+nmb_debug_decrease_white_discontent = {
+	available = {
+		original_tag = NMB
+	}
+	complete_effect = {
+		add_to_variable = {
+			var = white_discontent
+			value = -20
+		}
+	}
+	cost = 0
 }
 }

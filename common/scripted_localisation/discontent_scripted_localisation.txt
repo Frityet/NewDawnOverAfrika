@@ -1,11 +1,12 @@
 defined_text = {
     name = NativeDiscontent
+
     text = {
         trigger = {
             check_variable = {
                 var = native_discontent
                 value = 20
-                compare = equals
+                compare = less_than_or_equals
             }
         }
 
@@ -16,7 +17,7 @@ defined_text = {
             check_variable = {
                 var = native_discontent
                 value = 40
-                compare = equals
+                compare = less_than_or_equals
             }
         }
 
@@ -27,8 +28,7 @@ defined_text = {
             check_variable = {
                 var = native_discontent
                 value = 60
-                compare = equals
-            }
+                compare = less_than_or_equals
         }
 
         localization_key = native_discontent_3
@@ -38,7 +38,7 @@ defined_text = {
             check_variable = {
                 var = native_discontent
                 value = 80
-                compare = equals
+                compare = less_than_or_equals
             }
         }
 
@@ -49,7 +49,7 @@ defined_text = {
             check_variable = {
                 var = native_discontent
                 value = 100
-                compare = equals
+                compare = less_than_or_equals
             }
         }
 
@@ -63,7 +63,7 @@ defined_text = {
             check_variable = {
                 var = white_discontent
                 value = 20
-                compare = equals
+                compare = less_than_or_equals
             }
         }
 
@@ -74,7 +74,7 @@ defined_text = {
             check_variable = {
                 var = white_discontent
                 value = 40
-                compare = equals
+                compare = less_than_or_equals
             }
         }
 
@@ -85,8 +85,7 @@ defined_text = {
             check_variable = {
                 var = white_discontent
                 value = 60
-                compare = equals
-            }
+                compare = less_than_or_equals
         }
 
         localization_key = white_discontent_3
@@ -96,7 +95,7 @@ defined_text = {
             check_variable = {
                 var = white_discontent
                 value = 80
-                compare = equals
+                compare = less_than_or_equals
             }
         }
 
@@ -107,7 +106,7 @@ defined_text = {
             check_variable = {
                 var = white_discontent
                 value = 100
-                compare = equals
+                compare = less_than_or_equals
             }
         }
 
