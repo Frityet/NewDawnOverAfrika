@@ -58,6 +58,7 @@ defined_text = {
 }
 defined_text = {
     name = WhiteDiscontent
+
     text = {
         trigger = {
             check_variable = {
