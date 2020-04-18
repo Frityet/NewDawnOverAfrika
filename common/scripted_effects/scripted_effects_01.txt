@@ -1,5 +1,5 @@
 effect = {
-    NMB = {
+        nmb = {
         set_variable = {
             var = native_discontent
             value = 10
@@ -8,7 +8,7 @@ effect = {
             var = white_discontent
             value = 10
         }
-
     }
+    
 
 }
