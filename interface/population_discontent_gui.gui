@@ -13,7 +13,13 @@ guiTypes = {
 			name = "Background"		
 			quadTextureSprite = "GFX_tiled_plain_bg"
 		}
-        
+        iconType = {
+			name = "discontent_loading_bar_EMPTY"
+			position = {x = 50 y = 50}
+			quadTextureSprite = "GFX_discontent_loading_bar_EMPTY"
+			alwaystransparent = yes
+
+		}
 		instantTextBoxType = {
 			name ="discontent_title"
 			position = { x = 150 y = 5 }
