@@ -24,13 +24,13 @@ set_popularities = {
 
 set_convoys = 10
 
-#create_country_leader = {
-#	name = "Idk who is leader"
-#	desc = "POLITICS_KING_ZOG_DESC"
-#	picture = "idkwhoisleader.dds"
-#	expire = "1965.1.1"
-#	ideology = despotism
-#	traits = {
-#		
-#	}
-#}
+create_country_leader = {
+	name = "Albert Hahl"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "GEP_albert_hahl.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
