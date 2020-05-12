@@ -525,6 +525,33 @@ modifier = large_decrease
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		if = {
+			limit = {
+			check_variable = {
+		var = white_discontent
+		value = 0
+		compare = greater_than_or_equals
+		AND = {
+		var = native_discontent
+		value = 0
+		compare = greater_than_or_equals
+		}
+		} 
+		}
+			add_to_variable = {
+				var = white_discontent
+				value = 10
+			}
+			add_to_variable = {
+				var = native_discontent
+				value = -10
+			}
+
+		}
+		
+
+		
 	}
 
 	#Focus for Lower Native Unemployment
@@ -538,6 +565,24 @@ modifier = large_decrease
 		prerequisite = { focus = NMB_implement_land_reform_laws }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+
+			swap_ideas = {
+				remove_idea = we_love_the_sudwest_landreform
+				add_idea = we_love_the_sudwest3
+			}
+
+			add_to_variable = {
+				var = native_discontent
+				value = -10
+			}
+
+			add_to_variable = {
+				var = white_discontent
+				value = 10
+			}
+
 		}
 	}
 
@@ -566,6 +611,13 @@ modifier = large_decrease
 		prerequisite = { focus = NMB_concessions_to_the_natives }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = we_love_the_sudwest
+			add_idea = we_love_the_sudwest_landreform
+			}
+
 		}
 	}
 
@@ -673,6 +725,8 @@ days = 720
 		ai_will_do = {
 			factor = 1
 		}
+
+
 	}
 
 	#Focus for Voting Rights for All!

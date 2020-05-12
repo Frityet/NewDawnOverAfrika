@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		
 		we_love_the_sudwest3 = {
-			picture = GFX_idea_wir_lieben_sudwest
+
 			allowed = {
 				original_tag = "NMB"
 			}
@@ -48,7 +48,7 @@ ideas = {
 	}
 		country = {
 			we_love_the_sudwest = {
-				picture = gfx_idea_wir_lieben_sudwest
+				picture = generic_spy_intel
 				allowed = {
 					original_tag = "NMB"
 				}
@@ -70,8 +70,32 @@ ideas = {
 			}
 		}
 		country = {
+			we_love_the_sudwest_landreform = {
+				picture = generic_spy_intel
+				allowed = {
+					original_tag = "NMB"
+				}
+				available = {
+					NOT = {
+						has_government = communism
+					}
+
+				}
+				allowed_civil_war = {
+					NOT = {
+						has_government = communism
+					}
+				}
+				removal_cost = -1
+				modifier = {
+					consumer_goods_factor = -0.05
+					stability_factor = -0.05
+				}
+			}
+		}
+		country = {
 		pm_paul_von_lettow_vorbeck = {
-			
+			picture = generic_spy_intel
 			allowed = {
 				original_tag = "NMB"
 			}
@@ -90,7 +114,7 @@ ideas = {
 					has_government = communism
 				}
 			}
-			picture = GFX_idea_pm_paul_von_lettow_vorbeck
+
 			removal_cost = -1
 			
 			modifier = {
@@ -99,7 +123,7 @@ ideas = {
 		}
 
 		legacy_of_the_herero_genocide = {
-			picture = GFX_idea_legacy_of_the_herero_genocide
+			picture = generic_spy_intel
 			allowed = {
 				original_tag = "NMB"
 			}
