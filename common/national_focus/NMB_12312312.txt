@@ -598,6 +598,34 @@ modifier = large_decrease
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			if = {
+				limit = {
+				check_variable = {
+			var = white_discontent
+			value = 0
+			compare = greater_than_or_equals
+			AND = {
+			var = native_discontent
+			value = 0
+			compare = greater_than_or_equals
+			}
+			} 
+			}
+				add_to_variable = {
+					var = white_discontent
+					value = 10
+				}
+				add_to_variable = {
+					var = native_discontent
+					value = -10
+				}
+	
+			}
+			
+	
+			
+		
 	}
 
 	#Focus for Implement Land Reform Laws
@@ -745,6 +773,30 @@ days = 720
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			if = {
+					limit = {
+						check_variable = {
+							var = white_discontent
+							value = 75
+							compare = greater_than_or_equals
+						}
+					}
+					start_civil_war = {
+						ideology = fascism
+						size = 0.5
+
+					}
+					else = {
+						add_stability = 0.15
+
+					}
+				
+
+			}
+
+
 		}
 	}
 
