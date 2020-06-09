@@ -19,5 +19,8 @@ spriteTypes = {
 		name = "GFX_idea_astronom"
 		texturefile = "gfx/interface/ideas/gfx_astronom_icon.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_crippled_economy"
+		texturefile = "gfx/interface/ideas/great_depression.dds"
+	}
 }

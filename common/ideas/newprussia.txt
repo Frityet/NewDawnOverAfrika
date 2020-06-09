@@ -1,5 +1,29 @@
 ideas = {
 	country = {
+		crippled_economy = {
+			
+			allowed = {
+				original_tag = "NMB"
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1
+				consumer_goods_factor = 0.4
+				conscription_factor = -0.2
+				local_resources_factor = -0.1
+				production_speed_buidlings_factor = -0.1
+				industrial_capacity_factory = -0.15
+			}
+			
+		}
+	}
+	country = {
 		
 		we_love_the_sudwest3 = {
 

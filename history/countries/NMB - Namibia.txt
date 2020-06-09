@@ -25,6 +25,7 @@ add_ideas = {
 	pm_paul_von_lettow_vorbeck
 	legacy_of_the_herero_genocide
 	we_love_the_sudwest
+	crippled_economy
 }
 
 # Starting tech
