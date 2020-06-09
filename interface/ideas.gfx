@@ -23,4 +23,12 @@ spriteTypes = {
 		name = "GFX_idea_crippled_economy"
 		texturefile = "gfx/interface/ideas/great_depression.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_crippled_economy_2"
+		texturefile = "gfx/interface/ideas/great_depression.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_crippled_economy_3"
+		texturefile = "gfx/interface/ideas/great_depression.dds"
+	}
 }

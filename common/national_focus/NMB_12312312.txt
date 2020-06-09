@@ -1086,7 +1086,8 @@ category = industry
 			factor = 1
 		}
 		completion_reward = {
-			add_stability= 0.05
+			remove_ideas = crippled_economy
+			add_ideas = crippled_economy_2
 		}
 	}
 
@@ -1494,7 +1495,7 @@ state = 797
 			factor = 1
 		}
 		completion_reward = {
-			add_stability= 0.10
+			remove_ideas = crippled_economy_3
 		}
 	}
 
@@ -1721,6 +1722,10 @@ instant_build = yes}
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			remove_ideas = crippled_economy_2
+			add_ideas = crippled_economy_3
 		}
 	}
 
