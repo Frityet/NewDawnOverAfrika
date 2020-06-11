@@ -41,6 +41,10 @@ modifier = medium_increase
 		ai_will_do = {
 			factor = 1
 		}
+		add_timed_idea = {
+			idea = light_investment_TRV
+			days = 365
+		}
 	}
 
 	#Focus for Aid Transvaal
@@ -273,10 +277,16 @@ modifier = medium_increase
 		prerequisite = { 
 			focus = NMB_war_propaganda 
 			focus = NMB_conscription_efforts 
-		}
+		}`
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_timed_idea = {
+			idea = fortification_project
+			days = 120
+		}
+	}
 	}
 
 	#Focus for Nationalize German Companies
@@ -1285,6 +1295,9 @@ modifier = medium_increase
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_ideas = solved_sharecropping
+		}
 	}
 
 	#Focus for Gem Exports
@@ -1432,7 +1445,7 @@ state = 803
 			factor = 1
 		}
 		completion_reward = {
-			add_war_support= 10
+			add_war_support= 0.1
 		}
 	}
 
@@ -1470,6 +1483,9 @@ state = 797
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas = bank_investments
 		}
 	}
 
@@ -1697,10 +1713,15 @@ random_owned_controlled_state={
 			factor = 1
 		}
 		completion_reward = {
-			random_owned_controlled_state= {
-add_building_construction = {type = infrastructurelevel = 5
-instant_build = yes}
-
+		541 = {
+		if = {
+        limit = { is_controlled_by = ROOT }
+        add_building_construction = {
+            type = infrastructure
+            level = 4
+            instant_build = yes
+        }
+    }
 }
 		}
 	}

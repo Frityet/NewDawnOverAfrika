@@ -31,4 +31,20 @@ spriteTypes = {
 		name = "GFX_idea_crippled_economy_3"
 		texturefile = "gfx/interface/ideas/great_depression.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_bank_investments"
+		texturefile = "gfx/interface/ideas/idea_generic_political_support.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_solved_sharecropping"
+		texturefile = "gfx/interface/ideas/idea_hun_treaty_of_trianon.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_fortification_project"
+		texturefile = "gfx/interface/ideas/generic_wall_line.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_light_investment_TRV"
+		texturefile = "gfx/interface/ideas/idea_generic_exploit_mines.dds"
+	}	
 }

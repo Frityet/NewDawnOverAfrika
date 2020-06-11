@@ -1,5 +1,86 @@
 ideas = {
 	country = {
+		light_investment_TRV = {
+			
+			allowed = {
+				original_tag = "NMB"
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.3
+			}
+			
+		}
+	}
+
+	country = {
+		fortification_project = {
+			
+			allowed = {
+				original_tag = "NMB"
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_bunker_factor = 0.5
+				political_power_cost = 0.2
+			}
+			
+		}
+	}
+
+	country = {
+		bank_investments = {
+			
+			allowed = {
+				original_tag = "NMB"
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = -0.1
+			}
+			
+		}
+	}
+
+	country = {
+		solved_sharecropping = {
+			
+			allowed = {
+				original_tag = "NMB"
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+			
+		}
+	}
+	
+	country = {
 		crippled_economy = {
 			
 			allowed = {
