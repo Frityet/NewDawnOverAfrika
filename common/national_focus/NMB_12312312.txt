@@ -41,10 +41,12 @@ modifier = medium_increase
 		ai_will_do = {
 			factor = 1
 		}
-		add_timed_idea = {
-			idea = light_investment_TRV
+		completion_reward = {
+			add_timed_idea = {
+			idea = light_investment
 			days = 365
 		}
+	}
 	}
 
 	#Focus for Aid Transvaal
@@ -277,7 +279,7 @@ modifier = medium_increase
 		prerequisite = { 
 			focus = NMB_war_propaganda 
 			focus = NMB_conscription_efforts 
-		}`
+		}
 		ai_will_do = {
 			factor = 1
 		}

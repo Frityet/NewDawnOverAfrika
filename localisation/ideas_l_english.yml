@@ -25,5 +25,5 @@
  solved_sharecropping_desc:0 "The government has fixed sharecropping and the working class is free from the debt hole."
  fortification_project:0 "Project Fortification"
  fortification_project_desc:0 "In case of a country invading us, we must allocate funds to contructing forts."
- light_investment_TRV:0 "Mutual Investment Act"
- light_investment_TRV_desc:0 "Our diplomats have come to an agreement with the government of Transvaal to come to aid of each other. For now, we are working together with industry."
+ light_investment:0 "Mutual Investment Act"
+ light_investment_desc:0 "Our diplomats have come to an agreement with the government of Transvaal to come to aid of each other. For now, we are working together with industry."

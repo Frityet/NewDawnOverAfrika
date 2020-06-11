@@ -44,7 +44,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/generic_wall_line.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_light_investment_TRV"
+		name = "GFX_idea_light_investment"
 		texturefile = "gfx/interface/ideas/idea_generic_exploit_mines.dds"
 	}	
 }

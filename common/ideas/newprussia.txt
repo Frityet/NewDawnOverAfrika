@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		light_investment_TRV = {
+		light_investment = {
 			
 			allowed = {
 				original_tag = "NMB"
