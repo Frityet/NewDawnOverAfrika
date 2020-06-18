@@ -1,5 +1,26 @@
 ideas = {
 	country = {
+		segregation = {
+			
+			allowed = {
+				original_tag = "NMB"
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				army_morale_factor = 0.05
+				
+			}
+			
+		}
+	}
+	country = {
 		light_investment = {
 			
 			allowed = {

@@ -2,6 +2,10 @@ spriteTypes = {
 
 	#New Prussia Ideas
 	spriteType = {
+		name = "GFX_idea_segregation"
+		texturefile = "gfx/interface/ideas/idea_generic_deal_with_the_devil.dds"
+	}	
+	spriteType = {
 		name = "GFX_idea_wir_lieben_sudwest"
 		texturefile = "gfx/interface/ideas/wir_lieben_sudwest.dds"
 	}

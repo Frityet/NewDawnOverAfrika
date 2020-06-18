@@ -467,6 +467,9 @@ modifier = large_decrease
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_ideas = segregation
+		}
 	}
 
 	#Focus for No Blacks for White Jobs!
@@ -509,6 +512,10 @@ modifier = large_decrease
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = { 
+			add_stability = -0.1
+			add_political_power = 150
+		}	
 	}
 
 	#Focus for The Model Africa Colony
@@ -700,6 +707,12 @@ modifier = large_decrease
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = fascist_influence
+				days = 100
+			}
+		}	
 	}
 
 	#Focus for Concessions to the Natives
