@@ -24,15 +24,13 @@ guiTypes = {
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
 		position = { x=0 y =-200 }
-		show_position = { x=0 y =-1 }
+		show_position = { x=0 y = 0 }
 		animation_type = decelerated
 		animation_time = 1000
 		size = { width = 256 height = 768}
-		
+
 		
 	}
-
-
 
 	
 	### MAIN MENU PANEL (upperright)
@@ -41,9 +39,9 @@ guiTypes = {
 		position = { x=0 y =0 }
 		show_position = { x=-256 y =0 }
 		animation_type = decelerated
-		animation_time = 1000					
-		size = { width = 256 height = 768}
-		Orientation = upper_right
+		animation_time = 0					
+		size = { width = 1920 height = 1080}
+		Orientation = center
 
 		ButtonType = {
 			name = "achievements_button"
@@ -64,7 +62,16 @@ guiTypes = {
 			name ="pdx_int_logo"
 			spriteType = "GFX_pdx_int_logo"
 			position = { x= 135 y = 1425 }
-		}		
+		}
+		iconType =
+		{
+			name ="frontend_game_logo"
+			spriteType = "GFX_frontend_game_logo"
+			position = { x= 0 y = -500 }
+		}
+
+
+				
 		
 	}		
 
@@ -241,26 +248,30 @@ guiTypes = {
 
 		}
 		ButtonType = {
-			name = "subreddit_button"
-			position = { x = 16 y = 218 }
-			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "Subreddit"
-			buttonFont = "hoi_24header"
-			web_link = "https://www.reddit.com/r/NDoAmod"
-		}
-		ButtonType = {
 			name = "nudge_button"
 			position = { x = 16 y = 300}
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
 		}
+		instantTextBoxType = {
+
+			name ="mod_version_label"
+			position = { x = 10 y = 375 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "MOD VERSION: 1.0"	
+			format = centre
+			maxWidth = 300
+			maxHeight = 50	
+		}
 		
 		
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 260 }
+			position = { x = 16 y = 218 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_EXIT"			

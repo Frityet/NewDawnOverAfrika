@@ -126,6 +126,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = TRV_national_democratic_revolution
+			focus = TRV_TRV_return_of_the_bond
 		}
 		x = 4
 		y = 1
@@ -302,7 +303,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
 		cost = 10.00
 		prerequisite = {
-			focus = trav_griqualand_infrastructure
+			focus = TRV_griqualand_infrastructure
 		}
 		x = 13
 		y = 2
