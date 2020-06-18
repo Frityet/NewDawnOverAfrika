@@ -3,40 +3,55 @@
 ####################
 
 
- add_namespace = newprussia
+add_namespace = nmb
 
 #Event: The Native Question
 country_event = {
-	id = newprussia.1
-	title = newprussia.nativequestion.title
-	desc = newprussia.nativequestion.desc
+	id = nmb.1
+	title = "The Native Question"
+	desc = "The Natives in Transvaal are becoming more discontented with the government with each passing day due to us not adressing their situation. We need to act fast or our land could fall into civil war."
+	picture = GFX_report_event_japanese_transport_soldiers
+	
 	is_triggered_only = yes
-	fire_only_once = yes
+	
+	mean_time_to_happen = {days = 1}
+	
 	option = {
-		name = newprussia.nativequestion.a
-		ai_chance = { factor = 1}
+		name = "We need to give consessions to the natives, as they are our people aswell."
+		ai_chance = { factor = 1 }
 		set_country_flag = newprussia_democratic_flag
-		add_popularity = { ideology = democratic popularity = 0.1 }
-		consumer_goods_factor = 0.1
+		add_popularity = { 
+			ideology = democratic 
+			popularity = 0.1 
+		}
 	}
 	option = {
-		name = newprussia.nativequestion.b
+		name = "The Blacks are meant for one thing only, to serve their White overlords!"
 		ai_chance = { factor = 1}
 		set_country_flag = newprussia_fascist_flag
-		add_popularity = { ideology = fascism popularity = 0.1 }
-		consumer_goods_factor = -0.10
+		add_popularity = { 
+			ideology = fascism 
+			popularity = 0.1 
+		}
+		add_stability = 0.05
 
 	}
 	option = {
-		name = newprussia.nativequestion.c
+		name = "The natives have been opressed by the imperialists and capitalists for too long!"
 		ai_chance = { factor = 1}
 		set_country_flag = newprussia_communist_flag
-		add_popularity = { ideology = communism popularity = 0.1 }
-		consumer_goods_factor = 0.05
+		add_popularity = { 
+			ideology = communism 
+			popularity = 0.1 
+		}
 		add_stability = -0.20
 
-	}
+	}	
 }
+
+
+
+
 #Event: The Boer Question
 country_event = {
 	id = newprussia.2

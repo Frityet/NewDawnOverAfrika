@@ -674,11 +674,8 @@ modifier = large_decrease
 			factor = 1
 		}
 		completion_reward = {
-			country_event= {
-	days = 1
-	id = newprussia.1
-}
-set_country_flag = has_completed_native_question
+			country_event= { id = nmb.1 }
+		set_country_flag = has_completed_native_question
 		}
 	}
 
