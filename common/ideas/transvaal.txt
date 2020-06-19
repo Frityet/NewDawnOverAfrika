@@ -27,9 +27,391 @@ ideas = {
 
 
 
+################################# NATIONAL FOCUSES
+
+trv_baaskap {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		consumer_goods_factor = -0.2
+		production_speed_buildings_factor = 0.1  
+	}
+}
 
 
+trv_flexible_economy {
+	
+	allowed = {
+	always = no
+	}
 
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		production_speed_industrial_complex_factor = 0.2
+		production_speed_arms_factory_factor = 0.1 
+	}
+}
+
+
+trv_farming_subsidies {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		production_speed_industrial_complex_factor = 0.1 
+		production_speed_infrastructure_factor = 0.2
+	}
+}
+
+trv_luederitzpendler {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		conscription = -0.01 
+		trade_cost_for_target_factor = 0.8
+		autonomy_gain = -1
+		consumer_goods_factor = -0.10 
+	}
+}
+
+trv_independent_bank {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		autonomy_gain = 1
+		production_speed_industrial_complex_factor = 0.3
+		consumer_goods_factor = 0.10 
+	}
+}
+
+trv_reichsbank {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		autonomy_gain = -1
+		production_speed_industrial_complex_factor = 0.05
+		local_building_slots_factor = 1 
+	}
+}
+
+trv_oppenheimer_diamanten {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		trade_opinion_factor = 0.75
+		production_speed_industrial_complex_factor = 0.1
+	}
+}
+
+trv_revolutionary_course {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = 0.02
+	}
+}
+
+trv_afrikaner_nationalism {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = 0.02
+	}
+}
+
+trv_nation_building {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = 0.02
+	}
+}
+
+trv_volksstaat {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = 0.01
+	}
+}
+
+trv_independence {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = 0.01
+	}
+}
+
+trv_russian_support {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+	}
+}
+
+trv_dark_unions {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = -0.01
+	}
+}
+
+trv_qualified_franchise {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = 0.02
+	}
+}
+
+trv_afrikander_bond_returns {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = -0.01
+	}
+}
+
+trv_universal_suffrage {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = 0.01
+	}
+}
+
+trv_volkskapitalisme {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = 0.01
+	}
+}
+
+trv_enforced_bilingualism {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+	}
+}
+
+trv_anti_german_sentiment {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+	}
+}
+
+trv_racial_democracy {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+		stability_weekly = 0.01
+	}
+}
+
+trv_apartheid_hardened {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+	}
+}
+
+trv_prussian_ideals {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+	}
+}
+
+trv_brothers_in_arms {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+	}
+}
+
+trv_gold_production #GFX_goal_generic_consumer_goods {
+	
+	allowed = {
+	always = no
+	}
+
+	allowed_civil_war = {
+	has_government = 
+	}
+
+	modifier = {
+	}
+}
+
+
+################################# NATIONAL FOCUSES
 
 
 
