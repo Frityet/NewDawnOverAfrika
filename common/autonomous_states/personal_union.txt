@@ -11,7 +11,9 @@ autonomy_state = {
 		if = {
 			limit = { has_dlc = "Death or Dishonor" }
 			NOT = { has_government = fascism }
+			NOT = { has_government = communism }
 	}
+}
 	id = autonomy_personal_union
 	
 	min_freedom_level = 0.9
@@ -45,4 +47,5 @@ autonomy_state = {
 	}
 
 	
+}
 }

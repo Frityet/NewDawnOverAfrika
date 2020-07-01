@@ -4,11 +4,20 @@ guiTypes = {
 		name = "Discontent"
 		position = { x = 600 y = 80}	
 		
-		size = { width = 500 height = 250 }
+		size = { width = 300 height = 500 }
 		
 		moveable = yes
         
-        
+		buttonType  = {
+			name ="discontent_close"
+			position = { x = 5 y = 5 }
+			spriteType = "GFX_NV_btn_close"
+			clicksound = click_close
+			oversound = ui_menu_over
+			format = center
+			maxWidth = 250
+			maxHeight = 50
+		}
 		background = {
 			name = "Background"		
 			quadTextureSprite = "GFX_tiled_plain_bg"
@@ -22,8 +31,8 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="discontent_title"
-			position = { x = 150 y = 5 }
-			font = "hoi_36header"
+			position = { x = 50 y = 5 }
+			font = "vic_36"
 			text = "Discontent"
 			format = center
 			maxWidth = 200
@@ -31,7 +40,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="discontent_text"
-			position = { x = 150 y = 50 }
+			position = { x = 50 y = 50 }
 			font = "hoi_16mbs"
 			text = "discontent_gui_desc"
 			format = center
@@ -40,14 +49,72 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="discontent_gui_native_levels_text"
-			position = { x = 130 y = 200 }
-			font = "hoi_16mbs"
+			position = { x = 0 y = 150 }
+			font = "hoi_20b"
 			text = "discontent_gui_native_level"
+			format = center
+			maxWidth = 300
+			maxHeight = 50
+		}
+		instantTextBoxType = {
+			name ="decisions_title"
+			position = { x = 25 y = 200 }
+			font = "hoi_36header"
+			text = "Decisions"
 			format = center
 			maxWidth = 250
 			maxHeight = 50
 		}
-		
+		buttonType  = {
+			name ="discontent_decision_1"
+			position = { x = 7 y = 250 }
+			buttonFont = "hoi_arrow_font"
+			buttonText  = "button_1_desc"
+			quadTextureSprite ="GFX_main_lobby_button"
+			format = center
+			maxWidth = 250
+			maxHeight = 50
+		}
+		buttonType  = {
+			name ="discontent_decision_2"
+			position = { x = 7 y = 300 }
+			buttonFont = "hoi_arrow_font"
+			buttonText  = "button_2_desc"
+			quadTextureSprite ="GFX_main_lobby_button"
+			format = center
+			maxWidth = 250
+			maxHeight = 50
+		}
+		buttonType  = {
+			name ="discontent_decision_3"
+			position = { x = 7 y = 350 }
+			buttonFont = "hoi_arrow_font"
+			buttonText  = "button_3_desc"
+			quadTextureSprite ="GFX_main_lobby_button"
+			format = center
+			maxWidth = 250
+			maxHeight = 50
+		}
+		buttonType  = {
+			name ="discontent_decision_4"
+			position = { x = 7 y = 400 }
+			buttonFont = "hoi_arrow_font"
+			buttonText  = "button_4_desc"
+			quadTextureSprite ="GFX_main_lobby_button"
+			format = center
+			maxWidth = 250
+			maxHeight = 50
+		}
+		buttonType  = {
+			name ="discontent_decision_5"
+			position = { x = 7 y = 450 }
+			buttonFont = "hoi_arrow_font"
+			buttonText  = "button_5_desc"
+			quadTextureSprite ="GFX_main_lobby_button"
+			format = center
+			maxWidth = 250
+			maxHeight = 50
+		}
 		
 		
 		
