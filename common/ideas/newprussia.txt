@@ -196,7 +196,7 @@ ideas = {
 			}
 		}
 		we_love_the_sudwest2 = {
-			picture =  GFX_idea_wir_lieben_sudwest
+			#picture =  GFX_idea_wir_lieben_sudwest
 			allowed = {
 				original_tag = "NMB"
 			}
@@ -219,7 +219,7 @@ ideas = {
 	}
 		country = {
 			we_love_the_sudwest = {
-				picture = generic_spy_intel
+				#picture = generic_spy_intel
 				allowed = {
 					original_tag = "NMB"
 				}
@@ -242,7 +242,7 @@ ideas = {
 		}
 		country = {
 			we_love_the_sudwest_landreform = {
-				picture = generic_spy_intel
+				#picture = generic_spy_intel
 				allowed = {
 					original_tag = "NMB"
 				}
@@ -266,7 +266,7 @@ ideas = {
 		}
 		country = {
 		pm_paul_von_lettow_vorbeck = {
-			picture = generic_spy_intel
+			#picture = generic_spy_intel
 			allowed = {
 				original_tag = "NMB"
 			}
@@ -294,7 +294,7 @@ ideas = {
 		}
 
 		legacy_of_the_herero_genocide = {
-			picture = generic_spy_intel
+			#picture = generic_spy_intel
 			allowed = {
 				original_tag = "NMB"
 			}
