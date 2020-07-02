@@ -3,7 +3,7 @@
 ####################
 
 
-add_namespace = nmb
+add_namespace = prs
 
 #Event: The Native Question
 country_event = {
