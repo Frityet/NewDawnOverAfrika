@@ -22,7 +22,7 @@ country_event = {
 		set_country_flag = newprussia_democratic_flag
 		add_popularity = { 
 			ideology = democratic 
-			popularity = 0.1 
+			popularity = 0.5 
 		}
 	}
 	option = {
@@ -33,7 +33,7 @@ country_event = {
 			ideology = fascism 
 			popularity = 0.1 
 		}
-		add_stability = 0.05
+		add_stability = -0.05
 
 	}
 	option = {
@@ -97,6 +97,41 @@ country_event = {
 	}
 }
 
+#Event: Operation Berlinkrieg
+country_event = {
+	id = asdfdsa.4
+	title = asdfdsa.2.title
+	desc = asdfdsa.2.desc
+	picture = GFX_news_event_german_reichstag_ruins
+	is_triggered_only = yes
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 69
+	}
+	option = {
+		name = asdfdsa.2.a
+		ai_chance = { factor = 50}
+	}
+	option = {
+		name = asdfdsa.2.b
+		ai_chance = { factor = 50}
+	}
+}
 
-
+##Event: Prussia shall rise again!
+country_event = {
+	id = asdfdsa.3
+	title = asdfdsa.3.title
+	desc = asdfdsa.3.desc
+	picture = GFX_event_test
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 10
+	}
+	option = {
+		name = asdfdsa.3.a
+		ai_chance = { factor = 100}
+		add_political_power= 50add_manpower= 8000add_national_unity= 0.02navy_experience= 10army_experience= 10
+	}
+}
 
