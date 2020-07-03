@@ -3,7 +3,7 @@
 ####################
 
 
-add_namespace = prs
+add_namespace = newprussia
 
 #Event: The Native Question
 country_event = {
