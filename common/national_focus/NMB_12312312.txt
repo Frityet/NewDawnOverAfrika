@@ -4,40 +4,40 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = NMB
+			tag = prs
 		}
 	}
 	#Focus for Open Trade with Transvaal
 	focus = {
-		id = NMB_open_trade_with_transvaal
+		id = PRS_open_trade_with_transvaal
 		icon = GFX_goal_generic_trade
 		x = 37
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_light_investment }
-		search_filters = { FOCUS_FILTER_POLITICAL } 
+		prerequisite = { focus = prs_light_investment }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
 			add_opinion_modifier= { 
-target = TRV 
-modifier = medium_increase 
+target = TRV
+modifier = medium_increase
 }
 		}
 	}
 
 	#Focus for Light Investment
 	focus = {
-		id = NMB_light_investment
+		id = prs_light_investment
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 37
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_aid_transvaal }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = prs_aid_transvaal }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -51,14 +51,14 @@ modifier = medium_increase
 
 	#Focus for Aid Transvaal
 	focus = {
-		id = NMB_aid_transvaal
+		id = prs_aid_transvaal
 		icon = GFX_goal_generic_improve_relations
 		x = 37
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_encourage_foreign_investment }
-		search_filters = { FOCUS_FILTER_STABILITY } 
+		prerequisite = { focus = prs_encourage_foreign_investment }
+		search_filters = { FOCUS_FILTER_STABILITY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -72,13 +72,13 @@ modifier = medium_increase
 
 	#Focus for The Boers
 	focus = {
-		id = NMB_the_boers
+		id = prs_the_boers
 		icon = GFX_focus_por_luso_tropicalism
 		x = 16
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_white_question }
+		prerequisite = { focus = prs_the_white_question }
 		ai_will_do = {
 			factor = 1
 		}
@@ -86,13 +86,13 @@ modifier = medium_increase
 
 	#Focus for The Germans
 	focus = {
-		id = NMB_the_germans
+		id = prs_the_germans
 		icon = GFX_focus_ger_revive_kaiserreich
 		x = 20
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_white_question }
+		prerequisite = { focus = prs_the_white_question }
 		ai_will_do = {
 			factor = 1
 		}
@@ -100,14 +100,14 @@ modifier = medium_increase
 
 	#Focus for Integrate the Germans
 	focus = {
-		id = NMB_integrate_the_germans
+		id = prs_integrate_the_germans
 		icon = GFX_goal_tripartite_pact
 		x = 19
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_germans }
-		mutually_exclusive = { focus = NMB_revenge_for_the_herero_genocide }
+		prerequisite = { focus = prs_the_germans }
+		mutually_exclusive = { focus = prs_revenge_for_the_herero_genocide }
 		ai_will_do = {
 			factor = 1
 		}
@@ -115,13 +115,13 @@ modifier = medium_increase
 
 	#Focus for Revolutionize the Workers
 	focus = {
-		id = NMB_revolutionize_the_workers
+		id = prs_revolutionize_the_workers
 		icon = GFX_goal_generic_war_with_comintern
 		x = 17
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_reach_out_to_the_soviet_union }
+		prerequisite = { focus = prs_reach_out_to_the_soviet_union }
 		ai_will_do = {
 			factor = 1
 		}
@@ -129,13 +129,13 @@ modifier = medium_increase
 
 	#Focus for Arm Ourselves
 	focus = {
-		id = NMB_arm_ourselves
+		id = prs_arm_ourselves
 		icon = GFX_focus_YUG_pan_slavic_congress
 		x = 19
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_reach_out_to_the_soviet_union }
+		prerequisite = { focus = prs_reach_out_to_the_soviet_union }
 		ai_will_do = {
 			factor = 1
 		}
@@ -143,15 +143,15 @@ modifier = medium_increase
 
 	#Focus for The South African Question
 	focus = {
-		id = NMB_the_south_african_question
+		id = prs_the_south_african_question
 		icon = GFX_goal_unknown
 		x = 6
 		y = 12
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_rights_for_the_natives_in_transvaal 
-			focus = NMB_push_for_policy_change 
+		prerequisite = {
+			focus = prs_rights_for_the_natives_in_transvaal
+			focus = prs_push_for_policy_change
 		}
 		ai_will_do = {
 			factor = 1
@@ -160,14 +160,14 @@ modifier = medium_increase
 
 	#Focus for Propaganda in South Africa
 	focus = {
-		id = NMB_propaganda_in_south_africa
+		id = prs_propaganda_in_south_africa
 		icon = GFX_focus_generic_treaty
 		x = 4
 		y = 13
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_south_african_question }
-		mutually_exclusive = { focus = NMB_let_them_be }
+		prerequisite = { focus = prs_the_south_african_question }
+		mutually_exclusive = { focus = prs_let_them_be }
 		ai_will_do = {
 			factor = 1
 		}
@@ -175,14 +175,14 @@ modifier = medium_increase
 
 	#Focus for Let Them Be
 	focus = {
-		id = NMB_let_them_be
+		id = prs_let_them_be
 		icon = GFX_focus_generic_diplomatic_treaty
 		x = 8
 		y = 13
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_south_african_question }
-		mutually_exclusive = { focus = NMB_propaganda_in_south_africa }
+		prerequisite = { focus = prs_the_south_african_question }
+		mutually_exclusive = { focus = prs_propaganda_in_south_africa }
 		ai_will_do = {
 			factor = 1
 		}
@@ -190,13 +190,13 @@ modifier = medium_increase
 
 	#Focus for Negotiate with the British
 	focus = {
-		id = NMB_negotiate_with_the_british
+		id = prs_negotiate_with_the_british
 		icon = GFX_focus_eng_the_sun_never_sets
 		x = 4
 		y = 14
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_propaganda_in_south_africa }
+		prerequisite = { focus = prs_propaganda_in_south_africa }
 		ai_will_do = {
 			factor = 1
 		}
@@ -204,13 +204,13 @@ modifier = medium_increase
 
 	#Focus for Push for Policy Change
 	focus = {
-		id = NMB_push_for_policy_change
+		id = prs_push_for_policy_change
 		icon = GFX_goal_generic_intelligence_exchange
 		x = 8
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_keep_transvaal_autonomous }
+		prerequisite = { focus = prs_keep_transvaal_autonomous }
 		ai_will_do = {
 			factor = 1
 		}
@@ -218,7 +218,7 @@ modifier = medium_increase
 
 	#Focus for Fight the Oppressors
 	focus = {
-		id = NMB_fight_the_oppressors
+		id = prs_fight_the_oppressors
 		icon = GFX_goal_support_communism
 		x = 18
 		y = 3
@@ -227,12 +227,12 @@ modifier = medium_increase
 		available = {
 			has_country_flag = newprussia_communist_flag
 		}
-		prerequisite = { focus = NMB_the_native_question }
-		mutually_exclusive = { 
-			focus = NMB_oppress_the_natives 
+		prerequisite = { focus = prs_the_native_question }
+		mutually_exclusive = {
+			focus = prs_oppress_the_natives
 		}
-		mutually_exclusive = { 
-			focus = NMB_concessions_to_the_natives 
+		mutually_exclusive = {
+			focus = prs_concessions_to_the_natives
 		}
 		ai_will_do = {
 			factor = 1
@@ -241,13 +241,13 @@ modifier = medium_increase
 
 	#Focus for Rights for the natives in Transvaal
 	focus = {
-		id = NMB_rights_for_the_natives_in_transvaal
+		id = prs_rights_for_the_natives_in_transvaal
 		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 4
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_integrate_transvaal }
+		prerequisite = { focus = prs_integrate_transvaal }
 		ai_will_do = {
 			factor = 1
 		}
@@ -255,14 +255,14 @@ modifier = medium_increase
 
 	#Focus for Keep Transvaal Autonomous
 	focus = {
-		id = NMB_keep_transvaal_autonomous
+		id = prs_keep_transvaal_autonomous
 		icon = GFX_goal_generic_improve_relations
 		x = 8
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_boer_question }
-		mutually_exclusive = { focus = NMB_integrate_transvaal }
+		prerequisite = { focus = prs_the_boer_question }
+		mutually_exclusive = { focus = prs_integrate_transvaal }
 		ai_will_do = {
 			factor = 1
 		}
@@ -270,15 +270,15 @@ modifier = medium_increase
 
 	#Focus for Defense Construction
 	focus = {
-		id = NMB_defense_construction
+		id = prs_defense_construction
 		icon = GFX_goal_generic_construct_military
 		x = 28
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_war_propaganda 
-			focus = NMB_conscription_efforts 
+		prerequisite = {
+			focus = prs_war_propaganda
+			focus = prs_conscription_efforts
 		}
 		ai_will_do = {
 			factor = 1
@@ -293,24 +293,24 @@ modifier = medium_increase
 
 	#Focus for Nationalize German Companies
 	focus = {
-		id = NMB_nationalize_german_companies
+		id = prs_nationalize_german_companies
 		icon = GFX_focus_generic_africa_production
 		x = 33
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_gem_exports 
-			focus = NMB_oil_fields_in_the_namib_desert 
-			focus = NMB_steel_mining 
+		prerequisite = {
+			focus = prs_gem_exports
+			focus = prs_oil_fields_in_the_namib_desert
+			focus = prs_steel_mining
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL } 
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_opinion_modifier= { 
-target = GER 
+			add_opinion_modifier= {
+target = GER
 modifier = large_decrease
 }
 		}
@@ -318,14 +318,14 @@ modifier = large_decrease
 
 	#Focus for Promote Local Companies
 	focus = {
-		id = NMB_promote_local_companies
+		id = prs_promote_local_companies
 		icon = GFX_goal_generic_positive_trade_relations
 		x = 23
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_relieve_sharecroppers }
-		search_filters = { FOCUS_FILTER_POLITICAL } 
+		prerequisite = { focus = prs_relieve_sharecroppers }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = {
 			factor = 1
 		}
@@ -336,14 +336,14 @@ modifier = large_decrease
 
 	#Focus for Hire Marines
 	focus = {
-		id = NMB_hire_marines
+		id = prs_hire_marines
 		icon = GFX_goal_generic_amphibious_assault
 		x = 21
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = prs_establish_the_civilian_employment_agency }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -354,15 +354,15 @@ modifier = large_decrease
 
 	#Focus for Flexible Navy
 	focus = {
-		id = NMB_flexible_navy
+		id = prs_flexible_navy
 		icon = GFX_goal_generic_build_navy
 		x = 20
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_naval_dockyards }
-		mutually_exclusive = { focus = NMB_large_navy }
-		search_filters = { FOCUS_FILTER_RESEARCH } 
+		prerequisite = { focus = prs_naval_dockyards }
+		mutually_exclusive = { focus = prs_large_navy }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 			factor = 1
 		}
@@ -382,13 +382,13 @@ modifier = large_decrease
 
 	#Focus for The Boer Question
 	focus = {
-		id = NMB_the_boer_question
+		id = prs_the_boer_question
 		icon = GFX_goal_unknown
 		x = 6
 		y = 9
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_model_africa_colony }
+		prerequisite = { focus = prs_the_model_africa_colony }
 		ai_will_do = {
 			factor = 1
 		}
@@ -396,13 +396,13 @@ modifier = large_decrease
 
 	#Focus for Claim their Lands
 	focus = {
-		id = NMB_claim_their_lands
+		id = prs_claim_their_lands
 		icon = GFX_focus_generic_treaty
 		x = 15
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_no_blacks_for_white_jobs }
+		prerequisite = { focus = prs_no_blacks_for_white_jobs }
 		ai_will_do = {
 			factor = 1
 		}
@@ -410,17 +410,17 @@ modifier = large_decrease
 
 	#Focus for Implement Apartheid
 	focus = {
-		id = NMB_implement_apartheid
+		id = prs_implement_apartheid
 		icon = GFX_goal_generic_propaganda
 		x = 13
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_criminalize_their_culture 
+		prerequisite = {
+			focus = prs_criminalize_their_culture
 		}
-		prerequisite = { 
-			focus = NMB_claim_their_lands 
+		prerequisite = {
+			focus = prs_claim_their_lands
 		}
 		ai_will_do = {
 			factor = 1
@@ -429,13 +429,13 @@ modifier = large_decrease
 
 	#Focus for New Age of Slavery
 	focus = {
-		id = NMB_new_age_of_slavery
+		id = prs_new_age_of_slavery
 		icon = GFX_focus_generic_africa_factory
 		x = 13
 		y = 9
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_implement_apartheid }
+		prerequisite = { focus = prs_implement_apartheid }
 		ai_will_do = {
 			factor = 1
 		}
@@ -443,13 +443,13 @@ modifier = large_decrease
 
 	#Focus for Criminalize their Culture
 	focus = {
-		id = NMB_criminalize_their_culture
+		id = prs_criminalize_their_culture
 		icon = GFX_goal_generic_dangerous_deal
 		x = 11
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_criminalize_their_languages }
+		prerequisite = { focus = prs_criminalize_their_languages }
 		ai_will_do = {
 			factor = 1
 		}
@@ -457,13 +457,13 @@ modifier = large_decrease
 
 	#Focus for Begin Segregation
 	focus = {
-		id = NMB_begin_segregation
+		id = prs_begin_segregation
 		icon = GFX_goal_generic_military_deal
 		x = 13
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_no_land_for_negroes }
+		prerequisite = { focus = prs_no_land_for_negroes }
 		ai_will_do = {
 			factor = 1
 		}
@@ -474,13 +474,13 @@ modifier = large_decrease
 
 	#Focus for No Blacks for White Jobs!
 	focus = {
-		id = NMB_no_blacks_for_white_jobs
+		id = prs_no_blacks_for_white_jobs
 		icon = GFX_focus_spr_masters_of_our_own_fate
 		x = 15
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_begin_segregation }
+		prerequisite = { focus = prs_begin_segregation }
 		ai_will_do = {
 			factor = 1
 		}
@@ -488,13 +488,13 @@ modifier = large_decrease
 
 	#Focus for Criminalize their Languages
 	focus = {
-		id = NMB_criminalize_their_languages
+		id = prs_criminalize_their_languages
 		icon = GFX_goal_generic_dangerous_deal
 		x = 11
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_begin_segregation }
+		prerequisite = { focus = prs_begin_segregation }
 		ai_will_do = {
 			factor = 1
 		}
@@ -502,31 +502,31 @@ modifier = large_decrease
 
 	#Focus for No Land for Negroes!
 	focus = {
-		id = NMB_no_land_for_negroes
+		id = prs_no_land_for_negroes
 		icon = GFX_goal_generic_forceful_treaty
 		x = 13
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_oppress_the_natives }
+		prerequisite = { focus = prs_oppress_the_natives }
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = { 
+		completion_reward = {
 			add_stability = -0.1
 			add_political_power = 150
-		}	
+		}
 	}
 
 	#Focus for The Model Africa Colony
 	focus = {
-		id = NMB_the_model_africa_colony
+		id = prs_the_model_africa_colony
 		icon = GFX_goal_molotov_ribbentrop_pact
 		x = 6
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_voting_rights_for_all }
+		prerequisite = { focus = prs_voting_rights_for_all }
 		ai_will_do = {
 			factor = 1
 		}
@@ -534,13 +534,13 @@ modifier = large_decrease
 
 	#Focus for Anti-discriminatory Laws
 	focus = {
-		id = NMB_antidiscriminatory_laws
+		id = prs_antidiscriminatory_laws
 		icon = GFX_goal_generic_neutrality_focus
 		x = 4
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_implement_land_reform_laws }
+		prerequisite = { focus = prs_implement_land_reform_laws }
 		ai_will_do = {
 			factor = 1
 		}
@@ -556,7 +556,7 @@ modifier = large_decrease
 		value = 0
 		compare = greater_than_or_equals
 		}
-		} 
+		}
 		}
 			add_to_variable = {
 				var = white_discontent
@@ -568,20 +568,20 @@ modifier = large_decrease
 			}
 
 		}
-		
 
-		
+
+
 	}
 
 	#Focus for Lower Native Unemployment
 	focus = {
-		id = NMB_lower_native_unemployment
+		id = prs_lower_native_unemployment
 		icon = GFX_goal_generic_major_alliance
 		x = 8
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_implement_land_reform_laws }
+		prerequisite = { focus = prs_implement_land_reform_laws }
 		ai_will_do = {
 			factor = 1
 		}
@@ -607,13 +607,13 @@ modifier = large_decrease
 
 	#Focus for Language Acceptance
 	focus = {
-		id = NMB_language_acceptance
+		id = prs_language_acceptance
 		icon = GFX_goal_generic_national_unity
 		x = 4
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_antidiscriminatory_laws }
+		prerequisite = { focus = prs_antidiscriminatory_laws }
 		ai_will_do = {
 			factor = 1
 		}
@@ -629,7 +629,7 @@ modifier = large_decrease
 			value = 0
 			compare = greater_than_or_equals
 			}
-			} 
+			}
 			}
 				add_to_variable = {
 					var = white_discontent
@@ -639,23 +639,23 @@ modifier = large_decrease
 					var = native_discontent
 					value = -10
 				}
-	
+
 			}
-			
-	
-			
-		
+
+
+
+
 	}
 
 	#Focus for Implement Land Reform Laws
 	focus = {
-		id = NMB_implement_land_reform_laws
+		id = prs_implement_land_reform_laws
 		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 6
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_concessions_to_the_natives }
+		prerequisite = { focus = prs_concessions_to_the_natives }
 		ai_will_do = {
 			factor = 1
 		}
@@ -670,25 +670,25 @@ modifier = large_decrease
 
 	#Focus for The Native Question
 	focus = {
-		id = NMB_the_native_question
+		id = prs_the_native_question
 		icon = GFX_goal_unknown
 		x = 10
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_state_of_new_prussia }
+		prerequisite = { focus = prs_the_state_of_new_prussia }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event= { id = nmb.1 }
+			country_event= { id = prs.1 }
 		set_country_flag = has_completed_native_question
 		}
 	}
 
 	#Focus for Oppress the Natives
 	focus = {
-		id = NMB_oppress_the_natives
+		id = prs_oppress_the_natives
 		icon = GFX_goal_continuous_suppression
 		x = 13
 		y = 3
@@ -697,12 +697,12 @@ modifier = large_decrease
 		available = {
 			has_country_flag = newprussia_fascist_flag
 		}
-		prerequisite = { focus = NMB_the_native_question }
-		mutually_exclusive = { 
-			focus = NMB_concessions_to_the_natives 
+		prerequisite = { focus = prs_the_native_question }
+		mutually_exclusive = {
+			focus = prs_concessions_to_the_natives
 		}
-		mutually_exclusive = { 
-			focus = NMB_fight_the_oppressors 
+		mutually_exclusive = {
+			focus = prs_fight_the_oppressors
 		}
 		ai_will_do = {
 			factor = 1
@@ -712,12 +712,12 @@ modifier = large_decrease
 				idea = fascist_influence
 				days = 100
 			}
-		}	
+		}
 	}
 
 	#Focus for Concessions to the Natives
 	focus = {
-		id = NMB_concessions_to_the_natives
+		id = prs_concessions_to_the_natives
 		icon = GFX_goal_generic_improve_relations
 		x = 6
 		y = 3
@@ -726,20 +726,20 @@ modifier = large_decrease
 		available = {
 			has_country_flag = newprussia_democratic_flag
 		}
-		prerequisite = { focus = NMB_the_native_question }
-		mutually_exclusive = { 
-			focus = NMB_oppress_the_natives 
+		prerequisite = { focus = prs_the_native_question }
+		mutually_exclusive = {
+			focus = prs_oppress_the_natives
 		}
-		mutually_exclusive = { 
-			focus = NMB_fight_the_oppressors 
+		mutually_exclusive = {
+			focus = prs_fight_the_oppressors
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL } 
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_timed_idea= { 
-idea = democratic_influence 
+			add_timed_idea= {
+idea = democratic_influence
 days = 720
 }
 		}
@@ -747,13 +747,13 @@ days = 720
 
 	#Focus for The State of New Prussia
 	focus = {
-		id = NMB_the_state_of_new_prussia
+		id = prs_the_state_of_new_prussia
 		icon = GFX_goal_generic_demand_territory
 		x = 10
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL } 
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = {
 			factor = 1
 		}
@@ -765,13 +765,13 @@ days = 720
 
 	#Focus for Culture Acceptance
 	focus = {
-		id = NMB_culture_acceptance
+		id = prs_culture_acceptance
 		icon = GFX_goal_molotov_ribbentrop_pact
 		x = 8
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_lower_native_unemployment }
+		prerequisite = { focus = prs_lower_native_unemployment }
 		ai_will_do = {
 			factor = 1
 		}
@@ -781,17 +781,17 @@ days = 720
 
 	#Focus for Voting Rights for All!
 	focus = {
-		id = NMB_voting_rights_for_all
+		id = prs_voting_rights_for_all
 		icon = GFX_goal_support_democracy
 		x = 6
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_language_acceptance 
+		prerequisite = {
+			focus = prs_language_acceptance
 		}
-		prerequisite = { 
-			focus = NMB_culture_acceptance 
+		prerequisite = {
+			focus = prs_culture_acceptance
 		}
 		ai_will_do = {
 			factor = 1
@@ -814,7 +814,7 @@ days = 720
 						add_stability = 0.15
 
 					}
-				
+
 
 			}
 
@@ -824,14 +824,14 @@ days = 720
 
 	#Focus for Integrate Transvaal
 	focus = {
-		id = NMB_integrate_transvaal
+		id = prs_integrate_transvaal
 		icon = GFX_goal_tripartite_pact
 		x = 4
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_boer_question }
-		mutually_exclusive = { focus = NMB_keep_transvaal_autonomous }
+		prerequisite = { focus = prs_the_boer_question }
+		mutually_exclusive = { focus = prs_keep_transvaal_autonomous }
 		ai_will_do = {
 			factor = 1
 		}
@@ -839,13 +839,13 @@ days = 720
 
 	#Focus for The House of Windsor-Hohenzollern
 	focus = {
-		id = NMB_the_house_of_windsorhohenzollern
+		id = prs_the_house_of_windsorhohenzollern
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		x = 4
 		y = 15
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_negotiate_with_the_british }
+		prerequisite = { focus = prs_negotiate_with_the_british }
 		ai_will_do = {
 			factor = 1
 		}
@@ -853,13 +853,13 @@ days = 720
 
 	#Focus for The Union with South Africa
 	focus = {
-		id = NMB_the_union_with_south_africa
+		id = prs_the_union_with_south_africa
 		icon = GFX_goal_molotov_ribbentrop_pact
 		x = 4
 		y = 16
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_house_of_windsorhohenzollern }
+		prerequisite = { focus = prs_the_house_of_windsorhohenzollern }
 		ai_will_do = {
 			factor = 1
 		}
@@ -867,13 +867,13 @@ days = 720
 
 	#Focus for Reach out to the Soviet Union
 	focus = {
-		id = NMB_reach_out_to_the_soviet_union
+		id = prs_reach_out_to_the_soviet_union
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		x = 18
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_fight_the_oppressors }
+		prerequisite = { focus = prs_fight_the_oppressors }
 		ai_will_do = {
 			factor = 1
 		}
@@ -881,17 +881,17 @@ days = 720
 
 	#Focus for Begin the Revolution
 	focus = {
-		id = NMB_begin_the_revolution
+		id = prs_begin_the_revolution
 		icon = GFX_goal_generic_dangerous_deal
 		x = 18
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_revolutionize_the_workers 
+		prerequisite = {
+			focus = prs_revolutionize_the_workers
 		}
-		prerequisite = { 
-			focus = NMB_arm_ourselves 
+		prerequisite = {
+			focus = prs_arm_ourselves
 		}
 		ai_will_do = {
 			factor = 1
@@ -900,13 +900,13 @@ days = 720
 
 	#Focus for Execute the Monarchy
 	focus = {
-		id = NMB_execute_the_monarchy
+		id = prs_execute_the_monarchy
 		icon = GFX_focus_rom_abdicate
 		x = 18
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_begin_the_revolution }
+		prerequisite = { focus = prs_begin_the_revolution }
 		ai_will_do = {
 			factor = 1
 		}
@@ -914,13 +914,13 @@ days = 720
 
 	#Focus for Liberate South Africa!
 	focus = {
-		id = NMB_liberate_south_africa
+		id = prs_liberate_south_africa
 		icon = GFX_goal_generic_attack_allies
 		x = 18
 		y = 13
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_liberate_transvaal }
+		prerequisite = { focus = prs_liberate_transvaal }
 		ai_will_do = {
 			factor = 1
 		}
@@ -928,13 +928,13 @@ days = 720
 
 	#Focus for The Free African Union
 	focus = {
-		id = NMB_the_free_african_union
+		id = prs_the_free_african_union
 		icon = GFX_focus_prc_agrarian_socialism
 		x = 18
 		y = 15
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_liberate_mozambique_and_angola }
+		prerequisite = { focus = prs_liberate_mozambique_and_angola }
 		ai_will_do = {
 			factor = 1
 		}
@@ -942,13 +942,13 @@ days = 720
 
 	#Focus for Revolution Triumphant!
 	focus = {
-		id = NMB_revolution_triumphant
+		id = prs_revolution_triumphant
 		icon = GFX_goal_generic_soviet_construction
 		x = 18
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_execute_the_monarchy }
+		prerequisite = { focus = prs_execute_the_monarchy }
 		ai_will_do = {
 			factor = 1
 		}
@@ -956,13 +956,13 @@ days = 720
 
 	#Focus for The White Question
 	focus = {
-		id = NMB_the_white_question
+		id = prs_the_white_question
 		icon = GFX_goal_unknown
 		x = 18
 		y = 9
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_revolution_triumphant }
+		prerequisite = { focus = prs_revolution_triumphant }
 		ai_will_do = {
 			factor = 1
 		}
@@ -970,14 +970,14 @@ days = 720
 
 	#Focus for Blood will Spill!
 	focus = {
-		id = NMB_blood_will_spill
+		id = prs_blood_will_spill
 		icon = GFX_goal_generic_attack_allies
 		x = 14
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_boers }
-		mutually_exclusive = { focus = NMB_integrate_the_boers }
+		prerequisite = { focus = prs_the_boers }
+		mutually_exclusive = { focus = prs_integrate_the_boers }
 		ai_will_do = {
 			factor = 1
 		}
@@ -985,14 +985,14 @@ days = 720
 
 	#Focus for Integrate the Boers
 	focus = {
-		id = NMB_integrate_the_boers
+		id = prs_integrate_the_boers
 		icon = GFX_goal_tripartite_pact
 		x = 17
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_boers }
-		mutually_exclusive = { focus = NMB_blood_will_spill }
+		prerequisite = { focus = prs_the_boers }
+		mutually_exclusive = { focus = prs_blood_will_spill }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1000,14 +1000,14 @@ days = 720
 
 	#Focus for Revenge for the Herero Genocide
 	focus = {
-		id = NMB_revenge_for_the_herero_genocide
+		id = prs_revenge_for_the_herero_genocide
 		icon = GFX_goal_generic_attack_allies
 		x = 21
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_germans }
-		mutually_exclusive = { focus = NMB_integrate_the_germans }
+		prerequisite = { focus = prs_the_germans }
+		mutually_exclusive = { focus = prs_integrate_the_germans }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1015,17 +1015,17 @@ days = 720
 
 	#Focus for Liberate Transvaal!
 	focus = {
-		id = NMB_liberate_transvaal
+		id = prs_liberate_transvaal
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x = 18
 		y = 12
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_blood_will_spill 
-			focus = NMB_integrate_the_boers 
-			focus = NMB_integrate_the_germans 
-			focus = NMB_revenge_for_the_herero_genocide 
+		prerequisite = {
+			focus = prs_blood_will_spill
+			focus = prs_integrate_the_boers
+			focus = prs_integrate_the_germans
+			focus = prs_revenge_for_the_herero_genocide
 		}
 		ai_will_do = {
 			factor = 1
@@ -1034,13 +1034,13 @@ days = 720
 
 	#Focus for Liberate Mozambique and Angola!
 	focus = {
-		id = NMB_liberate_mozambique_and_angola
+		id = prs_liberate_mozambique_and_angola
 		icon = GFX_focus_generic_attack_portugal
 		x = 18
 		y = 14
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_liberate_south_africa }
+		prerequisite = { focus = prs_liberate_south_africa }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1048,13 +1048,13 @@ days = 720
 
 	#Focus for Liberate the rest of the oppressed!
 	focus = {
-		id = NMB_liberate_the_rest_of_the_oppressed
+		id = prs_liberate_the_rest_of_the_oppressed
 		icon = GFX_focus_ger_great_red_menace
 		x = 18
 		y = 16
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_the_free_african_union }
+		prerequisite = { focus = prs_the_free_african_union }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1062,7 +1062,7 @@ days = 720
 
 	#Focus for holder
 	focus = {
-		id = NMB_holder
+		id = prs_holder
 		icon = GFX_goal_unknown
 		x = 59
 		y = 2
@@ -1075,20 +1075,20 @@ days = 720
 
 	#Focus for Recover from the Great Depression
 	focus = {
-		id = NMB_recover_from_the_great_depression
+		id = prs_recover_from_the_great_depression
 		icon = GFX_goal_generic_construction2
 		x = 31
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
 			add_tech_bonus= {
- bonus = 0.5 
-uses = 1 
+ bonus = 0.5
+uses = 1
 category = industry
 }
 		}
@@ -1096,14 +1096,14 @@ category = industry
 
 	#Focus for Establish the Civilian Employment Agency
 	focus = {
-		id = NMB_establish_the_civilian_employment_agency
+		id = prs_establish_the_civilian_employment_agency
 		icon = GFX_goal_generic_consumer_goods
 		x = 31
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_recover_from_the_great_depression }
-		search_filters = { FOCUS_FILTER_STABILITY } 
+		prerequisite = { focus = prs_recover_from_the_great_depression }
+		search_filters = { FOCUS_FILTER_STABILITY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1115,27 +1115,27 @@ category = industry
 
 	#Focus for Encourage Foreign Investment
 	focus = {
-		id = NMB_encourage_foreign_investment
+		id = prs_encourage_foreign_investment
 		icon = GFX_goal_generic_intelligence_exchange
 		x = 35
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL } 
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_opinion_modifier= { 
-target = USA 
+			add_opinion_modifier= {
+target = USA
 modifier = medium_increase
 }
-add_opinion_modifier= { 
-target = FRA 
+add_opinion_modifier= {
+target = FRA
 modifier = medium_increase
 }
-add_opinion_modifier= { 
-target = ENG 
+add_opinion_modifier= {
+target = ENG
 modifier = medium_increase
 }
 		}
@@ -1143,19 +1143,19 @@ modifier = medium_increase
 
 	#Focus for Revive the Mining Industry
 	focus = {
-		id = NMB_revive_the_mining_industry
+		id = prs_revive_the_mining_industry
 		icon = GFX_goal_generic_construct_civilian
 		x = 33
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_establish_the_civilian_employment_agency 
+		prerequisite = {
+			focus = prs_establish_the_civilian_employment_agency
 		}
-		prerequisite = { 
-			focus = NMB_encourage_foreign_investment 
+		prerequisite = {
+			focus = prs_encourage_foreign_investment
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1184,14 +1184,14 @@ modifier = medium_increase
 
 	#Focus for Naval Dockyards
 	focus = {
-		id = NMB_naval_dockyards
+		id = prs_naval_dockyards
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 21
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_hire_marines }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = prs_hire_marines }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1296,14 +1296,14 @@ modifier = medium_increase
 
 	#Focus for Relieve Sharecroppers
 	focus = {
-		id = NMB_relieve_sharecroppers
+		id = prs_relieve_sharecroppers
 		icon = GFX_focus_generic_treaty
 		x = 23
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = prs_establish_the_civilian_employment_agency }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1314,14 +1314,14 @@ modifier = medium_increase
 
 	#Focus for Gem Exports
 	focus = {
-		id = NMB_gem_exports
+		id = prs_gem_exports
 		icon = GFX_focus_generic_africa_factory
 		x = 31
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_revive_the_mining_industry }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = prs_revive_the_mining_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1369,36 +1369,36 @@ random_owned_controlled_state={
 
 	#Focus for Oil Fields in the Namib Desert
 	focus = {
-		id = NMB_oil_fields_in_the_namib_desert
+		id = prs_oil_fields_in_the_namib_desert
 		icon = GFX_goal_generic_construction2
 		x = 33
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_revive_the_mining_industry }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = prs_revive_the_mining_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_resource= { 
-type = oil 
-amount = 8 
-state = 803 
+			add_resource= {
+type = oil
+amount = 8
+state = 803
 }
 		}
 	}
 
 	#Focus for Conscription Efforts
 	focus = {
-		id = NMB_conscription_efforts
+		id = prs_conscription_efforts
 		icon = GFX_focus_generic_little_entente
 		x = 29
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_military_funding }
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		prerequisite = { focus = prs_military_funding }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1409,14 +1409,14 @@ state = 803
 
 	#Focus for Military Funding
 	focus = {
-		id = NMB_military_funding
+		id = prs_military_funding
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 28
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = prs_establish_the_civilian_employment_agency }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1445,14 +1445,14 @@ state = 803
 
 	#Focus for War Propaganda
 	focus = {
-		id = NMB_war_propaganda
+		id = prs_war_propaganda
 		icon = GFX_goal_generic_propaganda
 		x = 27
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_military_funding }
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		prerequisite = { focus = prs_military_funding }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1463,36 +1463,36 @@ state = 803
 
 	#Focus for Steel Mining
 	focus = {
-		id = NMB_steel_mining
+		id = prs_steel_mining
 		icon = GFX_focus_generic_steel
 		x = 35
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_revive_the_mining_industry }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = prs_revive_the_mining_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_resource= { 
-type = steel 
-amount = 8 
-state = 797 
+			add_resource= {
+type = steel
+amount = 8
+state = 797
 }
 		}
 	}
 
 	#Focus for Revive Banks
 	focus = {
-		id = NMB_revive_banks
+		id = prs_revive_banks
 		icon = GFX_focus_mex_privatisation
 		x = 25
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_public_works_construction }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = prs_public_works_construction }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1503,22 +1503,22 @@ state = 797
 
 	#Focus for Solve the Unemployment Crisis
 	focus = {
-		id = NMB_solve_the_unemployment_crisis
+		id = prs_solve_the_unemployment_crisis
 		icon = GFX_focus_generic_the_giant_wakes
 		x = 26
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_free_trade_act 
+		prerequisite = {
+			focus = prs_free_trade_act
 		}
-		prerequisite = { 
-			focus = NMB_defense_construction 
+		prerequisite = {
+			focus = prs_defense_construction
 		}
-		prerequisite = { 
-			focus = NMB_nationalize_german_companies 
+		prerequisite = {
+			focus = prs_nationalize_german_companies
 		}
-		search_filters = { FOCUS_FILTER_STABILITY } 
+		search_filters = { FOCUS_FILTER_STABILITY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1529,22 +1529,22 @@ state = 797
 
 	#Focus for Additional Military Spending
 	focus = {
-		id = NMB_additional_military_spending
+		id = prs_additional_military_spending
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 31
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_free_trade_act 
+		prerequisite = {
+			focus = prs_free_trade_act
 		}
-		prerequisite = { 
-			focus = NMB_defense_construction 
+		prerequisite = {
+			focus = prs_defense_construction
 		}
-		prerequisite = { 
-			focus = NMB_nationalize_german_companies 
+		prerequisite = {
+			focus = prs_nationalize_german_companies
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1592,15 +1592,15 @@ random_owned_controlled_state={
 
 	#Focus for Large Navy
 	focus = {
-		id = NMB_large_navy
+		id = prs_large_navy
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		x = 22
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_naval_dockyards }
-		mutually_exclusive = { focus = NMB_flexible_navy }
-		search_filters = { FOCUS_FILTER_RESEARCH } 
+		prerequisite = { focus = prs_naval_dockyards }
+		mutually_exclusive = { focus = prs_flexible_navy }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1616,17 +1616,17 @@ random_owned_controlled_state={
 
 	#Focus for Submarine Effort
 	focus = {
-		id = NMB_submarine_effort
+		id = prs_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
 		x = 20
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_flexible_navy 
-			focus = NMB_large_navy 
+		prerequisite = {
+			focus = prs_flexible_navy
+			focus = prs_large_navy
 		}
-		search_filters = { FOCUS_FILTER_RESEARCH } 
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1643,17 +1643,17 @@ random_owned_controlled_state={
 
 	#Focus for Cruiser Effort
 	focus = {
-		id = NMB_cruiser_effort
+		id = prs_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
 		x = 22
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_flexible_navy 
-			focus = NMB_large_navy 
+		prerequisite = {
+			focus = prs_flexible_navy
+			focus = prs_large_navy
 		}
-		search_filters = { FOCUS_FILTER_RESEARCH } 
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1671,14 +1671,14 @@ random_owned_controlled_state={
 
 	#Focus for Destroyer Effort
 	focus = {
-		id = NMB_destroyer_effort
+		id = prs_destroyer_effort
 		icon = GFX_goal_generic_wolf_pack
 		x = 20
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_submarine_effort }
-		search_filters = { FOCUS_FILTER_RESEARCH } 
+		prerequisite = { focus = prs_submarine_effort }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1695,14 +1695,14 @@ random_owned_controlled_state={
 
 	#Focus for Research Investment
 	focus = {
-		id = NMB_research_investment
+		id = prs_research_investment
 		icon = GFX_focus_research2
 		x = 30
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_RESEARCH } 
+		prerequisite = { focus = prs_establish_the_civilian_employment_agency }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1713,14 +1713,14 @@ random_owned_controlled_state={
 
 	#Focus for Public Works Construction
 	focus = {
-		id = NMB_public_works_construction
+		id = prs_public_works_construction
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 25
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		prerequisite = { focus = prs_establish_the_civilian_employment_agency }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1740,19 +1740,19 @@ random_owned_controlled_state={
 
 	#Focus for Free Trade Act
 	focus = {
-		id = NMB_free_trade_act
+		id = prs_free_trade_act
 		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 24
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = NMB_revive_banks 
+		prerequisite = {
+			focus = prs_revive_banks
 		}
-		prerequisite = { 
-			focus = NMB_promote_local_companies 
+		prerequisite = {
+			focus = prs_promote_local_companies
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL } 
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1764,14 +1764,14 @@ random_owned_controlled_state={
 
 	#Focus for Open Border Act
 	focus = {
-		id = NMB_open_border_act
+		id = prs_open_border_act
 		icon = GFX_goal_tripartite_pact
 		x = 37
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_open_trade_with_transvaal }
-		search_filters = { FOCUS_FILTER_MANPOWER } 
+		prerequisite = { focus = prs_open_trade_with_transvaal }
+		search_filters = { FOCUS_FILTER_MANPOWER }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1782,14 +1782,14 @@ random_owned_controlled_state={
 
 	#Focus for Capital Ship Effort
 	focus = {
-		id = NMB_capital_ship_effort
+		id = prs_capital_ship_effort
 		icon = GFX_goal_generic_navy_battleship
 		x = 22
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = NMB_cruiser_effort }
-		search_filters = { FOCUS_FILTER_RESEARCH } 
+		prerequisite = { focus = prs_cruiser_effort }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1807,5 +1807,5 @@ random_owned_controlled_state={
 		}
 	}
 
-#End of focuses 
+#End of focuses
  }
