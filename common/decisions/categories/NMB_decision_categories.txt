@@ -1,10 +1,10 @@
 #####
-#NMB#
+#PRS#
 #####
 
-NMB_discontent = {
+PRS_discontent = {
 	allowed = {
-		original_tag = NMB
+		original_tag = PRS
 	}
 
 }

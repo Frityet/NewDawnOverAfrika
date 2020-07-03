@@ -16,8 +16,8 @@ bookmarks = {
 			}
 			focuses = {
 
-				NMB_new_age_of_slavery
-				NMB_the_union_with_south_africa
+				PRS_new_age_of_slavery
+				PRS_the_union_with_south_africa
 			}	
 		}
 		"TRV"={
@@ -30,8 +30,8 @@ bookmarks = {
 			}
 			focuses = {
 
-				NMB_new_age_of_slavery
-				NMB_the_union_with_south_africa
+				PRS_new_age_of_slavery
+				PRS_the_union_with_south_africa
 			}	
 		}
 		"SAF"={
@@ -44,8 +44,8 @@ bookmarks = {
 			}
 			focuses = {
 
-				NMB_new_age_of_slavery
-				NMB_the_union_with_south_africa
+				PRS_new_age_of_slavery
+				PRS_the_union_with_south_africa
 			}	
 		}
 		"GEP"={

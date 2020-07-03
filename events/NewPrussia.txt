@@ -7,7 +7,7 @@ add_namespace = prs
 
 #Event: The Native Question
 country_event = {
-	id = nmb.1
+	id = PRS.1
 	title = "The Native Question"
 	desc = "The Natives in Transvaal are becoming more discontented with the government with each passing day due to us not adressing their situation. We need to act fast or our land could fall into civil war."
 	picture = GFX_report_event_japanese_transport_soldiers
