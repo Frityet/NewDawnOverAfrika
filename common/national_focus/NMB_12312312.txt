@@ -16,17 +16,18 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_light_investment }
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_opinion_modifier= {
-target = TRV
-modifier = medium_increase
+			add_opinion_modifier= { 
+target = TRV 
+modifier = medium_increase 
 }
 		}
 	}
+
 	#Focus for Light Investment
 	focus = {
 		id = PRS_light_investment
@@ -36,11 +37,12 @@ modifier = medium_increase
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_aid_transvaal }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 	#Focus for The Model African Colony
 	focus = {
 		id = PRS_the_model_african_colony
@@ -49,17 +51,18 @@ modifier = medium_increase
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {
-			focus = PRS_mandatory_education_for_everyone
-			focus = PRS_resolve_our_troubled_past
-			focus = PRS_cultural_acceptance
-			focus = PRS_biased_education
-			focus = PRS_force_native_assimilation
+		prerequisite = { 
+			focus = PRS_namibian_education_act 
+			focus = PRS_resolve_our_troubled_past 
+			focus = PRS_cultural_acceptance 
+			focus = PRS_biased_education 
+			focus = PRS_force_native_assimilation 
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 	#Focus for Force Native Assimilation
 	focus = {
 		id = PRS_force_native_assimilation
@@ -73,6 +76,7 @@ modifier = medium_increase
 			factor = 1
 		}
 	}
+
 	#Focus for Biased Education
 	focus = {
 		id = PRS_biased_education
@@ -86,6 +90,7 @@ modifier = medium_increase
 			factor = 1
 		}
 	}
+
 	#Focus for Cultural Acceptance
 	focus = {
 		id = PRS_cultural_acceptance
@@ -94,14 +99,15 @@ modifier = medium_increase
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = PRS_language_acceptance }
+		prerequisite = { focus = PRS_national_languages_act }
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	#Focus for Mandatory Education for Everyone
+
+	#Focus for Namibian Education Act
 	focus = {
-		id = PRS_mandatory_education_for_everyone
+		id = PRS_namibian_education_act
 		icon = GFX_goal_generic_consumer_goods
 		x = 40
 		y = 5
@@ -112,6 +118,7 @@ modifier = medium_increase
 			factor = 1
 		}
 	}
+
 	#Focus for Intense Propaganda
 	focus = {
 		id = PRS_intense_propaganda
@@ -125,6 +132,7 @@ modifier = medium_increase
 			factor = 1
 		}
 	}
+
 	#Focus for Resolve Our Troubled Past
 	focus = {
 		id = PRS_resolve_our_troubled_past
@@ -138,6 +146,7 @@ modifier = medium_increase
 			factor = 1
 		}
 	}
+
 	#Focus for Official Citizenship
 	focus = {
 		id = PRS_official_citizenship
@@ -151,9 +160,10 @@ modifier = medium_increase
 			factor = 1
 		}
 	}
-	#Focus for Language Acceptance
+
+	#Focus for National Languages Act
 	focus = {
-		id = PRS_language_acceptance
+		id = PRS_national_languages_act
 		icon = GFX_goal_generic_major_alliance
 		x = 44
 		y = 4
@@ -164,6 +174,7 @@ modifier = medium_increase
 			factor = 1
 		}
 	}
+
 	#Focus for Assert our Authority Over the Ghettos
 	focus = {
 		id = PRS_assert_our_authority_over_the_ghettos
@@ -177,6 +188,7 @@ modifier = medium_increase
 			factor = 1
 		}
 	}
+
 	#Focus for Lower Native Unemployment
 	focus = {
 		id = PRS_lower_native_unemployment
@@ -185,14 +197,15 @@ modifier = medium_increase
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {
-			focus = PRS_we_stay_on_top
-			focus = PRS_a_colony_of_equals
+		prerequisite = { 
+			focus = PRS_we_stay_on_top 
+			focus = PRS_a_colony_of_equals 
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 	#Focus for Anti-discriminatory Laws
 	focus = {
 		id = PRS_antidiscriminatory_laws
@@ -206,6 +219,7 @@ modifier = medium_increase
 			factor = 1
 		}
 	}
+
 	#Focus for Aid Transvaal
 	focus = {
 		id = PRS_aid_transvaal
@@ -215,7 +229,7 @@ modifier = medium_increase
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_encourage_foreign_investment }
-		search_filters = { FOCUS_FILTER_STABILITY }
+		search_filters = { FOCUS_FILTER_STABILITY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -226,6 +240,7 @@ modifier = medium_increase
 			add_stability= 0.05
 		}
 	}
+
 	#Focus for Defense Construction
 	focus = {
 		id = PRS_defense_construction
@@ -234,14 +249,15 @@ modifier = medium_increase
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {
-			focus = PRS_war_propaganda
-			focus = PRS_conscription_efforts
+		prerequisite = { 
+			focus = PRS_war_propaganda 
+			focus = PRS_conscription_efforts 
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 	#Focus for Nationalize German Companies
 	focus = {
 		id = PRS_nationalize_german_companies
@@ -250,22 +266,23 @@ modifier = medium_increase
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {
-			focus = PRS_gem_exports
-			focus = PRS_oil_fields_in_the_namib_desert
-			focus = PRS_steel_mining
+		prerequisite = { 
+			focus = PRS_gem_exports 
+			focus = PRS_oil_fields_in_the_namib_desert 
+			focus = PRS_steel_mining 
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_opinion_modifier= {
-target = GER
+			add_opinion_modifier= { 
+target = GER 
 modifier = large_decrease
 }
 		}
 	}
+
 	#Focus for Promote Local Companies
 	focus = {
 		id = PRS_promote_local_companies
@@ -275,7 +292,7 @@ modifier = large_decrease
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_relieve_sharecroppers }
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -283,6 +300,7 @@ modifier = large_decrease
 			add_political_power= 50
 		}
 	}
+
 	#Focus for Hire Marines
 	focus = {
 		id = PRS_hire_marines
@@ -292,7 +310,7 @@ modifier = large_decrease
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -300,6 +318,7 @@ modifier = large_decrease
 			add_manpower= 8000
 		}
 	}
+
 	#Focus for Flexible Navy
 	focus = {
 		id = PRS_flexible_navy
@@ -310,7 +329,7 @@ modifier = large_decrease
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_naval_dockyards }
 		mutually_exclusive = { focus = PRS_large_navy }
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -327,6 +346,7 @@ modifier = large_decrease
 			}
 		}
 	}
+
 	#Focus for Concessions to the Natives
 	focus = {
 		id = PRS_concessions_to_the_natives
@@ -335,11 +355,12 @@ modifier = large_decrease
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 	#Focus for Voting Rights for All
 	focus = {
 		id = PRS_voting_rights_for_all
@@ -353,6 +374,7 @@ modifier = large_decrease
 			factor = 1
 		}
 	}
+
 	#Focus for We Stay on Top
 	focus = {
 		id = PRS_we_stay_on_top
@@ -367,6 +389,7 @@ modifier = large_decrease
 			factor = 1
 		}
 	}
+
 	#Focus for holder
 	focus = {
 		id = PRS_holder
@@ -379,6 +402,7 @@ modifier = large_decrease
 			factor = 1
 		}
 	}
+
 	#Focus for Recover from the Great Depression
 	focus = {
 		id = PRS_recover_from_the_great_depression
@@ -387,18 +411,19 @@ modifier = large_decrease
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
 			add_tech_bonus= {
- bonus = 0.5
-uses = 1
+ bonus = 0.5 
+uses = 1 
 category = industry
 }
 		}
 	}
+
 	#Focus for Establish the Civilian Employment Agency
 	focus = {
 		id = PRS_establish_the_civilian_employment_agency
@@ -408,7 +433,7 @@ category = industry
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_recover_from_the_great_depression }
-		search_filters = { FOCUS_FILTER_STABILITY }
+		search_filters = { FOCUS_FILTER_STABILITY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -416,6 +441,7 @@ category = industry
 			add_stability= 0.05
 		}
 	}
+
 	#Focus for Encourage Foreign Investment
 	focus = {
 		id = PRS_encourage_foreign_investment
@@ -424,25 +450,26 @@ category = industry
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_opinion_modifier= {
-target = USA
+			add_opinion_modifier= { 
+target = USA 
 modifier = medium_increase
 }
-add_opinion_modifier= {
-target = FRA
+add_opinion_modifier= { 
+target = FRA 
 modifier = medium_increase
 }
-add_opinion_modifier= {
-target = ENG
+add_opinion_modifier= { 
+target = ENG 
 modifier = medium_increase
 }
 		}
 	}
+
 	#Focus for Revive the Mining Industry
 	focus = {
 		id = PRS_revive_the_mining_industry
@@ -451,13 +478,13 @@ modifier = medium_increase
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {
-			focus = PRS_establish_the_civilian_employment_agency
+		prerequisite = { 
+			focus = PRS_establish_the_civilian_employment_agency 
 		}
-		prerequisite = {
-			focus = PRS_encourage_foreign_investment
+		prerequisite = { 
+			focus = PRS_encourage_foreign_investment 
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -483,6 +510,7 @@ modifier = medium_increase
  }
 		}
 	}
+
 	#Focus for Naval Dockyards
 	focus = {
 		id = PRS_naval_dockyards
@@ -492,7 +520,7 @@ modifier = medium_increase
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_hire_marines }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -594,6 +622,7 @@ modifier = medium_increase
 			}
 		}
 	}
+
 	#Focus for Relieve Sharecroppers
 	focus = {
 		id = PRS_relieve_sharecroppers
@@ -603,11 +632,12 @@ modifier = medium_increase
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 	#Focus for Gem Exports
 	focus = {
 		id = PRS_gem_exports
@@ -617,7 +647,7 @@ modifier = medium_increase
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_revive_the_mining_industry }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -662,6 +692,7 @@ random_owned_controlled_state={
  }
 		}
 	}
+
 	#Focus for Oil Fields in the Namib Desert
 	focus = {
 		id = PRS_oil_fields_in_the_namib_desert
@@ -671,18 +702,19 @@ random_owned_controlled_state={
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_revive_the_mining_industry }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_resource= {
-type = oil
-amount = 8
-state = 803
+			add_resource= { 
+type = oil 
+amount = 8 
+state = 803 
 }
 		}
 	}
+
 	#Focus for Conscription Efforts
 	focus = {
 		id = PRS_conscription_efforts
@@ -692,7 +724,7 @@ state = 803
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_military_funding }
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -700,6 +732,7 @@ state = 803
 			add_manpower= 16000
 		}
 	}
+
 	#Focus for Military Funding
 	focus = {
 		id = PRS_military_funding
@@ -709,7 +742,7 @@ state = 803
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -735,6 +768,7 @@ state = 803
  }
 		}
 	}
+
 	#Focus for War Propaganda
 	focus = {
 		id = PRS_war_propaganda
@@ -744,7 +778,7 @@ state = 803
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_military_funding }
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -752,6 +786,7 @@ state = 803
 			add_war_support= 10
 		}
 	}
+
 	#Focus for Steel Mining
 	focus = {
 		id = PRS_steel_mining
@@ -761,18 +796,19 @@ state = 803
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_revive_the_mining_industry }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_resource= {
-type = steel
-amount = 8
-state = 797
+			add_resource= { 
+type = steel 
+amount = 8 
+state = 797 
 }
 		}
 	}
+
 	#Focus for Revive Banks
 	focus = {
 		id = PRS_revive_banks
@@ -782,11 +818,12 @@ state = 797
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_public_works_construction }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 	#Focus for Solve the Unemployment Crisis
 	focus = {
 		id = PRS_solve_the_unemployment_crisis
@@ -795,16 +832,16 @@ state = 797
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {
-			focus = PRS_free_trade_act
+		prerequisite = { 
+			focus = PRS_free_trade_act 
 		}
-		prerequisite = {
-			focus = PRS_defense_construction
+		prerequisite = { 
+			focus = PRS_defense_construction 
 		}
-		prerequisite = {
-			focus = PRS_nationalize_german_companies
+		prerequisite = { 
+			focus = PRS_nationalize_german_companies 
 		}
-		search_filters = { FOCUS_FILTER_STABILITY }
+		search_filters = { FOCUS_FILTER_STABILITY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -812,6 +849,7 @@ state = 797
 			add_stability= 0.10
 		}
 	}
+
 	#Focus for Additional Military Spending
 	focus = {
 		id = PRS_additional_military_spending
@@ -820,16 +858,16 @@ state = 797
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {
-			focus = PRS_free_trade_act
+		prerequisite = { 
+			focus = PRS_free_trade_act 
 		}
-		prerequisite = {
-			focus = PRS_defense_construction
+		prerequisite = { 
+			focus = PRS_defense_construction 
 		}
-		prerequisite = {
-			focus = PRS_nationalize_german_companies
+		prerequisite = { 
+			focus = PRS_nationalize_german_companies 
 		}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -874,6 +912,7 @@ random_owned_controlled_state={
  }
 		}
 	}
+
 	#Focus for Large Navy
 	focus = {
 		id = PRS_large_navy
@@ -884,7 +923,7 @@ random_owned_controlled_state={
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_naval_dockyards }
 		mutually_exclusive = { focus = PRS_flexible_navy }
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -897,6 +936,7 @@ random_owned_controlled_state={
 			}
 		}
 	}
+
 	#Focus for Submarine Effort
 	focus = {
 		id = PRS_submarine_effort
@@ -905,11 +945,11 @@ random_owned_controlled_state={
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {
-			focus = PRS_flexible_navy
-			focus = PRS_large_navy
+		prerequisite = { 
+			focus = PRS_flexible_navy 
+			focus = PRS_large_navy 
 		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -923,6 +963,7 @@ random_owned_controlled_state={
 			}
 		}
 	}
+
 	#Focus for Cruiser Effort
 	focus = {
 		id = PRS_cruiser_effort
@@ -931,11 +972,11 @@ random_owned_controlled_state={
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {
-			focus = PRS_flexible_navy
-			focus = PRS_large_navy
+		prerequisite = { 
+			focus = PRS_flexible_navy 
+			focus = PRS_large_navy 
 		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -950,6 +991,7 @@ random_owned_controlled_state={
 			}
 		}
 	}
+
 	#Focus for Destroyer Effort
 	focus = {
 		id = PRS_destroyer_effort
@@ -959,7 +1001,7 @@ random_owned_controlled_state={
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_submarine_effort }
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -973,6 +1015,7 @@ random_owned_controlled_state={
 			}
 		}
 	}
+
 	#Focus for Research Investment
 	focus = {
 		id = PRS_research_investment
@@ -982,7 +1025,7 @@ random_owned_controlled_state={
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -990,6 +1033,7 @@ random_owned_controlled_state={
 			add_research_slot= 1
 		}
 	}
+
 	#Focus for Public Works Construction
 	focus = {
 		id = PRS_public_works_construction
@@ -999,7 +1043,7 @@ random_owned_controlled_state={
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -1011,6 +1055,7 @@ instant_build = yes}
 }
 		}
 	}
+
 	#Focus for Free Trade Act
 	focus = {
 		id = PRS_free_trade_act
@@ -1019,17 +1064,18 @@ instant_build = yes}
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = {
-			focus = PRS_revive_banks
+		prerequisite = { 
+			focus = PRS_revive_banks 
 		}
-		prerequisite = {
-			focus = PRS_promote_local_companies
+		prerequisite = { 
+			focus = PRS_promote_local_companies 
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 	#Focus for Open Border Act
 	focus = {
 		id = PRS_open_border_act
@@ -1039,7 +1085,7 @@ instant_build = yes}
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_open_trade_with_transvaal }
-		search_filters = { FOCUS_FILTER_MANPOWER }
+		search_filters = { FOCUS_FILTER_MANPOWER } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -1047,6 +1093,7 @@ instant_build = yes}
 			add_manpower= 8000
 		}
 	}
+
 	#Focus for Capital Ship Effort
 	focus = {
 		id = PRS_capital_ship_effort
@@ -1056,7 +1103,7 @@ instant_build = yes}
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_cruiser_effort }
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
 		}
@@ -1073,16 +1120,17 @@ instant_build = yes}
 			}
 		}
 	}
+
 	#Focus for Establish the Soviets
 	focus = {
 		id = PRS_establish_the_soviets
 		icon = GFX_goal_tfv_burn_the_royal_portraits
 		x = 19
-		y = 3
+		y = 4
 		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_namibian_workers_and_soldiers_councils }
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 10
 		}
@@ -1091,32 +1139,34 @@ instant_build = yes}
  ideology = socialism
  size = 100
 }
-add_stability= -30add_popularity= {
-ideology = communism
+add_stability= -30add_popularity= { 
+ideology = communism 
 popularity = 60
 }
 		}
 	}
+
 	#Focus for Namibian Workers' and Soldiers' Councils
 	focus = {
 		id = PRS_namibian_workers_and_soldiers_councils
 		icon = GFX_focus_generic_soviet_politics
 		x = 19
-		y = 2
+		y = 3
 		cost = 6
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_establish_the_civilian_employment_agency }
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_popularity= {
-ideology = communism
+			add_popularity= { 
+ideology = communism 
 popularity = 15
 }
 		}
 	}
+
 	#Focus for A Colony of Equals
 	focus = {
 		id = PRS_a_colony_of_equals
@@ -1126,10 +1176,12 @@ popularity = 15
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_concessions_to_the_natives }
+		mutually_exclusive = { focus = PRS_we_stay_on_top }
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
 	#Focus for Restricted Sufferage
 	focus = {
 		id = PRS_restricted_sufferage
@@ -1143,6 +1195,7 @@ popularity = 15
 			factor = 1
 		}
 	}
+
 	#Focus for Assassinate Tribal Leaders
 	focus = {
 		id = PRS_assassinate_tribal_leaders
@@ -1156,6 +1209,7 @@ popularity = 15
 			factor = 1
 		}
 	}
+
 	#Focus for Pay Colonialism Reparations
 	focus = {
 		id = PRS_pay_colonialism_reparations
@@ -1169,5 +1223,6 @@ popularity = 15
 			factor = 1
 		}
 	}
-#End of focuses
+
+#End of focuses 
  }
