@@ -7,7 +7,7 @@ add_namespace = newprussia
 
 #Event: The Native Question
 country_event = {
-	id = PRS.1
+	id = newprussia.1
 	title = "The Native Question"
 	desc = "The Natives in Transvaal are becoming more discontented with the government with each passing day due to us not adressing their situation. We need to act fast or our land could fall into civil war."
 	picture = GFX_report_event_japanese_transport_soldiers
@@ -131,7 +131,11 @@ country_event = {
 	option = {
 		name = asdfdsa.3.a
 		ai_chance = { factor = 100}
-		add_political_power= 50add_manpower= 8000add_national_unity= 0.02navy_experience= 10army_experience= 10
+		add_political_power= 50
+		add_manpower= 8000
+		add_national_unity= 0.02
+		navy_experience= 10
+		army_experience= 10
 	}
 }
 
