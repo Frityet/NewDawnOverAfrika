@@ -129,7 +129,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Königin Victoria the Third of New Prussia"
-	picture = "portrait_ger_victoria_louise.dds"
+	picture = "vic_lousise.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
