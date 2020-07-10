@@ -1,11 +1,18 @@
-l_english:
-MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
-#The Native Question
-nmb.1.t:0 "The Native Question"
-nmb.1.d:0 "The Natives in Transvaal are becoming more discontented with the government with each passing day due to us not adressing their situation. We need to act fast or our land could fall into civil war."
-nmb.1.a:0 "We need to give consessions to the natives, as they are our people aswell."
-nmb.1.b:0 "The Blacks are meant for one thing only, to serve their White overlords!"
-nmb.1.c:0 "The natives have been opressed by the Imperialists and Capitalists for too long! FOR THE REVOLUTION!"
-#The Boer Question
+l_english: 
+# Operation Berlinkrieg 
+asdfdsa.2.title:0 "Operation Berlinkrieg"
+asdfdsa.2.desc:0 "Now that the government has confirmed Operation Berlinkrieg to its top generals, some have begun proposing plans. The Lion of Africa, Paul von Lettow-Vorbeck, has put forward his plan for Operation Berlinkrieg which includes a "new alliance" with the former members of the Entente, and using their aid to return to Germany. On the other hand, Hindenburg has proposed the "Hindenburg Plan" - returning to Germany by gaining support from the inside, launching a revolt against the fascist government, and then peacefully returning to Berlin.
 
-#The South African Question
+However, it is up to the Kaiser to decide which route to take..."
+asdfdsa.2.a:0 "The Kaiser's trust lies in Paul von Lettow-Vorbeck!"
+asdfdsa.2.b:0 "Hindenburg's plan is more rational."
+
+#Prussia shall rise again
+asdfdsa.3.title:0 "Prussia shall rise again!"
+asdfdsa.3.desc:0 "Today, the Kaiser delivered a grand speech in which he asserted that Prussia shall rise once again, as the world's dominant power!"
+asdfdsa.3.a:0 "The Kaiser is right!"
+
+#Border clashes in Africa
+asdfdsa.4.title:0 "Border clashes in Africa!"
+asdfdsa.4.desc:0 "Today, border clashes erupted between South Afrika and New Prussia, prompting increased tension between the two nations..."
+asdfdsa.4.a:0 "Interesting..."

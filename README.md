@@ -4,7 +4,7 @@ New Dawn over Afrika is a mod for the game Hearts of Iron IV, which asks the que
 
 # How can I download New Dawn Over Afrika?
 
-Clone this repo
+Clone this repository to your computer and then copy its contents into the "mod" folder of Hearts of Iron.
 
 # Lore
 

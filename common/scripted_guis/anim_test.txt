@@ -1,0 +1,18 @@
+scripted_gui = {
+
+	anim = {
+	context_type = player_context
+	window_name = anim
+	parent_window_token = top_bar
+	
+	visible = {
+
+		has_country_flag = animtest
+
+
+
+	}
+}
+
+
+}

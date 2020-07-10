@@ -1,5 +1,5 @@
 ﻿capital = 797
-OOB = "NMB_1936"
+OOB = "PRS_1936"
 ### Native and White discontent ###
 
 native_discontent = yes
@@ -142,7 +142,7 @@ create_country_leader = {
 # Generals and Field Marshals
 create_field_marshal = {
 	name = "August von Mackensen"
-	picture = "portrait_nmb_mackensen.dds"
+	picture = "portrait_PRS_mackensen.dds"
 	traits = { defensive_doctrine urban_assault_specialist old_guard }
 	skill = 8
 	attack_skill = 4
@@ -152,7 +152,7 @@ create_field_marshal = {
 }
 create_field_marshal = {
 	name = "Paul von Hindenburg"
-	picture = "portrait_nmb_paul_von_hindenburg.dds"
+	picture = "portrait_PRS_paul_von_hindenburg.dds"
 	traits = { offensive_doctrine infantry_expert old_guard }
 	skill = 7
 	attack_skill = 7
@@ -162,7 +162,7 @@ create_field_marshal = {
 }
 create_corps_commander = {
 	name = "Paul Von Lettow Vorbeck"
-	picture = "portrait_nmb_lettow_vorbeck.dds"
+	picture = "portrait_PRS_lettow_vorbeck.dds"
 	traits = { trait_cautious commando }
 	skill = 6
 	attack_skill = 2
@@ -172,7 +172,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Hans Oster"
-	picture = "portrait_nmb_oster.dds"
+	picture = "portrait_PRS_oster.dds"
 	traits = { trait_cautious armor_officer }
 	skill = 3
 	attack_skill = 3
@@ -182,7 +182,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Walther Wenck"
-	picture = "portrait_nmb_walther_wenck.dds"
+	picture = "portrait_PRS_walther_wenck.dds"
 	traits = { trait_cautious armor_officer }
 	skill = 4
 	attack_skill = 3

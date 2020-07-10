@@ -1,10 +1,10 @@
-######################### 
+#########################
 ##NEW PRUSSIA DECICIONS##
 #########################
-NMB_discontent = {
-	nmb_debug_increase_native_discontent = {
+PRS_discontent = {
+	prs_debug_increase_native_discontent = {
 		available = {
-			original_tag = NMB
+			original_tag = prs
 		}
 		complete_effect = {
 			add_to_variable = {
@@ -15,9 +15,9 @@ NMB_discontent = {
 		cost = 0
 
 	}
-	nmb_debug_increase_white_discontent = {
+	prs_debug_increase_white_discontent = {
 		available = {
-			original_tag = NMB
+			original_tag = prs
 		}
 		complete_effect = {
 			add_to_variable = {
@@ -27,9 +27,9 @@ NMB_discontent = {
 		}
 		cost = 0
 }
-nmb_debug_decrease_native_discontent = {
+prs_debug_decrease_native_discontent = {
 	available = {
-		original_tag = NMB
+		original_tag = prs
 	}
 	complete_effect = {
 		add_to_variable = {
@@ -40,9 +40,9 @@ nmb_debug_decrease_native_discontent = {
 	cost = 0
 
 }
-nmb_debug_decrease_white_discontent = {
+prs_debug_decrease_white_discontent = {
 	available = {
-		original_tag = NMB
+		original_tag = prs
 	}
 	complete_effect = {
 		add_to_variable = {

@@ -49,16 +49,15 @@ set_popularities = {
 	communism = 25
 	neutrality = 65
 	fascism = 5
-	
 }
 
 
-set_convoys = 100
+set_convoys = 5
 
 create_country_leader = {
 	name = "Konig Wilhelm the 3rd of Transvaal"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx/leaders/TRV/portrait_trv_wilhelm_iii.dds"
+	picture = "gfx/leaders/TRV/Willhelm_III.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

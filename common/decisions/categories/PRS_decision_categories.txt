@@ -1,0 +1,10 @@
+#####
+#PRS#
+#####
+
+PRS_discontent = {
+	allowed = {
+		original_tag = PRS
+	}
+
+}

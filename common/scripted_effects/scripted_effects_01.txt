@@ -1,5 +1,5 @@
 effect = {
-        nmb = {
+        PRS = {
         set_variable = {
             var = native_discontent
             value = 10
