@@ -1,6 +1,6 @@
 capital = 64
 add_opinion_modifier = {
-	target = PRS
+	target = NMB
 	modifier = traitors_to_germany
 }
 oob = "GER_1936"

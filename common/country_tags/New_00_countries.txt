@@ -1,3 +1,2 @@
 TRV = "countries/Transvaal.txt"
 GEP = "countries/German Pacific.txt"
-PRS = "countries/New Prussia.txt"

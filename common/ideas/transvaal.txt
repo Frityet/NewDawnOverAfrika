@@ -29,13 +29,15 @@ ideas = {
 
 ################################# NATIONAL FOCUSES
 
-trv_baaskap = {
+trv_baaskap {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		consumer_goods_factor = -0.2
@@ -44,13 +46,15 @@ trv_baaskap = {
 }
 
 
-trv_flexible_economy = {
+trv_flexible_economy {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		production_speed_industrial_complex_factor = 0.2
@@ -59,13 +63,15 @@ trv_flexible_economy = {
 }
 
 
-trv_farming_subsidies = {
+trv_farming_subsidies {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		production_speed_industrial_complex_factor = 0.1 
@@ -73,13 +79,15 @@ trv_farming_subsidies = {
 	}
 }
 
-trv_luederitzpendler = {
+trv_luederitzpendler {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		conscription = -0.01 
@@ -89,13 +97,15 @@ trv_luederitzpendler = {
 	}
 }
 
-trv_independent_bank = {
+trv_independent_bank {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		autonomy_gain = 1
@@ -104,13 +114,15 @@ trv_independent_bank = {
 	}
 }
 
-trv_reichsbank = {
+trv_reichsbank {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		autonomy_gain = -1
@@ -119,13 +131,15 @@ trv_reichsbank = {
 	}
 }
 
-trv_oppenheimer_diamanten = {
+trv_oppenheimer_diamanten {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		trade_opinion_factor = 0.75
@@ -133,226 +147,264 @@ trv_oppenheimer_diamanten = {
 	}
 }
 
-trv_revolutionary_course = {
+trv_revolutionary_course {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = 0.02
 	}
 }
 
-trv_afrikaner_nationalism = {
+trv_afrikaner_nationalism {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = 0.02
 	}
 }
 
-trv_nation_building = {
+trv_nation_building {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = 0.02
 	}
 }
 
-trv_volksstaat = {
+trv_volksstaat {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = 0.01
 	}
 }
 
-trv_independence = {
+trv_independence {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = 0.01
 	}
 }
 
-trv_russian_support = {
+trv_russian_support {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 	}
 }
 
-trv_dark_unions = {
+trv_dark_unions {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = -0.01
 	}
 }
 
-trv_qualified_franchise = {
+trv_qualified_franchise {
 	
 	allowed = {
 	always = no
 	}
 
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = 0.02
 	}
 }
 
-trv_afrikander_bond_returns = {
+trv_afrikander_bond_returns {
 	
 	allowed = {
 	always = no
 	}
 
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = -0.01
 	}
 }
 
-trv_universal_suffrage = {
+trv_universal_suffrage {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = 0.01
 	}
 }
 
-trv_volkskapitalisme = {
+trv_volkskapitalisme {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = 0.01
 	}
 }
 
-trv_enforced_bilingualism = {
+trv_enforced_bilingualism {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 	}
 }
 
-trv_anti_german_sentiment = {
+trv_anti_german_sentiment {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 	}
 }
 
-trv_racial_democracy = {
+trv_racial_democracy {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 		stability_weekly = 0.01
 	}
 }
 
-trv_apartheid_hardened = {
+trv_apartheid_hardened {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 	}
 }
 
-trv_prussian_ideals = {
+trv_prussian_ideals {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 	}
 }
 
-trv_brothers_in_arms = {
+trv_brothers_in_arms {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 	}
 }
 
-trv_gold_production = {
+trv_gold_production #GFX_goal_generic_consumer_goods {
 	
 	allowed = {
 	always = no
 	}
 
-
+	allowed_civil_war = {
+	has_government = 
+	}
 
 	modifier = {
 	}

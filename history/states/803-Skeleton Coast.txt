@@ -9,7 +9,7 @@ state={
 		chromium=12.000
 	}
 	history={
-		owner = PRS
+		owner = NMB
 		buildings = {
 			infrastructure = 2
 

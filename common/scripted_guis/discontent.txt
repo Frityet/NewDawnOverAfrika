@@ -6,7 +6,7 @@ scripted_gui = {
 		parent_window_token = top_bar
 		visible = {
 
-			original_tag = PRS
+			original_tag = NMB
 
 				has_country_flag = isDiscontentGuiOpen
 

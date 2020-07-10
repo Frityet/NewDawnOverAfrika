@@ -1,5 +1,5 @@
 ﻿l_english:
-PRS_discontent:0 "Discontent within our society"
+nmb_discontent:0 "Discontent within our society"
 discontent_gui_desc:0 "The §Ynatives§! which we have ruled over for years are now starting to get more discontented as the days go on. We cannot let the natives revolt and end our rule."
 native_discontent_0:0 "§LNone§!"
 native_discontent_1:0 "§LLow§!"

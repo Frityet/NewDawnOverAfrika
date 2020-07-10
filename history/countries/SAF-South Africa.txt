@@ -166,7 +166,7 @@ create_country_leader = {
 		democratic = 100
 	}
 
-	# Took office 5 days after this date                                                                                                                           
+	# Took office 5 days after this date
 	create_country_leader = {
 		name = "Jan Smuts"
 		desc = "POLITICS_JAN_SMUTS_DESC"
