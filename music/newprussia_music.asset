@@ -1,0 +1,45 @@
+
+
+
+
+music = {
+	name = "argonnerwald"
+	file = "ger_argonnerwald_noLyrics.ogg"
+	volume = 0.65
+}
+music = {
+	name = "dead"
+	file = "ger_dead.ogg"
+	volume = 0.65
+}
+music = {
+	name = "forester"
+	file = "ger_forester.ogg"
+	volume = 0.65
+}
+
+# General war:
+music = {
+	name = "kaiser"
+	file = "ger_kaisersong.ogg"
+	volume = 0.65
+}
+music = {
+	name = "marches"
+	file = "ger_marches.ogg"
+	volume = 0.65
+}
+
+
+
+music = {
+	name = "roads"
+	file = "ger_roads.ogg"
+	volume = 0.65
+}
+music = {
+	name = "sudwesterlied"
+	file = "ger_sudwesterlied.ogg"
+	volume = 0.65
+}
+

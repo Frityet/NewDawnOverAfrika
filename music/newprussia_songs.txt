@@ -1,0 +1,84 @@
+
+music_station = "new_prussia"
+
+
+
+# PEACE SONGS ##################
+music = {
+	song = "argonnerwald"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "dead"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "forester"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+
+		}		
+	}
+}
+
+music = {
+	song = "kaiser"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+			has_government = neutrality
+		}		
+	}	
+}
+
+music = {
+	song = "marches"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+
+			has_war = yes
+
+		}		
+	}	
+}
+
+music = {
+	song = "sudwesterlied"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}	
+}
+
+music = {
+	song = "roads"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}	
+}
