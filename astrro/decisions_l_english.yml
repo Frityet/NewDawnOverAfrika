@@ -1,0 +1,9 @@
+﻿ #Decisions
+ UKR_popular_discontent:0 "Popular discontent"
+ UKR_popular_discontent_desc:0 "§RPopular§! discontent level = [This.popular_discontent]"
+ 
+ #Effects
+ popular_discontent_1:0 "good"
+ popular_discontent_2:0 "meh"
+ popular_discontent_3:0 "could be better"
+ popular_discontent_4:0 "shitty"

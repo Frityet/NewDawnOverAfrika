@@ -1,0 +1,10 @@
+effect = {
+        UKR = {
+            set_variable = {  
+            var = popular_discontent
+            value = 10
+                }
+            }
+        }  
+              
+                                    
