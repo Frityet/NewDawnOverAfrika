@@ -7,10 +7,9 @@ sub_units = {
 	askari = {
 		sprite = infantry
 		map_icon_category = other
-		priority = 599
-		ai_priority = 200
+		priority = 2
+		ai_priority = 2
 		active = yes
-		cavalry = yes
 
 		type = { infantry }
 		
