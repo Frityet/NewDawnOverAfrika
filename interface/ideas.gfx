@@ -7,24 +7,23 @@ spriteTypes = {
 	}	
 	spriteType = {
 		name = "GFX_idea_wir_lieben_sudwest"
-		texturefile = "gfx/interface/ideas/wir_lieben_sudwest.dds"
+		texturefile = "gfx/goal/NMB/wir_lieben_sudwest.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_pm_paul_von_lettow_vorbeck"
 #		texturefile = "gfx/interface/ideas/Lettow_von_Vorbeck.dds"
-		texturefile = "gfx/interface/ideas/great_depression.dds"
+		texturefile = "gfx/goal/NMB/Lettow_von_Vorbeck.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_legacy_of_the_herero_genocide"
-#		texturefile = "gfx/interface/ideas/Legacy_of_the_Herero_Genocide.dds"
-		texturefile = "gfx/interface/ideas/idea_hun_treaty_of_trianon.dds"
+		texturefile = "gfx/goal/NMB/Legacy_of_the_Herero_Genocide.dds"
 	}
 	#Astronom
-	spriteType = {
-		name = "GFX_idea_astronom"
-		texturefile = "gfx/interface/ideas/gfx_astronom_icon.dds"
-	}
+	# spriteType = {
+	# 	name = "GFX_idea_astronom"
+	# 	texturefile = "gfx/interface/ideas/gfx_astronom_icon.dds"
+	# }
 	spriteType = {
 		name = "GFX_idea_crippled_economy"
 		texturefile = "gfx/interface/ideas/great_depression.dds"
