@@ -266,7 +266,6 @@ ideas = {
 		
 		
 		pm_paul_von_lettow_vorbeck = {
-			picture = generic_spy_intel
 			allowed = {
 				original_tag = "NMB"
 			}
@@ -294,7 +293,6 @@ ideas = {
 		}
 
 		legacy_of_the_herero_genocide = {
-			picture = generic_spy_intel
 			allowed = {
 				original_tag = "NMB"
 			}

@@ -11,12 +11,14 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_pm_paul_von_lettow_vorbeck"
-		texturefile = "gfx/interface/ideas/Lettow_von_Vorbeck.dds"
+#		texturefile = "gfx/interface/ideas/Lettow_von_Vorbeck.dds"
+		texturefile = "gfx/interface/ideas/great_depression.dds"
 	}
 
 	spriteType = {
 		name = "GFX_idea_legacy_of_the_herero_genocide"
-		texturefile = "gfx/interface/ideas/Legacy_of_the_Herero_Genocide.dds"
+#		texturefile = "gfx/interface/ideas/Legacy_of_the_Herero_Genocide.dds"
+		texturefile = "gfx/interface/ideas/idea_hun_treaty_of_trianon.dds"
 	}
 	#Astronom
 	spriteType = {
