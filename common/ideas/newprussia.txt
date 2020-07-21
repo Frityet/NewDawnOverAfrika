@@ -19,8 +19,8 @@ ideas = {
 			}
 			
 		}
-	}
-	country = {
+	
+	
 		light_investment = {
 			
 			allowed = {
@@ -38,9 +38,9 @@ ideas = {
 			}
 			
 		}
-	}
+	
 
-	country = {
+	
 		fortification_project = {
 			
 			allowed = {
@@ -59,9 +59,9 @@ ideas = {
 			}
 			
 		}
-	}
+	
 
-	country = {
+	
 		bank_investments = {
 			
 			allowed = {
@@ -79,9 +79,9 @@ ideas = {
 			}
 			
 		}
-	}
+	
 
-	country = {
+	
 		solved_sharecropping = {
 			
 			allowed = {
@@ -99,9 +99,9 @@ ideas = {
 			}
 			
 		}
-	}
 	
-	country = {
+	
+	
 		crippled_economy = {
 			
 			allowed = {
@@ -124,8 +124,8 @@ ideas = {
 			}
 			
 		}
-	}
-	country = {
+	
+	
 		crippled_economy_2 = {
 			
 			allowed = {
@@ -147,8 +147,8 @@ ideas = {
 			}
 			
 		}
-	}
-	country = {
+	
+	
 		crippled_economy_3 = {
 			
 			allowed = {
@@ -169,8 +169,8 @@ ideas = {
 			}
 			
 		}
-	}
-	country = {
+	
+	
 		
 		we_love_the_sudwest3 = {
 
@@ -216,8 +216,8 @@ ideas = {
 				consumer_goods_factor = -0.05			
 			}
 		}
-	}
-		country = {
+	
+		
 			we_love_the_sudwest = {
 				picture = generic_spy_intel
 				allowed = {
@@ -239,8 +239,8 @@ ideas = {
 					
 				}
 			}
-		}
-		country = {
+		
+		
 			we_love_the_sudwest_landreform = {
 				picture = generic_spy_intel
 				allowed = {
@@ -263,8 +263,8 @@ ideas = {
 					stability_factor = -0.05
 				}
 			}
-		}
-		country = {
+		
+		
 		pm_paul_von_lettow_vorbeck = {
 			picture = generic_spy_intel
 			allowed = {
@@ -319,7 +319,7 @@ ideas = {
 			}
 		}
 
-	
+	}
 	political_advisor = {
 	
 		NMB_democratic_guy = {
