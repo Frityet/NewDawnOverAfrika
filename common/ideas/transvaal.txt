@@ -29,7 +29,7 @@ ideas = {
 
 ################################# NATIONAL FOCUSES
 
-trv_baaskap {
+trv_baaskap = {
 	
 	allowed = {
 	always = no
@@ -46,7 +46,7 @@ trv_baaskap {
 }
 
 
-trv_flexible_economy {
+trv_flexible_economy = {
 	
 	allowed = {
 	always = no
@@ -63,7 +63,7 @@ trv_flexible_economy {
 }
 
 
-trv_farming_subsidies {
+trv_farming_subsidies = {
 	
 	allowed = {
 	always = no
@@ -79,7 +79,7 @@ trv_farming_subsidies {
 	}
 }
 
-trv_luederitzpendler {
+trv_luederitzpendler  = {
 	
 	allowed = {
 	always = no
@@ -97,7 +97,7 @@ trv_luederitzpendler {
 	}
 }
 
-trv_independent_bank {
+trv_independent_bank  = {
 	
 	allowed = {
 	always = no
@@ -114,7 +114,7 @@ trv_independent_bank {
 	}
 }
 
-trv_reichsbank {
+trv_reichsbank = {
 	
 	allowed = {
 	always = no
@@ -131,7 +131,7 @@ trv_reichsbank {
 	}
 }
 
-trv_oppenheimer_diamanten {
+trv_oppenheimer_diamanten = {
 	
 	allowed = {
 	always = no
@@ -147,7 +147,7 @@ trv_oppenheimer_diamanten {
 	}
 }
 
-trv_revolutionary_course {
+trv_revolutionary_course = {
 	
 	allowed = {
 	always = no
@@ -162,7 +162,7 @@ trv_revolutionary_course {
 	}
 }
 
-trv_afrikaner_nationalism {
+trv_afrikaner_nationalism = {
 	
 	allowed = {
 	always = no
@@ -177,7 +177,7 @@ trv_afrikaner_nationalism {
 	}
 }
 
-trv_nation_building {
+trv_nation_building = {
 	
 	allowed = {
 	always = no
@@ -192,7 +192,7 @@ trv_nation_building {
 	}
 }
 
-trv_volksstaat {
+trv_volksstaat = {
 	
 	allowed = {
 	always = no
@@ -207,7 +207,7 @@ trv_volksstaat {
 	}
 }
 
-trv_independence {
+trv_independence = {
 	
 	allowed = {
 	always = no
@@ -222,7 +222,7 @@ trv_independence {
 	}
 }
 
-trv_russian_support {
+trv_russian_support = {
 	
 	allowed = {
 	always = no
@@ -236,7 +236,7 @@ trv_russian_support {
 	}
 }
 
-trv_dark_unions {
+trv_dark_unions = {
 	
 	allowed = {
 	always = no
@@ -251,7 +251,7 @@ trv_dark_unions {
 	}
 }
 
-trv_qualified_franchise {
+trv_qualified_franchise = {
 	
 	allowed = {
 	always = no
@@ -266,7 +266,7 @@ trv_qualified_franchise {
 	}
 }
 
-trv_afrikander_bond_returns {
+trv_afrikander_bond_returns = {
 	
 	allowed = {
 	always = no
@@ -281,7 +281,7 @@ trv_afrikander_bond_returns {
 	}
 }
 
-trv_universal_suffrage {
+trv_universal_suffrage= {
 	
 	allowed = {
 	always = no
@@ -296,7 +296,7 @@ trv_universal_suffrage {
 	}
 }
 
-trv_volkskapitalisme {
+trv_volkskapitalisme = {
 	
 	allowed = {
 	always = no
@@ -311,7 +311,7 @@ trv_volkskapitalisme {
 	}
 }
 
-trv_enforced_bilingualism {
+trv_enforced_bilingualism = {
 	
 	allowed = {
 	always = no
@@ -325,7 +325,7 @@ trv_enforced_bilingualism {
 	}
 }
 
-trv_anti_german_sentiment {
+trv_anti_german_sentiment = {
 	
 	allowed = {
 	always = no
@@ -339,7 +339,7 @@ trv_anti_german_sentiment {
 	}
 }
 
-trv_racial_democracy {
+trv_racial_democracy = {
 	
 	allowed = {
 	always = no
@@ -354,7 +354,7 @@ trv_racial_democracy {
 	}
 }
 
-trv_apartheid_hardened {
+trv_apartheid_hardened = {
 	
 	allowed = {
 	always = no
@@ -368,7 +368,7 @@ trv_apartheid_hardened {
 	}
 }
 
-trv_prussian_ideals {
+trv_prussian_ideals = {
 	
 	allowed = {
 	always = no
@@ -382,7 +382,7 @@ trv_prussian_ideals {
 	}
 }
 
-trv_brothers_in_arms {
+trv_brothers_in_arms= {
 	
 	allowed = {
 	always = no
@@ -396,7 +396,8 @@ trv_brothers_in_arms {
 	}
 }
 
-trv_gold_production #GFX_goal_generic_consumer_goods {
+
+trv_gold_production = {
 	
 	allowed = {
 	always = no
