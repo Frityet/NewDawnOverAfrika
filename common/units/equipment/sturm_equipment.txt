@@ -6,9 +6,9 @@ equipments = {
 		type = infantry  
 		is_archetype = no
 		active = yes
-		#picture = archetype_support_equipment
+		picture = archetype_support_equipment
 		is_buildable = yes
-		#group_by = archetype
+		group_by = archetype
 		
 		interface_category = interface_category_land
 		

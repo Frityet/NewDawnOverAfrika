@@ -4,7 +4,7 @@ guiTypes = {
 		name = "Discontent"
 		position = { x = 600 y = 80}	
 		
-		size = { width = 300 height = 500 }
+		size = { width = 500 height = 500 }
 		
 		moveable = yes
         
@@ -40,7 +40,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="discontent_text"
-			position = { x = 50 y = 50 }
+			position = { x = 0 y = 50 }
 			font = "hoi_16mbs"
 			text = "discontent_gui_desc"
 			format = center
