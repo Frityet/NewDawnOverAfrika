@@ -171,7 +171,8 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = TRV_national_democratic_revolution
-			focus = TRV_TRV_return_of_the_bond
+
+			focus = TRV_return_of_the_bond
 		}
 
 		completion_reward = {
@@ -190,7 +191,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_volkskapitalisme
+
+				add_ideas = trv_volkskapitalisme
 		}
 
 		x = 4
@@ -210,10 +212,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			set_party_name = { 
-    		ideology = democracy 
-  			name = TRV_party_of_african_unity
-			}
 		}
 
 		x = 6
@@ -229,7 +227,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_universal_suffrage
+				#add_ideas = trv_universal_suffrage
 		}
 
 		x = 6
@@ -249,10 +247,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			set_party_name = { 
-    		ideology = democracy 
-  			name = TRV_democracy_party_bond
-			}
 		}
 
 		x = 8
@@ -268,8 +262,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			swap_ideas = {
+			
 				remove_idea = trv_apartheid
 				add_idea = trv_qualified_franchise
+
+			}
 		}
 
 		x = 8
@@ -285,7 +283,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_dark_unions
+				add_ideas = trv_dark_unions
 		}
 
 		x = 10
@@ -301,7 +299,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_russian_support
+				add_ideas = trv_russian_support
 		}
 
 		x = 10
@@ -331,7 +329,7 @@ focus_tree = {
 					}
 				}
 			}
-			add_idea = trv_independence	
+			add_ideas = trv_independence	
 			add_stability = -0.5
 		}
 
@@ -351,7 +349,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_volksstaat
+				add_ideas = trv_volksstaat
 		}
 
 		x = 4
@@ -370,7 +368,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_nation_building
+				add_ideas = trv_nation_building
 		}
 
 		x = 6
@@ -389,7 +387,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_afrikaner_nationalism
+				add_ideas = trv_afrikaner_nationalism
 		}
 
 		x = 8
@@ -408,7 +406,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_revolutionary_course
+				add_ideas = trv_revolutionary_course
 		}
 
 		x = 10
@@ -466,7 +464,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_oppenheimer_diamanten
+				add_ideas = trv_oppenheimer_diamanten
 		}
 
 		x = 15
@@ -512,7 +510,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_reichsbank
+				add_ideas = trv_reichsbank
 		}
 
 		x = 13
@@ -532,7 +530,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_independent_bank
+				add_ideas = trv_independent_bank
 		}
 
 		x = 15
@@ -549,7 +547,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_luederitzpendler
+				add_ideas = trv_luederitzpendler
 		}
 
 		x = 12
@@ -566,7 +564,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_farming_subsidies
+				add_ideas = trv_farming_subsidies
 		}
 
 		x = 14
@@ -602,7 +600,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_baaskap
+				add_ideas = trv_baaskap
 		}
 
 		x = 16
@@ -621,7 +619,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-				add_idea = trv_flexible_economy
+				add_ideas = trv_flexible_economy
 		}
 
 		x = 15

@@ -65,7 +65,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_light_tank_recon_icon_medium"							texturefile = "gfx/interface/counters/divisions_large/support_unit_armored_recon_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_mot_recon_icon_medium"									texturefile = "gfx/interface/counters/divisions_large/support_unit_motorized_recon_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_fake_intel_unit_icon_medium"							texturefile = "gfx/interface/counters/divisions_large/unit_fake_intel_unit_icon.dds" noOfFrames = 2}
-	spriteType = { name = "GFX_unit_sturmtruppen_icon_medium"							    texturefile = "gfx/interface/counters/divisions_large/unit_sturmstruppen.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_sturmtruppen_icon_medium"							    texturefile = "gfx/interface/counters/divisions_large/unit_sturmtruppen.dds" noOfFrames = 2}
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###
 
@@ -122,7 +122,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_heavy_sp_anti_air_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_armor_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_medium_sp_anti_air_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_medium_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_light_sp_anti_air_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_light_tank_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_sturmtruppen_icon_small"			                    textureFile = "gfx/interface/counters/divisions_small/unit_sturmtruppen_small.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_sturmtruppen_icon_small"			                    textureFile = "gfx/interface/counters/divisions_small/unit_sturmstuppen_small.dds" noOfFrames = 2 }
 	
 	###########################################
 	### Large images for DIVISION TEMPLATES ###

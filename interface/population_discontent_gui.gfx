@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_discontent_loading_bar_EMPTY"
-		texturefile = "C:/Users/jagbh/Documents/Paradox Interactive/Hearts of Iron IV/mod/newPrussia/gfx/interface/discontent_gui/empty_bar.dds"
+		texturefile = "gfx/interface/discontent_gui/empty_bar.dds"
 	}
 
 }

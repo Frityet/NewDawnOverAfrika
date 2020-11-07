@@ -30,7 +30,7 @@ defined_text = {
                 value = 60
                 compare = less_than_or_equals
         }
-
+    }
         localization_key = native_discontent_3
     }
     text = {
@@ -87,8 +87,8 @@ defined_text = {
                 var = white_discontent
                 value = 60
                 compare = less_than_or_equals
+            }
         }
-
         localization_key = white_discontent_3
     }
     text = {
@@ -112,8 +112,9 @@ defined_text = {
         }
 
         localization_key = white_discontent_5
+        }
     }
-}
+  
 defined_text = {
         name = discontent_gui
         text = {
