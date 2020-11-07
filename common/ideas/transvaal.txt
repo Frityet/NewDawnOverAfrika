@@ -12,7 +12,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				always = yes
 			}
 
 			removal_cost = -1
@@ -35,9 +35,6 @@ trv_baaskap = {
 	always = no
 	}
 
-	allowed_civil_war = {
-	has_government = 
-	}
 
 	modifier = {
 		consumer_goods_factor = -0.2
@@ -53,7 +50,7 @@ trv_flexible_economy = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+		always = yes
 	}
 
 	modifier = {
@@ -70,7 +67,7 @@ trv_farming_subsidies = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+		always = yes
 	}
 
 	modifier = {
@@ -86,7 +83,7 @@ trv_luederitzpendler  = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+		always = yes
 	}
 
 	modifier = {
@@ -104,7 +101,7 @@ trv_independent_bank  = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+		always = yes 
 	}
 
 	modifier = {
@@ -121,13 +118,13 @@ trv_reichsbank = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
 		autonomy_gain = -1
 		production_speed_industrial_complex_factor = 0.05
-		local_building_slots_factor = 1 
+		
 	}
 }
 
@@ -138,7 +135,7 @@ trv_oppenheimer_diamanten = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -154,7 +151,7 @@ trv_revolutionary_course = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -169,7 +166,7 @@ trv_afrikaner_nationalism = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -184,7 +181,7 @@ trv_nation_building = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -199,7 +196,7 @@ trv_volksstaat = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -214,7 +211,7 @@ trv_independence = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -229,7 +226,7 @@ trv_russian_support = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -243,7 +240,7 @@ trv_dark_unions = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -258,7 +255,7 @@ trv_qualified_franchise = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -273,7 +270,7 @@ trv_afrikander_bond_returns = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -288,7 +285,7 @@ trv_universal_suffrage= {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -303,7 +300,7 @@ trv_volkskapitalisme = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -318,7 +315,7 @@ trv_enforced_bilingualism = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -332,7 +329,7 @@ trv_anti_german_sentiment = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -346,7 +343,7 @@ trv_racial_democracy = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -361,7 +358,7 @@ trv_apartheid_hardened = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -375,7 +372,7 @@ trv_prussian_ideals = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -389,7 +386,7 @@ trv_brothers_in_arms= {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -404,7 +401,7 @@ trv_gold_production = {
 	}
 
 	allowed_civil_war = {
-	has_government = 
+	always = yes 
 	}
 
 	modifier = {
@@ -445,15 +442,15 @@ trv_gold_production = {
 
 		trv_apartheid = {
 			
-			#allowed = {
+			allowed = {
 				always = no
-			#}
+			}
 
-			#allowed_civil_war = {
-				has_government = democratic
-			#}
+			allowed_civil_war = {
+				always = yes 
+			}
 
-			#removal_cost = -1
+			removal_cost = -1
 
 			picture = generic_spy_intel
 			
@@ -465,15 +462,15 @@ trv_gold_production = {
 		
 		trv_legacy_of_the_revolution = {
 			
-			#allowed = {
+			allowed = {
 				always = no
-			#}
+			}
 
-			#allowed_civil_war = {
-				has_government = democratic
-			#}
+			allowed_civil_war = {
+				always = yes 
+			}
 
-			#removal_cost = -1
+			removal_cost = -1
 
 			picture = generic_spy_intel
 			
@@ -487,15 +484,15 @@ trv_gold_production = {
 		
 		trv_pm_hertzog = {
 			
-			#allowed = {
+			allowed = {
 				always = no
-			#}
+			}
 
-			#allowed_civil_war = {
-				has_government = democratic
-			#}
+			allowed_civil_war = {
+				always = yes 
+			}
 
-			#removal_cost = -1
+			removal_cost = -1
 
 			picture = generic_spy_intel
 			

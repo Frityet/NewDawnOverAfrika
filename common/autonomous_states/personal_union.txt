@@ -6,13 +6,12 @@ autonomy_state = {
 		
 	}
 	allowed = {
-
-
 		if = {
-
+			limit = {
 			NOT = { has_government = fascism }
 			NOT = { has_government = communism }
-	}
+			}
+		}
 }
 	id = autonomy_personal_union
 	
@@ -47,5 +46,4 @@ autonomy_state = {
 	}
 
 	
-}
 }

@@ -1,6 +1,6 @@
 state={
-	id=799
-	name="STATE_799" #New Münich
+	id=809
+	name="STATE_809"
 	manpower = 62000
 
 	state_category = city

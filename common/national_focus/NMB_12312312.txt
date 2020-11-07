@@ -545,33 +545,9 @@ modifier = large_decrease
 			factor = 1
 		}
 		completion_reward = {
-		if = {
-			limit = {
-			check_variable = {
-		var = white_discontent
-		value = 0
-		compare = greater_than_or_equals
-		AND = {
-		var = native_discontent
-		value = 0
-		compare = greater_than_or_equals
-		}
-		} 
-		}
-			add_to_variable = {
-				var = white_discontent
-				value = 10
-			}
-			add_to_variable = {
-				var = native_discontent
-				value = -10
-			}
-
-		}
 		
-
-		
-	}
+		}
+}
 
 	#Focus for Lower Native Unemployment
 	focus = {
@@ -618,33 +594,7 @@ modifier = large_decrease
 			factor = 1
 		}
 		completion_reward = {
-			if = {
-				limit = {
-				check_variable = {
-			var = white_discontent
-			value = 0
-			compare = greater_than_or_equals
-			AND = {
-			var = native_discontent
-			value = 0
-			compare = greater_than_or_equals
 			}
-			} 
-			}
-				add_to_variable = {
-					var = white_discontent
-					value = 10
-				}
-				add_to_variable = {
-					var = native_discontent
-					value = -10
-				}
-	
-			}
-			
-	
-			
-		
 	}
 
 	#Focus for Implement Land Reform Laws
@@ -1806,6 +1756,4 @@ random_owned_controlled_state={
 			}
 		}
 	}
-
-#End of focuses 
- }
+}
