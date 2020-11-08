@@ -1,4 +1,4 @@
-capital = 805
+capital = 681
 
 #OOB = "SAF_1936"
 
