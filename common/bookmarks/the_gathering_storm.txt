@@ -48,15 +48,6 @@ bookmarks = {
 				NMB_the_union_with_south_africa
 			}	
 		}
-		"GEP"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-
-			}
-			focuses = {
-			}	
-		}
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
