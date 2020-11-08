@@ -5,5 +5,5 @@ tags={
 	"Fixes"
 }
 name="New Dawn over Afrika"
-supported_version="1.9.3"
+supported_version="1.10.1s"
 remote_file_id="2054776152"
