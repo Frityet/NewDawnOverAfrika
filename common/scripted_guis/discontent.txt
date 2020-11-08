@@ -27,12 +27,19 @@ scripted_gui = {
 
 				add_to_variable = {
 					var = native_discontent
-					value = 20
+					value = 10
 				}
 
 				}
 
+			discontent_decision_2_click = {
 
+				add_to_variable = {
+					var = native_discontent
+					value = -10
+				}
+
+			}
 			}
 
 

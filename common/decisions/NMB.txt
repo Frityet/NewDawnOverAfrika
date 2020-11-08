@@ -2,54 +2,22 @@
 ##NEW PRUSSIA DECICIONS##
 #########################
 NMB_discontent = {
-	nmb_debug_increase_native_discontent = {
+	nmb_show_discontent_gui = {
 		available = {
 			original_tag = NMB
 		}
 		complete_effect = {
-			add_to_variable = {
-				var = native_discontent
-				value = 20
+			if = {
+				limit = {
+					NOT = {
+					has_country_flag = isDiscontentGuiOpen
+					}
+				}
+				set_country_flag = isDiscontentGuiOpen
 			}
+			
 		}
 		cost = 0
 
 	}
-	nmb_debug_increase_white_discontent = {
-		available = {
-			original_tag = NMB
-		}
-		complete_effect = {
-			add_to_variable = {
-				var = white_discontent
-				value = 20
-			}
-		}
-		cost = 0
-}
-nmb_debug_decrease_native_discontent = {
-	available = {
-		original_tag = NMB
-	}
-	complete_effect = {
-		add_to_variable = {
-			var = native_discontent
-			value = -20
-		}
-	}
-	cost = 0
-
-}
-nmb_debug_decrease_white_discontent = {
-	available = {
-		original_tag = NMB
-	}
-	complete_effect = {
-		add_to_variable = {
-			var = white_discontent
-			value = -20
-		}
-	}
-	cost = 0
-}
 }

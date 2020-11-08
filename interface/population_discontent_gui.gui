@@ -4,7 +4,7 @@ guiTypes = {
 		name = "Discontent"
 		position = { x = 600 y = 80}	
 		
-		size = { width = 500 height = 500 }
+		size = { width = 400 height = 500 }
 		
 		moveable = yes
         
@@ -24,14 +24,14 @@ guiTypes = {
 		}
         iconType = {
 			name = "discontent_loading_bar_EMPTY"
-			position = {x = 50 y = 50}
+			position = {x = 300 y = 250}
 			quadTextureSprite = "GFX_discontent_loading_bar_EMPTY"
 			alwaystransparent = yes
 
 		}
 		instantTextBoxType = {
 			name ="discontent_title"
-			position = { x = 50 y = 5 }
+			position = { x = 100 y = 5 }
 			font = "vic_36"
 			text = "Discontent"
 			format = center
@@ -40,16 +40,16 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name ="discontent_text"
-			position = { x = 0 y = 50 }
+			position = { x = 25 y = 50 }
 			font = "hoi_16mbs"
 			text = "discontent_gui_desc"
 			format = center
-			maxWidth = 200
-			maxHeight = 24
+			maxWidth = 350
+			maxHeight = 50
 		}
 		instantTextBoxType = {
 			name ="discontent_gui_native_levels_text"
-			position = { x = 0 y = 150 }
+			position = { x = 50 y = 150 }
 			font = "hoi_20b"
 			text = "discontent_gui_native_level"
 			format = center
@@ -61,6 +61,15 @@ guiTypes = {
 			position = { x = 25 y = 200 }
 			font = "hoi_36header"
 			text = "Decisions"
+			format = center
+			maxWidth = 250
+			maxHeight = 50
+		}
+		instantTextBoxType = {
+			name ="metre_title"
+			position = { x = 210 y = 200 }
+			font = "hoi_36header"
+			text = "Metre"
 			format = center
 			maxWidth = 250
 			maxHeight = 50
