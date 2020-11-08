@@ -252,7 +252,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_menu_top_bg_bg"
-		textureFile = "gfx//interface//menu_top_bg.dds"
+		textureFile = "gfx/interface/menu_top_bg.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 	
