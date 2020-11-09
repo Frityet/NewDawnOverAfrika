@@ -1,10 +1,10 @@
 focus_tree = {
-	id = 12312312
+	id = DONTUSE
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = PRS
+			#tag = PRS
 		}
 	}
 	#Focus for Open Trade with Transvaal
