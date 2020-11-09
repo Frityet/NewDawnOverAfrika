@@ -1,0 +1,24 @@
+state={
+	id=816
+	name="STATE_816"
+	provinces={
+		13236 13237
+	}
+	resources = {
+		steel = 2
+	}
+	history={
+		owner = NMB
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			13236 10
+		}
+
+	}
+	state_category = rural
+
+	manpower=1246
+}
