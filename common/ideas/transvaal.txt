@@ -1,7 +1,7 @@
 ideas = {
 
 	country = {
-################################# NATIONAL FOCUSES
+#NATIONAL FOCUSES
 
 trv_baaskap = {
 	

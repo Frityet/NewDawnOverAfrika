@@ -127,7 +127,7 @@ create_country_leader = {
 	name = "Königin Victoria the Third of New Prussia"
 	picture = "vic_lousise.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = monarchism
 	traits = {
 		kaiserin_of_the_people
 		victoria_iii

@@ -58,9 +58,9 @@ set_convoys = 100
 create_country_leader = {
 	name = "Konig Wilhelm the 3rd of Transvaal"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "gfx/leaders/TRV/Willhelm_III.dds"
+	picture = "Willhelm_III.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = monarchism
 	traits = {
 		
 	}
