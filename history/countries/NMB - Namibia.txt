@@ -167,16 +167,6 @@ create_corps_commander = {
 	logistics_skill = 6
 }
 create_corps_commander = {
-	name = "Hans Oster"
-	picture = "portrait_nmb_oster.dds"
-	traits = { trait_cautious armor_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-}
-create_corps_commander = {
 	name = "Walther Wenck"
 	picture = "portrait_nmb_walther_wenck.dds"
 	traits = { trait_cautious armor_officer }
