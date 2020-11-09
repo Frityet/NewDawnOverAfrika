@@ -3,7 +3,7 @@ ideas = {
 		segregation = {
 			
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 
 			allowed_civil_war = {
@@ -24,7 +24,7 @@ ideas = {
 		light_investment = {
 			
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 
 			allowed_civil_war = {
@@ -44,7 +44,7 @@ ideas = {
 		fortification_project = {
 			
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 
 			allowed_civil_war = {
@@ -65,7 +65,7 @@ ideas = {
 		bank_investments = {
 			
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 
 			allowed_civil_war = {
@@ -85,7 +85,7 @@ ideas = {
 		solved_sharecropping = {
 			
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 
 			allowed_civil_war = {
@@ -105,7 +105,7 @@ ideas = {
 		crippled_economy = {
 			
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 
 			allowed_civil_war = {
@@ -128,7 +128,7 @@ ideas = {
 		crippled_economy_2 = {
 			
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 
 			allowed_civil_war = {
@@ -151,7 +151,7 @@ ideas = {
 		crippled_economy_3 = {
 			
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 
 			allowed_civil_war = {
@@ -174,7 +174,7 @@ ideas = {
 		we_love_the_sudwest3 = {
 
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 			available = {
 				NOT = {
@@ -197,7 +197,7 @@ ideas = {
 		we_love_the_sudwest2 = {
 			picture =  GFX_idea_wir_lieben_sudwest
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 			available = {
 				NOT = {
@@ -220,7 +220,7 @@ ideas = {
 			we_love_the_sudwest = {
 				picture = generic_spy_intel
 				allowed = {
-					original_tag = "NMB"
+					original_tag = "PRS"
 				}
 				available = {
 					NOT = {
@@ -243,7 +243,7 @@ ideas = {
 			we_love_the_sudwest_landreform = {
 				picture = generic_spy_intel
 				allowed = {
-					original_tag = "NMB"
+					original_tag = "PRS"
 				}
 				available = {
 					NOT = {
@@ -266,7 +266,7 @@ ideas = {
 		
 		pm_paul_von_lettow_vorbeck = {
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 
 			available = {
@@ -293,7 +293,7 @@ ideas = {
 
 		legacy_of_the_herero_genocide = {
 			allowed = {
-				original_tag = "NMB"
+				original_tag = "PRS"
 			}
 
 			available = {
@@ -319,12 +319,12 @@ ideas = {
 	}
 	political_advisor = {
 	
-		NMB_democratic_guy = {
+		PRS_democratic_guy = {
 			
 			picture = generic_political_advisor_europe_1
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			traits = { democratic_reformer }
@@ -341,12 +341,12 @@ ideas = {
 		}
 
 		
-		NMB_fascist_guy = {
+		PRS_fascist_guy = {
 			
 			picture = generic_political_advisor_europe_2
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			traits = { communist_revolutionary }
@@ -362,44 +362,44 @@ ideas = {
 			}
 		}
 
-		NMB_pot = {
+		PRS_pot = {
 
 			picture = generic_political_advisor_europe_1
 
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			traits = { prince_of_terror }
 		}
 
-		NMB_pf = {
+		PRS_pf = {
 
 			picture = gac
 				
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			traits = { popular_figurehead }
 		}
 
-		NMB_coi = {
+		PRS_coi = {
 
 			picture = generic_political_advisor_europe_3
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			traits = { captain_of_industry }
 		}
-		NMB_wi = {
+		PRS_wi = {
 
 			picture = generic_political_advisor_europe_3
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			traits = { war_industrialist }
@@ -409,11 +409,11 @@ ideas = {
 
 	army_chief = {
 		
-		NMB_aco = {
+		PRS_aco = {
 			picture = generic_army_europe_1
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 
@@ -425,11 +425,11 @@ ideas = {
 			}
 		}
 
-		NMB_acd = {
+		PRS_acd = {
 			picture = generic_army_europe_2
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 
@@ -441,11 +441,11 @@ ideas = {
 			}
 		}
 		
-		NMB_man = {
+		PRS_man = {
 			picture = generic_army_europe_1
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 
@@ -457,11 +457,11 @@ ideas = {
 			}
 		}
 
-		NMB_ent = {
+		PRS_ent = {
 			picture = generic_army_europe_2
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 
@@ -476,11 +476,11 @@ ideas = {
 
 	air_chief = {
 		
-		NMB_ACR = {
+		PRS_ACR = {
 			picture = generic_air_europe_1
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 
@@ -492,11 +492,11 @@ ideas = {
 			}
 		}
 
-		NMB_acgs = {
+		PRS_acgs = {
 			picture = generic_air_europe_2
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 		
 			traits = { air_chief_ground_support_2 }
@@ -511,11 +511,11 @@ ideas = {
 
 	navy_chief = {
 		
-		NMB_ncdb = {
+		PRS_ncdb = {
 			picture = generic_navy_europe_1
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 
@@ -527,11 +527,11 @@ ideas = {
 			}
 		}
 
-		NMB_ncav = {
+		PRS_ncav = {
 			picture = generic_navy_europe_3
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 		
 			traits = { navy_chief_naval_aviation_2 }
@@ -546,12 +546,12 @@ ideas = {
 
 	high_command = {
 
-		NMB_inf = {
+		PRS_inf = {
 			ledger = army
 			picture = generic_army_europe_1
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 		
 			traits = { army_infantry_2 }
@@ -561,13 +561,13 @@ ideas = {
 			}
 		}
 		
-		NMB_abi = {
+		PRS_abi = {
 			ledger = air
 
 			picture = generic_air_europe_2
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			traits = { air_bomber_interception_2 }
@@ -577,13 +577,13 @@ ideas = {
 			}
 		}
 
-		NMB_arg = {
+		PRS_arg = {
 			ledger = army
 
 			picture = generic_army_europe_4
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			traits = { army_regrouping_2 }
@@ -593,13 +593,13 @@ ideas = {
 			}
 		}
 
-		NMB_acom = {
+		PRS_acom = {
 			ledger = army
 
 			picture = generic_army_europe_5
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			traits = { army_commando_2 }
@@ -611,13 +611,13 @@ ideas = {
 	}
 
 	theorist = {
-		NMB_mt = {
+		PRS_mt = {
 			ledger = army
 			
 			picture = generic_army_europe_3
 
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			research_bonus = {
@@ -627,13 +627,13 @@ ideas = {
 			traits = { military_theorist }
 		}
 		
-		NMB_at = {
+		PRS_at = {
 			ledger = air
 			
 			picture = generic_air_europe_1
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			research_bonus = {
@@ -642,13 +642,13 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-		NMB_nt = {
+		PRS_nt = {
 			ledger = navy
 			
 			picture = generic_navy_europe_1
 			
 			allowed = {
-				original_tag = NMB
+				original_tag = PRS
 			}
 			
 			research_bonus = {

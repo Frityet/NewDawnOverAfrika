@@ -1,3 +1,4 @@
 TRV = "countries/Transvaal.txt"
 GEP = "countries/German Pacific.txt"
 DMZ = "countries/Demillitarised Zone.txt"
+PRS = "countries/New Prussia.txt"

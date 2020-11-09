@@ -1,33 +1,7 @@
 ideas = {
 
 	country = {
-
-		#FOR ASTRONOM VVVVVVVVVVVVVV
-		trv_astronom = {
-			
-			picture = GFX_idea_astronom
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				stability_factor = 0.20
-
-			}
-		}
-
-		#FOR ASTRONOM /\/\/\/\/\/\/\/\
-
-
-
-################################# NATIONAL FOCUSES
+#NATIONAL FOCUSES
 
 trv_baaskap = {
 	
