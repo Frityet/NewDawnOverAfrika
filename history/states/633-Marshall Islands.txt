@@ -7,9 +7,9 @@ state={
 	state_category = small_island
 
 	history={
-		owner = GEP
+		owner = JAP
 		add_core_of = FSM
-		add_core_of = GEP
+		#add_core_of = GEP
 		buildings = {
 			infrastructure = 3
 			air_base = 2
