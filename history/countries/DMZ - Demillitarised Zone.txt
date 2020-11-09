@@ -16,16 +16,16 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 80
-	communism = 5
-	democratic = 5
-	fascism = 10
+	neutrality = 100
+	communism = 0
+	democratic = 0
+	fascism = 0
 }
 
-set_convoys = 10
+
 
 create_country_leader = {
-	name = "League of Nations council over the South African Demilitarised Zone"
+	name = "League of Nations Council over the South African Demilitarised Zone"
 	desc = "POLITICS_KING_ZOG_DESC"
 	picture = "GEP_albert_hahl.dds"
 	expire = "1965.1.1"
