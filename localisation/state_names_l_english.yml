@@ -805,6 +805,7 @@
  STATE_804:0 "Herzegovina"
  STATE_805:0 "Northern Epirus"
  STATE_806:0 "Pyrénées-Atlantiques"
+
  STATE_807:0 "Windhoek"
  STATE_808:0 "New Königsberg"
  STATE_809:0 "New Münich"
@@ -814,6 +815,8 @@
  STATE_813:0 "Pretoria"
  STATE_814:0 "Skeleton Coast"
  STATE_815:0 "Transvaal"
+ STATE_816:0 "Demilitarised Zone West"
+ STATE_817:0 "Demilitarised Zone East"
  
  
 
