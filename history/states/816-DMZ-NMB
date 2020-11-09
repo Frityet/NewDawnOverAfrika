@@ -8,7 +8,8 @@ state={
 		steel = 2
 	}
 	history={
-		owner = NMB
+		owner = DMZ
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 3
 

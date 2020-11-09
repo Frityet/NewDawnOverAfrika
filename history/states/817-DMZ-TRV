@@ -9,7 +9,8 @@ state={
 		tungsten = 5
 	}
 	history={
-		owner = TRV
+		owner = DMZ
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 3
 			
