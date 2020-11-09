@@ -1,4 +1,4 @@
-﻿capital = 797
+﻿capital = 807
 OOB = "PRS_1936"
 ### Native and White discontent ###
 set_country_flag = isDiscontentGuiOpen
@@ -6,16 +6,8 @@ set_country_flag = isDiscontentGuiOpen
 set_research_slots = 4 
 set_stability = 0.25   
 set_war_support = 0.5  
-set_autonomy = {
-		target = TRV
 
 
-		autonomy_state = autonomy_personal_union
-	}
-set_autonomy = {
-	target = GEP
-	autonomy_state = autonomy_personal_union
-}
 
 	add_opinion_modifier = {
 		target = GER
