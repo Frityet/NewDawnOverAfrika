@@ -5,7 +5,7 @@ scripted_gui = {
 		window_name = "Discontent"
 		visible = {
 
-			original_tag = NMB
+			original_tag = PRS
 
 			has_country_flag = isDiscontentGuiOpen
 
