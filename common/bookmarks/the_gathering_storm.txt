@@ -15,9 +15,6 @@ bookmarks = {
 				legacy_of_the_herero_genocide
 			}
 			focuses = {
-
-				NMB_new_age_of_slavery
-				NMB_the_union_with_south_africa
 			}	
 		}
 		"TRV"={
@@ -30,8 +27,6 @@ bookmarks = {
 			}
 			focuses = {
 
-				NMB_new_age_of_slavery
-				NMB_the_union_with_south_africa
 			}	
 		}
 		"SAF"={
@@ -44,8 +39,7 @@ bookmarks = {
 			}
 			focuses = {
 
-				NMB_new_age_of_slavery
-				NMB_the_union_with_south_africa
+
 			}	
 		}
 
