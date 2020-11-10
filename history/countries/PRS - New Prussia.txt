@@ -3,7 +3,7 @@ OOB = "PRS_1936"
 ### Native and White discontent ###
 set_country_flag = isDiscontentGuiOpen
 ###################################
-set_research_slots = 4 
+set_research_slots = 3 
 set_stability = 0.25   
 set_war_support = 0.5  
 
@@ -16,12 +16,13 @@ set_war_support = 0.5
 	
 # Ministers and laws
 add_ideas = {
-	partial_economic_mobilisation
+	civilian_economy
 	limited_conscription
 	pm_paul_von_lettow_vorbeck
 	legacy_of_the_herero_genocide
 	we_love_the_sudwest
 	crippled_economy
+	the_lost_war
 }
 
 # Starting tech
@@ -57,50 +58,6 @@ set_technology = {
 
 set_convoys = 42
 
-1939.1.1 = {
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
 
 set_politics = {
 	ruling_party = neutrality
@@ -116,12 +73,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Königin Victoria the Third of New Prussia"
+	name = "Kaiserin Victoria the Third of New Prussia"
 	picture = "vic_lousise.dds"
 	expire = "1965.1.1"
 	ideology = monarchism
 	traits = {
-		kaiserin_of_the_people
 		victoria_iii
 		imperial_connections
 	}

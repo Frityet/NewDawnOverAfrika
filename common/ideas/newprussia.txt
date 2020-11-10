@@ -1,5 +1,19 @@
 ideas = {
 	country = {
+		the_lost_war = {
+			allowed = {
+				original_tag = "PRS"
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				war_support_factor = -0.50
+				mobilization_laws_cost_factor = 150
+				conscription_factor = -0.5
+				
+			}
+		}
 		segregation = {
 			
 			allowed = {
